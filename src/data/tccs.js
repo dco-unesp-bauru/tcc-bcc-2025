@@ -9,7 +9,7 @@ export const allTccs = [
 
   {
     id: 202501,
-    titulo: 'IMPLEMENTAÇÃO DE PROTOCOLOS DE ROTEAMENTO SEGUROS CONTRA ATAQUES AVANÇADOS EM REDES AD HOC',
+    titulo: 'Implementação de protocolos de roteamento seguros contra ataques avançados em redes ad hoc',
     autor: 'Alex Luiz Domingues Cassinelli',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -36,7 +36,7 @@ export const allTccs = [
 
   {
     id: 202301,
-    titulo: 'IDENTIFICAÇÃO BIOMÉTRICA DE PESSOAS POR MEIO DO RECONHECIMENTO FACIAL UTILIZANDO VISION TRANSFORMERS',
+    titulo: 'Identificação biométrica de pessoas por meio do reconhecimento facial utilizando vision transformers',
     autor: 'Arthur Francisco Ramos',
     orientador: 'Dr Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -56,7 +56,7 @@ export const allTccs = [
   },
   {
     id: 202302,
-    titulo: 'ABORDAGEM DE APRENDIZADO PROFUNDO PARA CLASSIFICAÇÃO DE PARKINSON POR MEIO DE SINAIS DE VOZ',
+    titulo: 'Abordagem de aprendizado profundo para classificação de parkinson por meio de sinais de voz',
     autor: 'Andre Luiz da Silva Junior',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -76,7 +76,7 @@ export const allTccs = [
   },
   {
     id: 202303,
-    titulo: 'AUXÍLIO AO DIAGNÓSTICO DE DOENÇA NEURODEGENERATIVA UTILIZANDO EXPRESSÕES FACIAIS',
+    titulo: 'Auxílio ao diagnóstico de doença neurodegenerativa utilizando expressões faciais',
     autor: 'Arissa Yoshida',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
@@ -96,7 +96,7 @@ export const allTccs = [
   },
   {
     id: 202304,
-    titulo: 'IMPLEMENTAÇÃO DO DEVOPS PARA GERENCIAMENTO DE RISCOS DE SEGURANÇA NA NUVEM',
+    titulo: 'Implementação do devops para gerenciamento de riscos de segurança na nuvem',
     autor: 'Artur Kyung Min Lee',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -116,7 +116,7 @@ export const allTccs = [
   },
   {
     id: 202305,
-    titulo: 'CRIAÇÃO DE UM MAPEADOR OBJETO-GRAFO PARA OTIMIZAÇÃO E SIMPLIFICAÇÃO NO GERENCIAMENTO DE BANCOS DE DADOS BASEADOS EM GRAFOS EM AMBIENTES DE BIG DATA: UMA ANÁLISE COMPARATIVA COM MAPEADORES OBJETO-RELACIONAL E OUTROS BANCOS DE DADOS',
+    titulo: 'Criação de um mapeador objeto-grafo para otimização e simplificação no gerenciamento de bancos de dados baseados em grafos em ambientes de big data: uma análise comparativa com mapeadores objeto-relacional e outros bancos de dados',
     autor: 'Cassiano Henrique A Rodrigues',
     orientador: 'Prof. Assoc. Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -136,7 +136,7 @@ export const allTccs = [
   },
   {
     id: 202306,
-    titulo: 'ANÁLISE DO IMPACTO DA SEGURANÇA VIÁRIA NA MOBILIDADE ATIVA',
+    titulo: 'Análise do impacto da segurança viária na mobilidade ativa',
     autor: 'Danilo Alves Siqueira',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
@@ -156,7 +156,7 @@ export const allTccs = [
   },
   {
     id: 202307,
-    titulo: 'ESTUDO SOBRE FRAUDES DIGITAIS E O DESENVOLVIMENTO DE APLICATIVO PARA SMARTPHONES ANDROID E IOS PARA USO EM PALESTRAS DE SENSIBILIZAÇÃO E ESCLARECIMENTO',
+    titulo: 'Estudo sobre fraudes digitais e o desenvolvimento de aplicativo para smartphones android e ios para uso em palestras de sensibilização e esclarecimento',
     autor: 'Gabriel Carvalho Polido',
     orientador: 'Prof. Assoc. Eduardo Martins Morgado',
     curso: 'BCC',
@@ -176,7 +176,7 @@ export const allTccs = [
   },
   {
     id: 202308,
-    titulo: 'APLICATIVO GAMIFICADO PARA ORGANIZAÇÃO DE TAREFAS E ROTINAS ACADÊMICAS',
+    titulo: 'Aplicativo gamificado para organização de tarefas e rotinas acadêmicas',
     autor: 'Gabriel Henrique Garcia Ticianeli',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -196,7 +196,7 @@ export const allTccs = [
   },
   {
     id: 202309,
-    titulo: 'QUALIDADE DE SOFTWARE: ANÁLISE DE DESEMPENHO DE FERRAMENTAS DE AUTOMAÇÃO EM TESTES E2E',
+    titulo: 'Qualidade de software: análise de desempenho de ferramentas de automação em testes E2E',
     autor: 'Geovanna Carolina F V T Brandao',
     orientador: 'Prof. Dr Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -217,7 +217,7 @@ export const allTccs = [
 
   {
     id: 202310,
-    titulo: 'USO DE APRENDIZADO DE MÁQUINA PARA DETECÇÃO DE ATAQUES DDOS',
+    titulo: 'Uso de aprendizado de máquina para detecção de ataques DDoS',
     autor: 'Gustavo Amaral Duarte Rego',
     orientador: 'Prof. Dr. Kelton Augusto P da Costa',
     curso: 'BCC',
@@ -237,7 +237,7 @@ export const allTccs = [
   },
   {
     id: 202311,
-    titulo: 'USO DE APRENDIZADO DE MÁQUINA PARA DETECÇÃO DE FACES FALSAS GERADAS POR INTELIGÊNCIA ARTIFICIAL',
+    titulo: 'Uso de aprendizado de máquina para detecção de faces falsas geradas por inteligência artificial',
     autor: 'João Pedro Vieira Rodrigues',
     orientador: 'Prof. Dr. Kelton Augusto P da Costa',
     curso: 'BCC',
@@ -257,7 +257,7 @@ export const allTccs = [
   },
   {
     id: 202312,
-    titulo: 'APLICAÇÃO DE SOLID EM UM SISTEMA WEB PARA INTERMEDIAÇÃO DE COMPRA E VENDA DE COMIDA NA UNESP',
+    titulo: 'Aplicação de solid em um sistema web para intermediação de compra e venda de comida na unesp',
     autor: 'Julio Cesar Benelli Varella',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
@@ -277,7 +277,7 @@ export const allTccs = [
   },
   {
     id: 202313,
-    titulo: 'DETECÇÃO DE FAKE NEWS EM PORTUGUÊS UTILIZANDO INFERÊNCIA DE LINGUAGEM NATURAL',
+    titulo: 'Detecção de fake news em português utilizando inferência de linguagem natural',
     autor: 'Larissa Mayumi Barela Hondo',
     orientador: 'Prof. Assoc. Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -297,7 +297,7 @@ export const allTccs = [
   },
   {
     id: 202314,
-    titulo: 'CONSTRUÇÃO DE UM MÓDULO QUÂNTICO PARA O CLASSIFICADOR BASEADO EM FLORESTA DE CAMINHOS ÓTIMOS',
+    titulo: 'Construção de um módulo quântico para o classificador baseado em floresta de caminhos ótimos',
     autor: 'Maria Angélica Krüger Miranda',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
@@ -317,7 +317,7 @@ export const allTccs = [
   },
   {
     id: 202315,
-    titulo: 'DESENVOLVIMENTO DE UMA APLICAÇÃO INTEGRADA PARA GERENCIAMENTO DE PROJETOS E RECURSOS PARA PROGRAMADORES',
+    titulo: 'Desenvolvimento de uma aplicação integrada para gerenciamento de projetos e recursos para programadores',
     autor: 'Matheus dos Santos Ribeiro Silva',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -337,7 +337,7 @@ export const allTccs = [
   },
   {
     id: 202316,
-    titulo: 'DETECÇÃO DE IMAGENS DEEPFAKE: UM ESTUDO COMPARATIVO',
+    titulo: 'Detecção de imagens deepfake: um estudo comparativo',
     autor: 'Miguel Cesar Correa',
     orientador: 'Prof. Dr. Leandro A Passos Junior',
     curso: 'BCC',
@@ -357,7 +357,7 @@ export const allTccs = [
   },
   {
     id: 202317,
-    titulo: 'ANÁLISE DE DADOS DA SAÚDE PARA MELHORIAS EM POLÍTICAS PÚBLICAS',
+    titulo: 'Análise de dados da saúde para melhorias em políticas públicas',
     autor: 'Nathan Del Grande Souza',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
@@ -377,7 +377,7 @@ export const allTccs = [
   },
   {
     id: 202318,
-    titulo: 'DIAGNÓSTICO AUTOMÁTICO DE AVC PÓS-TRAUMA COM BASE NA FACE DE PACIENTES UTILIZANDO REDES NEURAIS EM GRAFOS',
+    titulo: 'Diagnóstico automático de avc pós-trauma com base na face de pacientes utilizando redes neurais em grafos',
     autor: 'Nícolas Barbosa Gomes',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
@@ -397,7 +397,7 @@ export const allTccs = [
   },
   {
     id: 202319,
-    titulo: 'DESENVOLVIMENTO DE UMA APLICAÇÃO PARA ANÁLISE DE DESEMPENHO DE GRANDES MODELOS DE LINGUAGEM',
+    titulo: 'Desenvolvimento de uma aplicação para análise de desempenho de grandes modelos de linguagem',
     autor: 'Nicole Barbosa Gomes',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
@@ -417,7 +417,7 @@ export const allTccs = [
   },
   {
     id: 202320,
-    titulo: 'RECONHECIMENTO DE MARCHA HUMANA UTILIZANDO POSES 3D ESTIMADAS DE MÚLTIPLAS POSES 2D',
+    titulo: 'Reconhecimento de marcha humana utilizando poses 3d estimadas de múltiplas poses 2d',
     autor: 'Pedro Luiz Cason Caldato',
     orientador: 'Prof. Assoc. Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -437,7 +437,7 @@ export const allTccs = [
   },
   {
     id: 202321,
-    titulo: 'ANÁLISE DO DESEMPENHO DE HONEYPOTS E ALGORITMOS DE MACHINE LEARNING EM TAREFAS DE DETECÇÃO DE INTRUSÃO',
+    titulo: 'Análise do desempenho de honeypots e algoritmos de machine learning em tarefas de detecção de intrusão',
     autor: 'Renato Leite Camilo',
     orientador: 'Prof. Dr. Kelton Augusto P da Costa',
     curso: 'BCC',
@@ -457,7 +457,7 @@ export const allTccs = [
   },
   {
     id: 202322,
-    titulo: 'MINERAÇÃO DE REPOSITÓRIOS PARA ANÁLISE DE CICLOS DE SOFTWARE',
+    titulo: 'Mineração de repositórios para análise de ciclos de software',
     autor: 'Ronaldo Rubens Gesse Junior',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
@@ -477,7 +477,7 @@ export const allTccs = [
   },
   {
     id: 202323,
-    titulo: 'ESTUDO DA EFICÁCIA DE MODELOS DE ESTIMATIVA DE IRRADIAÇÃO SOLAR NA REGIÃO DO CENTRO DE SÃO PAULO',
+    titulo: 'Estudo da eficácia de modelos de estimativa de irradiação solar na região do centro de são paulo',
     autor: 'Virgilio Santinho Tagliavini',
     orientador: 'Prof. Assoc. João Eduardo Machado Perea Martins',
     curso: 'BCC',
@@ -498,7 +498,7 @@ export const allTccs = [
 
   {
     id: 202201,
-    titulo: 'INVESTIGAÇÃO DE TÉCNICAS DE OTIMIZAÇÃO PARA ALGORITMOS DE APRENDIZAGEM DE MÁQUINA',
+    titulo: 'Investigação de técnicas de otimização para algoritmos de aprendizagem de máquina',
     autor: 'André Libório de Barros Ferraz',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
@@ -519,7 +519,7 @@ export const allTccs = [
 
   {
     id: 202202,
-    titulo: 'SISTEMA PARA GERENCIAMENTO DE DESPENSA COM UTILIZAÇÃO DE DATA VISUALIZATION',
+    titulo: 'Sistema para gerenciamento de despensa com utilização de data visualization',
     autor: 'Karen Aya Murakawa',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -540,7 +540,7 @@ export const allTccs = [
 
   {
     id: 202203,
-    titulo: 'AUXÍLIO AO DIAGNÓSTICO DE ELA E AVC ATRAVÉS DE EXPRESSÃO FACIAL',
+    titulo: 'Auxílio ao diagnóstico de ela e avc através de expressão facial',
     autor: 'Leonardo Silva de Oliveira',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -561,7 +561,7 @@ export const allTccs = [
 
   {
     id: 202204,
-    titulo: 'RESOLUÇÃO DO PROBLEMA DE ESCALONAMENTO DE ENFERMEIROS EM HOSPITAL UTILIZANDO SIMULATED ANNEALING',
+    titulo: 'Resolução do problema de escalonamento de enfermeiros em hospital utilizando simulated annealing',
     autor: 'Lucas Henrique Russo do Nascimento',
     orientador: 'Profª. Drª. Andréa Carla Gonçalves Vianna',
     curso: 'BCC',
@@ -582,7 +582,7 @@ export const allTccs = [
 
   {
     id: 202205,
-    titulo: 'DETECÇÃO DE ESTEGANOGRAFIA EM IMAGENS UTILIZANDO APRENDIZADO DE MÁQUINA',
+    titulo: 'Detecção de esteganografia em imagens utilizando aprendizado de máquina',
     autor: 'Matheus Esquinelato Polachini',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -603,7 +603,7 @@ export const allTccs = [
 
   {
     id: 202206,
-    titulo: 'FERRAMENTA DE COLETA E ANÁLISE DE DADOS DE LICITAÇÕES PÚBLICAS',
+    titulo: 'Ferramenta de coleta e análise de dados de licitações públicas',
     autor: 'Matheus Yuichi Yamashiro',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -624,7 +624,7 @@ export const allTccs = [
 
   {
     id: 202207,
-    titulo: 'CRIPTOWATCHER: ROBÔ DE INVESTIMENTO EM CRIPTOMOEDAS UTLIZANDO ALGORITMO DE ARBITRAGEM TRIANGULAR',
+    titulo: 'Criptowatcher: robô de investimento em criptomoedas utlizando algoritmo de arbitragem triangular',
     autor: 'Maurício Sugimoto Polloni',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -645,7 +645,7 @@ export const allTccs = [
 
   {
     id: 202208,
-    titulo: 'SEGURANÇA EM WEB3 : VULNERABILIDADES EM CARTEIRAS DIGITAIS BASEADAS EM NAVEGADORES',
+    titulo: 'Segurança em web3 : vulnerabilidades em carteiras digitais baseadas em navegadores',
     autor: 'Caio Castilho Donato Regal',
     orientador: 'Prof. Me. Luiz Felipe de Camargo',
     curso: 'BCC',
@@ -666,7 +666,7 @@ export const allTccs = [
 
   {
     id: 202209,
-    titulo: 'MÓDULO DE RECONHECIMENTO DE GESTOS PARA AMBIENTES DE REALIDADE AUMENTADA',
+    titulo: 'Módulo de reconhecimento de gestos para ambientes de realidade aumentada',
     autor: 'Davi Augusto Neves Leite',
     orientador: 'Prof. Dr. Antonio Carlos Sementille',
     curso: 'BCC',
@@ -687,7 +687,7 @@ export const allTccs = [
 
   {
     id: 202210,
-    titulo: 'APLICAÇÃO DE TÉCNICAS DE ENSEMBLE LEARNING NA DETECÇÃO ESTÁTICA E DINÂMICA DE MALWARES',
+    titulo: 'Aplicação de técnicas de ensemble learning na detecção estática e dinâmica de malwares',
     autor: 'Denis Henrique dos Santos',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -708,7 +708,7 @@ export const allTccs = [
 
   {
     id: 202211,
-    titulo: 'JOGO SÉRIO PARA SIMULAÇÃO E CONSCIENTIZAÇÃO DE PROBLEMAS RELACIONADOS À MOBILIDADE URBANA',
+    titulo: 'Jogo sério para simulação e conscientização de problemas relacionados à mobilidade urbana',
     autor: 'Eduardo Antonio Comerão Stecca Almeida',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -729,7 +729,7 @@ export const allTccs = [
 
   {
     id: 202212,
-    titulo: 'INTELIGÊNCIA ARTIFICIAL EXPLICÁVEL COM LIME E SHAP APLICADA À REDE NEURAL CONVOLUCIONAL',
+    titulo: 'Inteligência artificial explicável com lime e shap aplicada à rede neural convolucional',
     autor: 'Fabricio Steinle Amoroso',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -750,7 +750,7 @@ export const allTccs = [
 
   {
     id: 202213,
-    titulo: 'TRABALHANTE : REDE SOCIAL PARA FACILITAR TURNOVER EM TRABALHOS ROTATIVOS',
+    titulo: 'Trabalhante : rede social para facilitar turnover em trabalhos rotativos',
     autor: 'Felipe Kroitor Cara Modena',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -771,7 +771,7 @@ export const allTccs = [
 
   {
     id: 202214,
-    titulo: 'SOFTWARE PARA GESTÃO DE INVENTÁRIO DE CRÉDITO DE CARBONO VISANDO A COMPENSAÇÃO DA EMISSÃO DE GASES DE EFEITO ESTUFA',
+    titulo: 'Software para gestão de inventário de crédito de carbono visando a compensação da emissão de gases de efeito estufa',
     autor: 'Gabriel Dadamos Rossetto',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -792,7 +792,7 @@ export const allTccs = [
 
   {
     id: 202215,
-    titulo: 'USO DA COMPUTAÇÃO GRÁFICA PARA ENSINO DE ASTRONOMIA: DESENVOLVIMENTO DE UM SOFTWARE EDUCACIONAL UTILIZANDO UNITY',
+    titulo: 'Uso da computação gráfica para ensino de astronomia: desenvolvimento de um software educacional utilizando unity',
     autor: 'Gabriel Francisco Sahm Gallo',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -813,7 +813,7 @@ export const allTccs = [
 
   {
     id: 202216,
-    titulo: 'UMA APLICAÇÃO WEB PARA ANÁLISE COMPARATIVA DE META-HEURISTICAS DE OTIMIZAÇÃO',
+    titulo: 'Uma aplicação web para análise comparativa de meta-heuristicas de otimização',
     autor: 'Giovani Candido',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
@@ -834,7 +834,7 @@ export const allTccs = [
 
   {
     id: 202217,
-    titulo: 'APLICAÇÃO DE ALGORITMO GENÉTICO PARA ROTEIRIZAÇÃO E CARREGAMENTO DE VEÍCULO',
+    titulo: 'Aplicação de algoritmo genético para roteirização e carregamento de veículo',
     autor: 'Giulia Rossatto Rocha',
     orientador: 'Profª. Drª. Márcia A Zanoli Meira e Silva',
     curso: 'BCC',
@@ -855,7 +855,7 @@ export const allTccs = [
 
   {
     id: 202218,
-    titulo: 'SISTEMA DE GERENCIAMENTO DE UMA FAZENDA',
+    titulo: 'Sistema de gerenciamento de uma fazenda',
     autor: 'Guilherme Vieira Siena Martins',
     orientador: 'Profª. Drª. Andréa Carla Gonçalves Vianna',
     curso: 'BCC',
@@ -876,7 +876,7 @@ export const allTccs = [
 
   {
     id: 202219,
-    titulo: 'PARALELIZAÇÃO DA TÉCNICA DE EXTRAÇÃO DE PONTOS DE INTERESSE FOAGDD UTILIZANDO A ARQUITETURA CUDA',
+    titulo: 'Paralelização da técnica de extração de pontos de interesse foagdd utilizando a arquitetura cuda',
     autor: 'Gustavo Henrique Stahl',
     orientador: 'Prof. Dr. Antonio Carlos Sementille',
     curso: 'BCC',
@@ -897,7 +897,7 @@ export const allTccs = [
 
   {
     id: 202220,
-    titulo: 'SOBRE DETECÇÃO DE INTRUSÃO COM APRENDIZADO DE MÁQUINA: ESTUDO DA APLICAÇÃO DE ENSEMBLE LEARNING E CLUSTERIZAÇÃO NA MELHORIA DE DESEMPENHO',
+    titulo: 'Sobre detecção de intrusão com aprendizado de máquina: estudo da aplicação de ensemble learning e clusterização na melhoria de desempenho',
     autor: 'Inaê Soares de Figueiredo',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -918,7 +918,7 @@ export const allTccs = [
 
   {
     id: 202221,
-    titulo: 'DESENVOLVIMENTO DE UM SISTEMA DE SIMULAÇÃO COMPUTACIONAL DE OCORRÊNCIA DE CHUVAS',
+    titulo: 'Desenvolvimento de um sistema de simulação computacional de ocorrência de chuvas',
     autor: 'João Pedro Olimpio',
     orientador: 'Prof. Dr. João Eduardo Machado Perea Martins',
     curso: 'BCC',
@@ -939,7 +939,7 @@ export const allTccs = [
 
   {
     id: 202222,
-    titulo: 'PROGRAMAÇÃO DAS BOMBAS HIDRÁULICAS PARA OTIMIZAÇÃO ENERGÉTICA EM SISTEMAS DE ABASTECIMENTO DE ÁGUA UTILIZANDO PYTHON E O SOFTWARE EPANET',
+    titulo: 'Programação das bombas hidráulicas para otimização energética em sistemas de abastecimento de água utilizando python e o software epanet',
     autor: 'Larissa de Castro Bonadio',
     orientador: 'Profª. Drª. Edilane Martins Soler',
     curso: 'BCC',
@@ -960,7 +960,7 @@ export const allTccs = [
 
   {
     id: 202223,
-    titulo: 'VISUALIZAÇÃO DE DADOS E ANÁLISE DO MERCADO DE AÇÕES BRASILEIRO',
+    titulo: 'Visualização de dados e análise do mercado de ações brasileiro',
     autor: 'Luciano Eiji Tanaka',
     orientador: 'Prof. Dr. João Pedro Albino',
     curso: 'BCC',
@@ -981,7 +981,7 @@ export const allTccs = [
 
   {
     id: 202224,
-    titulo: 'SISTEMA DE RECONHECIMENTO BIOMÉTRICO DE MÚLTIPLAS PESSOAS BASEADO EM MÉTODOS DE ESTIMAÇÃO DE POSE E RASTREAMENTO DE OBJETOS',
+    titulo: 'Sistema de reconhecimento biométrico de múltiplas pessoas baseado em métodos de estimação de pose e rastreamento de objetos',
     autor: 'Luís Henrique Morélli',
     orientador: 'Prof. Dr. Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -1002,7 +1002,7 @@ export const allTccs = [
 
   {
     id: 202225,
-    titulo: 'UMA APLICAÇÃO WEB PARA ANÁLISE COMPARATIVA DE SELEÇÃO DE CARACTERÍSTICAS BASEADAS EM META-HEURISTICAS',
+    titulo: 'Uma aplicação web para análise comparativa de seleção de características baseadas em meta-heuristicas',
     autor: 'Luiz Fernando Merli de Oliveira Sementille',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
@@ -1023,7 +1023,7 @@ export const allTccs = [
 
   {
     id: 202226,
-    titulo: 'ANÁLISE DO CRESCIMENTO DA INDÚSTRIA DOS JOGOS DIGITAIS',
+    titulo: 'Análise do crescimento da indústria dos jogos digitais',
     autor: 'Michel Marques Mbakirtzis',
     orientador: 'Prof. Dr. João Pedro Albino',
     curso: 'BCC',
@@ -1044,7 +1044,7 @@ export const allTccs = [
 
   {
     id: 202227,
-    titulo: 'ORGANIZADOR DE ROTINAS DINÂMICO',
+    titulo: 'Organizador de rotinas dinâmico',
     autor: 'Rafael Kawagoe Gomes Muller',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1065,7 +1065,7 @@ export const allTccs = [
 
   {
     id: 202228,
-    titulo: 'DASHBOARD PARA ANÁLISE DE DADOS CLIMÁTICOS DE BAURU',
+    titulo: 'Dashboard para análise de dados climáticos de bauru',
     autor: 'Rafael Mendes Costa',
     orientador: 'Prof. Dr. João Pedro Albino',
     curso: 'BCC',
@@ -1086,7 +1086,7 @@ export const allTccs = [
 
   {
     id: 202229,
-    titulo: 'CAMINHO ÓTIMO EM MALHA DINÂMICA BIDIMENSIONAL',
+    titulo: 'Caminho ótimo em malha dinâmica bidimensional',
     autor: 'Rafael Nunes Caseiro',
     orientador: 'Profª.Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1107,7 +1107,7 @@ export const allTccs = [
 
   {
     id: 202230,
-    titulo: 'GAMIFICAÇÃO DE EXERCÍCIOS FÍSICOS COM LOUSA INTELIGENTE',
+    titulo: 'Gamificação de exercícios físicos com lousa inteligente',
     autor: 'Rafael Ragozoni Conrado',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -1128,7 +1128,7 @@ export const allTccs = [
 
   {
     id: 202231,
-    titulo: 'UMA ESTRATÉGIA DE FUTEBOL DE ROBÔS BASEADA EM APRENDIZADO POR REFORÇO',
+    titulo: 'Uma estratégia de futebol de robôs baseada em aprendizado por reforço',
     autor: 'Rodrigo Cesar Barboza Rossetti',
     orientador: 'Prof. Dr. Renê Pegoraro',
     curso: 'BCC',
@@ -1149,7 +1149,7 @@ export const allTccs = [
 
   {
     id: 202232,
-    titulo: 'UM SISTEMA DE TELEMETRIA COM TECNOLOGIAS GSM/GPRS PARA A ÁREA AMBIENTAL',
+    titulo: 'Um sistema de telemetria com tecnologias gsm/gprs para a área ambiental',
     autor: 'Samuel Cabral',
     orientador: 'Prof. Dr. João Eduardo Machado Perea Martins',
     curso: 'BCC',
@@ -1170,7 +1170,7 @@ export const allTccs = [
 
   {
     id: 202233,
-    titulo: 'ACESSIBILIDADE WEB: METODOLOGIA DE DIAGNÓSTICO E IMPLEMENTAÇÃO DE SITES ACESSÍVEIS',
+    titulo: 'Acessibilidade web: metodologia de diagnóstico e implementação de sites acessíveis',
     autor: 'Sarah Rodrigues Campos',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1191,7 +1191,7 @@ export const allTccs = [
 
   {
     id: 202234,
-    titulo: 'SMART CAMPUS: UM ESTUDO SOBRE VISÃO COMPUTACIONAL PARA DETECÇÃO DE PESSOAS EM FILAS',
+    titulo: 'Smart campus: um estudo sobre visão computacional para detecção de pessoas em filas',
     autor: 'Thiago Esteves La Scala',
     orientador: 'Prof. Me. Luiz Felipe de Camargo',
     curso: 'BCC',
@@ -1212,7 +1212,7 @@ export const allTccs = [
 
   {
     id: 202235,
-    titulo: 'DETECÇÃO DE PÁGINAS DE PHISHING UTILIZANDO APRENDIZADO DE MÁQUINA',
+    titulo: 'Detecção de páginas de phishing utilizando aprendizado de máquina',
     autor: 'Vinicius Machado Coutinho',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -1233,7 +1233,7 @@ export const allTccs = [
 
   {
     id: 202236,
-    titulo: 'TÉCNICAS DE INTELIGÊNCIA ARTIFICIAL PARA DIAGNÓSTICO DE ACIDENTE VASCULAR CEREBRAL ATRAVÉS DE IMAGENS E DADOS TEXTUAIS SOBRE POSSÍVEIS VÍTIMAS',
+    titulo: 'Técnicas de inteligência artificial para diagnóstico de acidente vascular cerebral através de imagens e dados textuais sobre possíveis vítimas',
     autor: 'Vinicius de Paula Pilan',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -1254,7 +1254,7 @@ export const allTccs = [
 
   {
     id: 202401,
-    titulo: 'EM BUSCA DA APLICAÇÃO DE PROTOCOLOS DE ROTEAMENTO PARA EVITAR ATAQUES DO TIPO BURACO NEGRO',
+    titulo: 'Em busca da aplicação de protocolos de roteamento para evitar ataques do tipo buraco negro',
     autor: 'Alex Luiz Domingues Cassinelli',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
