@@ -20,6 +20,11 @@
           class="logo-faculdade"
         >
         <img 
+          src="/logo-dco.gif" 
+          alt="DCO - Departamento de Computação"
+          class="logo-dco"
+        >
+        <img 
           src="/logo-bcc.png" 
           alt="BCC - Bacharelado em Ciência da Computação"
           class="logo-curso"
@@ -76,6 +81,7 @@ export default {
 
 .logo-unesp,
 .logo-faculdade,
+.logo-dco,
 .logo-curso {
   height: 80px;
   width: 160px;
@@ -110,6 +116,7 @@ p {
   
   .logo-unesp,
   .logo-faculdade,
+  .logo-dco,
   .logo-curso {
     height: 60px;
     width: 120px;
@@ -139,6 +146,7 @@ p {
   
   .logo-unesp,
   .logo-faculdade,
+  .logo-dco,
   .logo-curso {
     height: 50px;
     width: 100px;
@@ -169,6 +177,7 @@ p {
   
   .logo-unesp,
   .logo-faculdade,
+  .logo-dco,
   .logo-curso {
     height: 40px;
     width: 80px;

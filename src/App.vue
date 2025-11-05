@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header
-      titulo="TCCs de BCC e BSI"
-      subtitulo="Trabalhos de Conclusão de Curso em Bacharelado em Ciência da Computação e Bacharelado em Sistemas de Informação da Unesp de Bauru (FC)"
+      titulo="TCCs do DCo"
+      subtitulo="Trabalhos de Conclusão de Curso do Departamento de Computação - Unesp de Bauru (FC)"
     />
     <main>
       <TccsList :tccs="allTccs" />
