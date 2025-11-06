@@ -25,11 +25,11 @@ export const allTccs = [
     links: [
       {
         label: 'Monografia',
-        url: getTccFileURL('monografia', 'alex_cassinelli_2025.pdf')
+        url: null
       },
       {
         label: 'Apresentação',
-        url: getTccFileURL('apresentacao', 'alex_cassinelli_apresentacao_2025.pdf')
+        url: null
       }
     ]
   },

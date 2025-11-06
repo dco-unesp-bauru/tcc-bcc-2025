@@ -44,6 +44,9 @@
               :link="link" 
             />
           </div>
+          <div v-if="hasIndisponivel" class="info-message">
+            <span>Os arquivos serão disponibilizados após a apresentação do TCC</span>
+          </div>
         </div>
       </div>
     </transition>
@@ -66,6 +69,11 @@ export default {
     isOpen: {
       type: Boolean,
       default: false
+    }
+  },
+  computed: {
+    hasIndisponivel() {
+      return this.tcc.links && this.tcc.links.some(link => !link.url);
     }
   },
   methods: {
@@ -224,6 +232,25 @@ export default {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
+}
+
+.info-message {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.8rem 1rem;
+  background: #fff3cd;
+  border: 1px solid #e9bf42;
+  border-radius: 8px;
+  color: #856404;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.info-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
 }
 
 /* Responsividade */
