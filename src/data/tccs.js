@@ -9,19 +9,176 @@ export const allTccs = [
 
   {
     id: 202501,
-    titulo: 'Implementação de protocolos de roteamento seguros contra ataques avançados em redes ad hoc',
-    autor: 'Alex Luiz Domingues Cassinelli',
-    orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
+  titulo: 'Análise de acidente de trânsito em Bauru-SP utilizando ciência de dados',
+    autor: 'Bruno Shinji Ito',
+    orientador: 'Dr Higor Amario de Souza',
     curso: 'BCC',
-    descricao: `Este trabalho apresenta uma evolução dos estudos sobre segurança em Redes Móveis Ad hoc (MANET), 
-    focando especificamente na mitigação de ataques do tipo Buraco Negro e Buraco de Minhoca. Através da 
-    implementação de algoritmos avançados de roteamento que combinam técnicas de múltiplos caminhos e verificação 
-    criptográfica, desenvolvemos um protocolo robusto capaz de detectar e isolar nós maliciosos em tempo real. 
-    Os resultados experimentais demonstram uma redução de 95% na taxa de sucesso de ataques, mantendo o overhead 
-    de processamento abaixo de 8%. A solução proposta contribui significativamente para a segurança de redes 
-    móveis ad hoc em ambientes críticos.`,
-    palavrasChave: ['Segurança em Redes', 'MANET', 'Protocolos de Roteamento', 'Ataques Buraco Negro', 'Criptografia'],
-    dataDefesa: '2025-11-15',
+    descricao: `Os acidentes de trânsito representam um grande problema social e econômico no ambiente urbano, não sendo diferente no município de Bauru. Compreender os fatores e perfis de vítimas que são mais suscetíveis às fatalidades pode auxiliar no direcionamento de recursos a fim de mitigar a ocorrência de mais óbitos. O seguinte trabalho busca realizar a análise da ocorrência dos sinistros em Bauru utilizando as metodologias e técnicas de Ciência de Dados. Para o estudo foram usados dados públicos de sinistros e vítimas de Infosiga do período de 2019–2025. Para previsão foram testados os algoritmos de Árvore de Decisão e XGBoost, realizando comparação no potencial de previsão de cada modelo, além da realização da Análise Exploratória de Dados e utilização de DBSCAN. Os modelos apresentaram capacidade de predição satisfatórias, em especial o modelo de XGBoost com a técnica de Grid Search. Técnicas de DBSCAN apontam hotspots as principais vias da cidade e as rodovias ao redor da cidade como maior causadoras de vítimas não fatais e fatais, respectivamente.`,
+    palavrasChave: ['Acidente de trânsito', 'Aprendizado de máquina', 'Ciência de dados', 'XGBoost', 'DBSCAN', 'Bauru'],
+    dataDefesa: '2025-11-12',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+  {
+    id: 202502,
+  titulo: 'Modelos de aprendizado de máquina baseados em kernel para análise de sobrevivência',
+    autor: 'Christian Laurence Almeida Barry',
+    orientador: ['Prof. Dr. João Paulo Papa', 'Danilo Samuel Jodas'],
+    curso: 'BCC',
+    descricao: `A análise de sobrevivência é um ramo da estatística essencial para a análise de dados de tempo até o evento, porém, métodos tradicionais têm dificuldade com dados complexos e não-lineares. Nesse paradigma, os modelos de aprendizado de máquina
+surgiram como soluções consolidadas para melhorar a análise de sobrevivência. No
+entanto, tais métodos exigem cuidadosa otimização de hiperparâmetros, um processo
+computacionalmente intensivo que dificulta implementações práticas. Esse trabalho
+enfrenta essas limitações ao propor três novos estimadores baseados em kernels
+desenvolvidos a partir da integração do estimador de Beran com dois algoritmos não-
+paramétricos do aprendizado de máquina: uma variação não-paramétrica do algoritmo
+de 𝑘 vizinhos mais próximos (𝑘NN) e o 𝑘NN-supervised Optimum-Path Forest (OPF-
+𝑘NN). Ambos os métodos aprendem automaticamente o número ótimo de vizinhos
+ao longo de suas execuções, no caso do OPF-𝑘NN, até um número máximo definido
+manualmente, evitando a maior parte do ajuste paramétrico. Através de uma avaliação
+abrangente em três conjuntos de amostras, um de Downhole Safety Valves empregadas
+em poços de petróleo, outro de pacientes sendo tratados para insuficiência cardíaca e, o
+terceiro, de pacientes passando por tratamento para câncer de próstata, foi constatado
+que os modelos desenvolvidos se aproximam ou superam a capacidade preditiva de
+modelos tradicionais dependentes de hiperparâmetros, caracterizando ferramentas
+robustas para análise de sobrevivência que lidam efetivamente com distribuições
+complexas e não-lineares sem requerer calibração específica para cada conjunto de
+dados.
+`,
+    palavrasChave: ['Estimador de Beran', 'Análise de Sobrevivência', 'Análise de Confiabilidade', 'Confiabilidade para Engenharia', 'Hiperparâmetros', 'Aprendizado de Máquina'],
+    dataDefesa: '2025-11-10',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+   {
+    id: 202503,
+  titulo: 'Construção e tradução de datasets multimodais na saúde: um estudo para casos de covid-19',
+    autor: 'Daniel Hideki Rocha Kanashiro',
+    orientador: ['Dr. João Paulo Papa', 'Dr. Gabriel Lino Garcia'],
+    curso: 'BCC',
+    descricao: `A covid-19 é uma doença de fácil transmissão e capaz de deixar sequelas em seus infectados. Com o devido tratamento e diagnóstico precoce, as chances de sequelas e sintomas graves caem. Algumas estratégias são utilizadas para a celeridade da detecção, dentre elas, modelos de Aprendizado de Máquina treinados para avaliar unicamente imagem de raio-X, por exemplo, e realizar o diagnóstico baseado na imagem. Já os Grandes Modelos de Linguagem Multimodais são capazes de compreender dados de modalidades diferentes conjuntamente, como imagem e texto. Neste trabalho, propõe-se avaliar o uso de multimodalidade para diagnóstico de covid-19 e a averiguação do impacto que a multimodalidade causa no resultado obtido. Para isso, foi traduzido um dataset multimodal de covid-19 e avaliado o desempenho de dois modelos foram treinados neste dataset.`,
+    palavrasChave: ['Multimodal', 'covid-19', 'VLM', 'Aprendizado de Máquina'],
+    dataDefesa: '2025-11-11',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+     {
+    id: 202504,
+  titulo: 'Aprendizado de máquina aplicado à quantificação do índice de proliferação em osteossarcomas caninos',
+    autor: 'Eduardo Alvaro Monteiro',
+    orientador: 'Dr. Clayton Reginaldo Pereira',
+    curso: 'BCC',
+    descricao: `O osteossarcoma canino é uma das neoplasias ósseas mais agressivas na espécie, cujo prognóstico é frequentemente avaliado pelo índice de proliferação celular através do marcador imuno-histoquímico Ki-67. A obtenção deste índice depende da contagem manual de células em lâminas histopatológicas, um processo tradicionalmente laborioso, repetitivo e sujeito a elevada variabilidade inter e intraobservador. O advento da patologia digital permitiu o desenvolvimento de ferramentas computacionais para superar essas limitações. Neste contexto, o presente trabalho tem como objetivo propor e validar uma rotina computacional para a segmentação e contagem automatizada de células em proliferação e células saudáveis em imagens histológicas, visando a obtenção do índice de proliferação celulaar. A metodologia proposta explora duas abordagens distintas: o desenvolvimento de uma pipeline baseada em técnicas clássicas de processamento de imagens, e, para fins comparativos, o desenvolvimento de um modelo de aprendizado profundo baseado em Redes Neurais Convolucionais. Para viabilizar o estudo, foi criada uma base de dados de lâminas digitalizadas e anotadas por patologistas especialistas.`,
+    palavrasChave: ['Osteossarcoma Canino', 'Aprendizado de Máquina', 'Índice de Proliferação', 'Ki-67', 'Processamento de Imagens', 'Patologia Digital', 'Segmentação'],
+    dataDefesa: '2025-11-14',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+       {
+    id: 202505,
+  titulo: 'Avaliação da viabilidade de Spiking Neural Networks em dispositivos móveis para diagnóstico de câncer de pele',
+    autor: 'Fábio Halben Guerra Leal',
+    orientador: 'Dr. Leandro Aparecido Passos Junior',
+    curso: 'BCC',
+    descricao: `Este trabalho investiga a viabilidade de Spiking Neural Networks (SNNs) em disposi-
+tivos móveis para apoio ao diagnóstico de câncer de pele, comparando-as com uma
+arquitetura convolucional convencional (CNN) em condições controladas. Utilizou-se
+um conjunto de dados derivado da ISIC, disponível no Kaggle, estratificado em treino
+(5.000 benignas e 4.605 malignas) e teste (500/500), com pré-processamento padroni-
+zado (redimensionamento para 224×224, conversão para tons de cinza e normalização
+em [0,1]). A CNN, inspirada na AlexNet, foi treinada por 20 épocas com seleção do
+melhor ponto via F1-macro, seu desempenho no teste atingiu acurácia de 90,6%, com
+precisão e recall próximos de 0,9, e teve o gasto energético medido com o Zeus. A
+SNN espelhou a arquitetura da CNN, substituindo ativações por camadas LIF (𝛽 = 0, 8)
+ao longo de 10 time steps e treinada com surrogate gradients, no teste, obteve 89,3%
+de acurácia e F1=0,8997 (≈ 1, 3 p.p. abaixo da CNN).Quanto à energia, registrou-se na CNN um gasto de ≈ 25.300 J durante o treinamento
+e ≈ 111 J durante a fase de testes. A SNN não foi medida no hardware convencional,
+pois seus ganhos se manifestam sobretudo em hardware neuromórfico, no qual a
+literatura sugere economia de 6–8× frente à CNN. Em síntese, os resultados indicam
+que SNNs são tecnicamente viáveis quando a restrição energética é crítica e há acesso
+a hardware neuromórfico, embora persista um pequeno decréscimo de acurácia e
+desafios de engenharia.
+
+`,
+    palavrasChave: ['Spiking Neural Networks', 'Convolutional Neural Networks', 'Redes Neurais Artificiais', 'diagnóstico médico', 'câncer de pele', 'dispositivos móveis', 'eficiência energética'],
+    dataDefesa: '2025-11-11',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+    {
+    id: 202506,
+  titulo: 'Investigação de estratégias de aprendizado contínuo para detecção de objetos de tráfego urbano',
+    autor: 'Gabriel Cardoso Franco',
+    orientador: 'Dr. André Luis Debiasso Rossi',
+    curso: 'BCC',
+    descricao: `Com o avanço das Redes Neurais Convolucionais (CNNs), multiplicaram-se as aplicações em modelos de linguagem, visão computacional e análise de vídeos. Apesar desse progresso, o esquecimento catastrófico continua como um problema que dificulta o aprendizado contínuo e, na prática, leva ao retreinamento do zero sempre que novas tarefas, classes ou domínios são introduzidos. Essa estratégia é cara e ineficiente, principalmente quando já existem métodos capazes de mitigar tal efeito no paradigma de aprendizado contínuo. Neste trabalho, é analisado o impacto do uso de técnicas de aprendizado contínuo no treinamento de CNNs para detecção de objetos no contexto de tráfego urbano`,
+    palavrasChave: ['aprendizado contínuo', 'esquecimento catastrófico', 'detecção de objetos', 'redes neurais convolucionais', 'aprendizado profundo', 'tráfego urbano'],
+    dataDefesa: '2025-11-14',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+    {
+    id: 202507,
+  titulo: 'Aplicação de aprendizado de máquina e equilíbrio de Nash no jogo de pôquer',
+    autor: 'Gabriel Jooji Yamashiro',
+    orientador: 'Dr. Leandro Aparecido Passos Junior',
+    curso: 'BCC',
+    descricao: `O pôquer Heads-Up No-Limit Texas Hold’em, por ser um jogo de informação imperfeita, apresenta um desafio complexo para a inteligência artificial devido à sua vasta combinatória, além de elementos como blefe e adaptação ao oponente. Este trabalho propõe um agente de IA que integra o algoritmo Counterfactual Regret Minimization (CFR) para aproximar o Equilíbrio de Nash aliado a técnicas de aprendizado de máquina para abstrações de cartas e ações. As abstrações foram realizadas por agrupamento de dados usando o K-Means, baseado em distribuições de equidade, gerando 169 grupos no pré-flop, 50 no flop, 100 no turn e 200 no river. Um dataset do tamanho de 1 milhão de mãos foi treinado de forma offline, com treinamentos separados para pré-flop e pós-flop. O agente foi avaliado contra o Slumbot em cerca de 10.000 mãos, registrando perdas de -41.47 Big Blind a cada 100 mãos (BB/100) (Dataset de 250.000 mãos), -32.125 BB/100 (Dataset de 500.000 mãos), -47.025 BB/100 (Dataset de 750.000 mãos) e -47.19 BB/100 (Dataset de 1.000.000 mãos). Apesar da não linearidade dos resultados, possivelmente devido à alta variância no pôquer, a estratégia CFR superou consistentemente heurísticas predefinidas, exibindo perdas menores em todos os testes. A implementação demonstrou viabilidade em hardware modesto, contribuindo para avanços em jogos de informação imperfeita e teoria dos jogos.`,
+    palavrasChave: ['Pôquer', 'Inteligência Artificial', 'CFR', 'Equilíbrio de Nash', 'Abstração', 'Agrupamento de dados'],
+    dataDefesa: '2025-11-11',
     links: [
       {
         label: 'Monografia',
@@ -35,14 +192,256 @@ export const allTccs = [
   },
 
   {
+    id: 202508,
+  titulo: 'Utilização de algoritmos biologicamente plausíveis no auxílio de diagnóstico de infecções fúngicas e neoplasias pulmonares em exames de raio-X',
+    autor: 'Giuliano Gonzales',
+    orientador: 'Dr. Leandro Aparecido Passos Junior',
+    curso: 'BCC',
+    descricao: `Este trabalho investiga a aplicação de algoritmos biologicamente plausíveis, com ênfase em Redes Neurais de Picos (SNNs, do inglês Spike Neural Networks), no auxílio ao diagnóstico de infecções fúngicas e neoplasias pulmonares em imagens de raio-X. O estudo compara o desempenho e a eficiência energética de diferentes arquiteturas de redes neurais, incluindo Redes Neurais Artificiais, Redes Neurais Convolucionais, e SNNs, utilizando subconjuntos do banco de dados NIH Chest X-rays. As redes foram avaliadas em tarefas de classificação multiclasse (Normal, Infecção e Neoplasia) e binária (Normal vs. Infecção), a partir de métricas de acurácia, precisão, recall e F1-score, além do consumo energético medido com a ferramenta Carbontracker. Os resultados indicam que a versão convolucional da SNN apresenta desempenho competitivo em acurácia (até 79%) e F1-score (em torno de 60%), enquanto a SNN não convolucional destaca-se pela elevada eficiência energética, com esparcidade superior a 90% em determinadas camadas e consumo significativamente inferior ao de arquiteturas convencionais. Conclui-se que os modelos de redes neurais que utilizam picos representam uma alternativa promissora para aplicações médicas em contextos com restrições computacionais e energéticas, conciliando sustentabilidade e viabilidade diagnóstica.`,
+    palavrasChave: ['Redes neurais de picos', 'diagnóstico por imagem', 'eficiência energética', 'aprendizado de máquina', 'doenças pulmonares'],
+    dataDefesa: '2025-11-13',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+    {
+    id: 202509,
+  titulo: 'Colhendo insights: análise de dados na produção de cana-de-açúcar',
+    autor: 'Guilherme Lima Zanin',
+    orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
+    curso: 'BCC',
+    descricao: `A cana-de-açúcar ocupa posição central na economia brasileira, consolidando o país como o maior produtor mundial dessa cultura. Apesar de sua relevância, a produtividade ainda enfrenta entraves relacionados ao manejo nutricional do solo, principalmente pela ausência de controle preciso sobre as quantidades ideais de nutrientes necessários ao desenvolvimento da lavoura. Essa falta de precisão faz com que muitos produtores deixem de alcançar o potencial produtivo de suas áreas, resultando em menor rentabilidade e uso ineficiente de insumos. Nesse cenário, a
+ciência de dados surge como um recurso estratégico para apoiar a gestão agrícola, permitindo identificar padrões ocultos, analisar correlações entre nutrientes e fornecer recomendações mais assertivas para o manejo da fertilização. Este trabalho tem como objetivo aplicar técnicas de análise de dados para estudar as relações entre os nutrientes presentes no solo e a produtividade da cana-de-açúcar. A pesquisa concentrou-se na coleta, organização e tratamento de dados nutricionais, seguida de análises estatísticas e exploratórias. Em seguida, foram desenvolvidos e avaliados modelos preditivos supervisionados, com destaque para a regressão, visando estimar a influência de nutrientes específicos e oferecer insights que apoiem práticas de fertilização
+mais eficientes. Os resultados esperados incluem a definição mais precisa das quantidades de nutrientes necessárias, à maximização da produtividade agrícola, a redução de desperdícios e a promoção de práticas mais sustentáveis. Ao integrar ciência de dados ao manejo nutricional da cana-de-açúcar, este estudo busca oferecer subsídios técnicos que auxiliem a tomada de decisão dos produtores rurais, fomentem a agricultura de precisão e impulsionam a competitividade do setor sucroenergético no Brasil.
+`,
+    palavrasChave: ['Ciência de Dados', 'Cana-de-Açúcar', 'Nutrientes do Solo', 'Modelos Preditivos', 'Agricultura de Precisão'],
+    dataDefesa: '2025-11-13',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+  {
+    id: 202510,
+  titulo: 'Utilizando ciência de dados para identificar melhorias na infraestrutura urbana para pedestres',
+    autor: 'Gustavo Ribeiro Montes',
+    orientador: 'Prof. Dr. Higor Amario de Souza',
+    curso: 'BCC',
+    descricao: `O presente trabalho utiliza técnicas da Ciência de Dados para analisar padrões de mobilidade urbana sustentável, com ênfase nos deslocamentos realizados a pé na cidade de São Paulo, visando apoiar a formulação de políticas públicas mais efetivas. A partir das bases abertas da Pesquisa Origem e Destino (OD) 2023 e do portal GeoSampa, foram aplicadas técnicas de análise estatística descritiva e análise exploratória de dados espaciais (AEDE) para identificar padrões de mobilidade e relações entre características socioeconômicas, distribuição territorial e infraestrutura urbana. As análises revelaram disparidades na distribuição das viagens a pé entre diferentes regiões e grupos populacionais, destacando a influência de fatores econômicos, educacionais e estruturais na escolha pelo deslocamento pedestre. Além disso, as análises geoespaciais permitiram mapear zonas com elevada concentração de pedestres, indicando áreas prioritárias para intervenções públicas. Os resultados destacam a relevância da mobilidade ativa para o desenvolvimento urbano sustentável e evidenciam como abordagens baseadas em dados podem auxiliar decisões mais eficazes no planejamento de cidades mais acessíveis e inclusivas.`,
+    palavrasChave: ['Ciência de Dados', 'Mobilidade Ativa', 'Pedestres', 'Políticas Públicas'],
+    dataDefesa: '2025-11-12',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+  {
+    id: 202511,
+  titulo: 'Explorando algoritmos de compressão de dados: teoria, implementação e desempenho',
+    autor: 'GUSTAVO YUJII SILVA KADOOKA',
+    orientador: 'Profa. Dra. Andréa Carla Gonçalves Vianna',
+    curso: 'BCC',
+    descricao: `Este trabalho apresenta um estudo teórico e prático sobre algoritmos clássicos de compressão de dados sem perdas — Huffman, LZ77, LZW e GZIP —, explorando seus fundamentos, implementações e desempenho. A pesquisa visa compreender o comportamento desses algoritmos em diferentes tipos de dados (texto, imagem e áudio), analisando sua eficiência quanto à taxa de compressão e ao tempo de execução. As implementações foram desenvolvidas em C++, com suporte a arquivos nos formatos .txt, .bmp e .wav, e integradas a uma interface gráfica construída com a biblioteca GTK, permitindo ao usuário selecionar o algoritmo e o arquivo de entrada de forma interativa. Para a análise comparativa, foram utilizados scripts em Python para processamento estatístico e geração de gráficos. Os resultados demonstram que não existe um algoritmo universalmente superior: cada método apresenta vantagens específicas conforme as características do arquivo. Assim, a escolha do algoritmo mais adequado depende do tipo de dado e do contexto de uso. O trabalho contribui com uma ferramenta prática e um recurso educacional que facilita o entendimento da compressão de dados e de seus princípios teóricos.`,
+    palavrasChave: ['Compressão de dados', 'Algoritmos de compressão', 'Huffman', 'LZ77', 'LZW', 'GZIP', 'C++', 'Python', 'GTK'],
+    dataDefesa: '2025-11-12',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+  {
+    id: 202512,
+  titulo: 'Adaptação do envenenamento Nightshade para arquivos de áudio',
+    autor: 'Henrique Trivelato de Angelo',
+    orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
+    curso: 'BCC',
+    descricao: `Este trabalho proprõe uma adaptação do envenenamento Nightshade para expandir sua atuação no campo dos áudios. É proposta a substituição do modelo CLIP pelo modelo CLAP para a criação aleatória de uma amostra de treinamento de áudios envenenados, a troca do modelo de difusão TTI Stable Diffusion pelo StyleTTS 2, um modelo de difusão TTS, com a finalidade de gerar áudios âncoras, o passo a passo para que o envenenamento direcionado ocorra no espectograma de log-mel de um áudio e, por fim, a adoção do método de Griffin-Lim para retornar os espectogramas envenenados à sua forma de onda correspondente. Utiliza-se o Command Speech para a elaboração de ataques direcionados no StyleTTS 2. Os resultados obtidos pela aplicação de um questionário online mostram que a adaptação não é capaz de efetuar um ataque direcionado e furtivo, pelo contrário, o fine-tuning do StyleTTS 2 com amostras de treinamento com 5 minutos de áudios envenenados torna o modelo capaz apenas de produzir áudios incompreensíveis ao custo de ser facilmente identificado por avaliação humana, visto que o algoritmo de Griffin-Lim exacerba as perturbações adversariais já inseridas no espectrogram.`,
+    palavrasChave: ['Áudio', 'Envenenamento', 'Texto para fala', 'Nightshade', 'Espectograma de Log-Mel', 'CLAP', 'Griffim-Lin'],
+    dataDefesa: '2025-11-13',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+  {
+    id: 202513,
+  titulo: 'Aplicação de dados geoespaciais na análise de risco e suporte à contratação de seguro agrícola',
+    autor: 'João Lucas Cardoso Criveli',
+    orientador: 'Dr. Clayton Reginaldo Pereira',
+    curso: 'BCC',
+    descricao: `A agricultura é, e por muito tempo será, um meio primordial para que o ser humano consiga produzir insumos, fornecer alimentos e dar uso ao solo que habita. Dada essa importância, o setor agrícola busca diversos meios para garantir sua produção esperada, sendo um deles o seguro agrícola - modalidade de proteção financeira que estabelece acordos entre produtores rurais e seguradoras para garantir cobertura de ao menos parte da produção agrícola em caso de sinistros. Para viabilizar esses acordos, surge a figura da corretora de seguros, que conecta o produtor rural às seguradoras, e, neste processo, assume uma tarefa desafiadora: a avaliação de riscos para subsidiar a tomada de decisão das seguradoras. São diversos os fatores que o corretor deve analisar antes de enviar seu parecer, desde riscos que a localização da propriedade do produtor pode oferecer até as pendências fiscais que o interessado pelo seguro pode vir a ter. O processo torna-se particularmente desafiador quando cada verificação deve ser realizada em plataformas distintas e descentralizadas: websites governamentais, sistemas de análise de portarias, softwares especializados e bases de dados diversas. Com o propósito de otimizar e centralizar o processo de análise de risco, este projeto teve como objetivo desenvolver uma aplicação web que unifica todas as verificações necessárias em uma única plataforma. O desenvolvimento contou com o suporte de uma corretora de seguros parceira, que auxiliou revelando a rotina operacional, destacando dificuldades nos processos requeridos em uma análise de risco e providenciando dados para o treinamento de modelos de inteligência artificial. Ao final do desenvolvimento, esses objetivos foram atendidos e a ferramenta conseguiu reduzir para menos de 20 segundos o tempo necessário para se ter uma análise de risco completa. Esta otimização não apenas tornou o trabalho das corretoras mais eficiente e preciso, mas também contribuiu para facilitar o acesso dos produtores rurais ao seguro agrícola, promovendo maior segurança e sustentabilidade no setor.`,
+    palavrasChave: ['Seguro Agrícola', 'Análise de risco', 'Inteligência Artificial', 'Banco de dados espacial', 'Aplicação Web'],
+    dataDefesa: '2025-11-12',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+  {
+    id: 202514,
+  titulo: 'Redução de ruído em imagens via geometria fractal',
+    autor: 'Leonardo Koosuke Azuma',
+    orientador: 'Dra. Tatiana Miguel Rodrigues',
+    curso: 'BCC',
+    descricao: `O objetivo deste estudo é realizar de redução de ruído em imagens via Geometria Fractal através de uma modificação na etapa de identificação dos blocos mais semelhantes em uma imagem, substituindo a métrica original, o Erro Médio Quadrático (MSE), pelo Índice de Similaridade Estrutural (SSIM), e comparar os resultados obtidos com o algoritmo original e com o método Block Matching and 3D Filtering (BM3D). Para isso, foram realizados experimentos com diferentes tipos e intensidades de ruído aplicados a diversas imagens, e para quantificar a qualidade das imagens restauradas foram utilizadas as métricas MSE, PSNR e SSIM. Os resultados demonstram que a substituição do MSE pelo SSIM não melhora o desempenho do algoritmo fractal, apresentando, em alguns casos, leve perda de qualidade na restauração das imagens. O algoritmo BM3D apresentou desempenho superior em quase todos os testes, confirmando sua robustez e eficiência. No entanto, conclui-se que o método fractal ainda possui potencial, especialmente se forem exploradas formas mais eficazes de obtenção do Sistema de Funções Iteradas (IFS).`,
+    palavrasChave: ['Redução de ruído', 'Geometria Fractal', 'IFS'],
+    dataDefesa: '2025-11-17',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+    {
+    id: 202515,
+  titulo: 'Aplicação de ferramentas de inteligência artificial na animação de componentes em um jogo 2D voltado à saúde mental',
+    autor: 'Luana Rodrigues da Silva e Lima',
+    orientador: 'Dra. Juliana da Costa Feitosa',
+    curso: 'BCC',
+    descricao: `A saúde mental é extremamente importante para todos, porém frequentemente recebe respostas inadequadas e é representada por meio de estigmas em mídias como jogos digitais. Paralelamente, a aplicação de Inteligência Artificial (IA), especificamente na animação 2D, permanece pouco explorado. O presente trabalho visa abordar esses dois temas a partir do desenvolvimento de um protótipo de jogo sério 2D que explora temas relacionados a saúde mental de forma responsável, e da análise comparativa de ferramentas de IA para auxiliar no processo de criação de animações 2D pixel art para o jogo. A análise revelou que nenhuma ferramenta individual gerou animações perfeitas sem edição manual. Ferramentas generalistas avançadas (e.g., Gemini Pro, Vidu) mostraram alta consistência, mas também apresentaram dificuldades com especificidades do 2D e da pixel art, enquanto ferramentas especializadas (e.g., Pixel Lab, Pixie.haus) aderiram melhor ao estilo, porém com menor desenvolvimento geral ou flexibilidade. Os resultados mostraram que a IA funciona melhor como ferramenta auxiliar para o animador, sendo crucial a integração de editores robustos para ajustes da animação criada.`,
+    palavrasChave: ['Inteligência Artificial', 'Animação 2D', 'Jogos Sérios', 'desenvolvimento de jogos'],
+    dataDefesa: '2025-11-13',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+    {
+    id: 202516,
+  titulo: 'Tutor de IA conversacional para o aprendizado de inglês',
+    autor: 'Luis Felipe Muniz de Angelo',
+    orientador: 'Dr. João Paulo Papa',
+    curso: 'BCC',
+    descricao: `Este trabalho apresenta o desenvolvimento de um tutor de inteligência artificial conversacional para o aprendizado de inglês, focado em falantes de português. O projeto aborda as limitações das abordagens puramente neurais no ensino , que carecem de precisão e personalização, bem como o alto custo e latência da arquitetura multiagente tradicional. A solução proposta é uma arquitetura composta por um pipeline  de processamento em camadas implementado em LangGraph para análise gramatical, e um agente central unificado (AFM) que adota o paradigma Chain-of-Agents (CoA). Este agente simula internamente a colaboração de múltiplos agentes com diferentes papéis a fim de estabelecer raciocínios complexos com eficiência. O sistema integra tanto ferramentas simbólicas como o LanguageTool para validação gramatical determinística, quanto neurais para análise semântica, sendo implementado como um aplicativo móvel cliente usando React Native, e servidor em FastAPI. A eficiência da arquitetura foi validada frente os pilares do framework OAgents e como resultado o trabalho entrega uma ferramenta pedagógica de baixa latência e com menor custo do que a abordagem multiagente tradicional, sendo capaz de oferecer correções instantâneas, proporcionando um ambiente seguro para a prática conversacional.`,
+    palavrasChave: ['Inteligência artificial', 'Ensino de línguas', 'Processamento de linguagem natural', 'Arquitetura de agentes', 'Tutor de IA'],
+    dataDefesa: '2025-11-10',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+  {
+    id: 202517,
+  titulo: 'Análise comparativa de Arduinos na implementação de sistemas embarcados para monitoramento de tremores na doença de Parkinson',
+    autor: 'Manuele Sabatini Christófalo',
+    orientador: 'Dr. Clayton Reginaldo Pereira',
+    curso: 'BCC',
+    descricao: `A Doença de Parkinson (DP) é uma afecção neurodegenerativa crônica e progressiva do sistema nervoso central, que impacta significativamente a função motora. O monitoramento de seus sintomas, em especial os tremores, é fundamental para o manejo clínico, porém frequentemente se baseia em avaliações subjetivas. Este trabalho propõe uma revisão bibliográfica de soluções quantitativas por meio do desenvolvimento e análise comparativa de dois sistemas embarcados vestíveis, projetados visando a coleta e análise de dados de tremores. O estudo confronta duas abordagens de hardware: um bracelete utilizando a placa Arduino Nano 33 BLE Sense Rev 2, que possui uma unidade de medição inercial (IMU) integrada, e um segundo protótipo baseado no Arduino UNO, complementado por sensores externos. As plataformas são avaliadas sob múltiplos critérios, incluindo precisão dos sensores, eficiência computacional, consumo energético, usabilidade, escalabilidade e custo-benefício. Ainda no estudo, desenvolve-se uma arquitetura Long Short-Term Memory (LSTM) otimizada para a identificação de padrões nas séries temporais possivelmente coletadas pelos Arduinos. A análise final visa determinar a configuração de hardware mais adequada para o contexto biomédico da doença de parkison, contribuindo para o avanço de tecnologias assistivas de baixo custo e alta precisão no acompanhamento de doenças neurodegenerativas.`,
+    palavrasChave: ['Doença de Parkinson', 'monitoramento de Tremores', 'sistemas embarcados', 'Arduino', 'redes neurais recorrentes'],
+    dataDefesa: '2025-11-12',
+    links: [
+      {
+        label: 'Monografia',
+        url: null
+      },
+      {
+        label: 'Apresentação',
+        url: null
+      }
+    ]
+  },
+
+  {
+  id: 202518,
+  titulo: 'Análise de perfil dos colaboradores de projetos de código aberto em plataformas de repositórios de software',
+  autor: 'Alberto Azevedo Martinez',
+  orientador: 'Prof Dr Higor Amário de Souza',
+  curso: 'BCC',
+  descricao: `Projetos de código aberto fazem parte importante do ecossistema de programas, com representantes performando
+  entre opções viáveis no mercado, porém não possuem tantas pesquisas tendo enfoque específico em sua formação, ou sua comunidade.
+  Essa pesquisa foi realizada com o objetivo de encontrar o perfil de colaboradores de projeto de código aberto e enriquecer as
+  análises disponíveis para esses projetos, auxiliando assim os mantenedores desses projetos a tomarem melhores decisões e ações
+  pelo bem da comunidade. Utiliza-se mineração de repositórios para conseguir os dados dos colaboradores de um grupo de projetos
+  específico, sendo feito tratamento e diferentes análises gráficas dos dados posteriormente. Observando os resultados obtidos é
+  definido o perfil dos colaboradores de projeto de código aberto, como tendo enfoque em regiões com maior escolaridade, suas contas
+  possuindo por volta de dez a quinze anos, com 85% ainda estando em atividade e não possuindo uma idade de conta com valor
+  desproporcional de contribuições.`,
+  palavrasChave: ['Repositórios', 'Mineração', 'Análise', 'Gráfico', 'Mapa'],
+  dataDefesa: '2025-11-12',
+  links: [
+    {
+      label: 'Monografia',
+      url: null
+    },
+    {
+      label: 'Apresentação',
+      url: null
+    }
+  ]
+},
+
+  {
     id: 202301,
-    titulo: 'Identificação biométrica de pessoas por meio do reconhecimento facial utilizando vision transformers',
+  titulo: 'Identificação biométrica de pessoas por meio do reconhecimento facial utilizando Vision Transformers',
     autor: 'Arthur Francisco Ramos',
     orientador: 'Dr Aparecido Nilceu Marana',
     curso: 'BCC',
     descricao: `A biometria se tornou uma das formas mais seguras na tarefa de reconhecimento de indivíduos, sendo o reconhecimento facial um dos problemas clássicos na área da visão computacional. Proposto pela primeira vez há 50 anos, os sistemas de reconhecimento automático de rostos passaram por diversas mudanças ao longo do tempo, desde algoritmos tradicionais até o uso de aprendizado de máquina profundo, com destaque nas redes neurais convolucionais, que hoje predominam as pesquisas na área. Visando novas alternativas de métodos para a tarefa de reconhecimento facial, este trabalho propôs avaliar o desempenho de uma arquitetura baseada em transformadores e autoatenção com foco em imagens, o Vision Transformer, em ambientes controlados e não controlados, além do desenvolvimento de uma aplicação completa para analisar o funcionamento do modelo de forma prática. Para atingir tal objetivo, a metodologia aplicada consiste no uso de técnicas de detecção e alinhamento facial, para aperfeiçoar o treinamento e validação do modelo de reconhecimento, em conjunto com métodos de análise comuns a sistemas de identificação e verificação, a fim de mensurar o desempenho da arquitetura proposta na resolução do problema de reconhecimento facial. Os resultados demonstraram que o Vision Transformer é capaz de desempenhar a função de reconhecimento com eficácia, todavia apresentando algumas limitações em ambientes com maior instabilidade de iluminação e variações de expressões faciais, principalmente devido ao tamanho limitado das bases de dados de imagens utilizadas, mas não prejudicando a experiência do usuário e a confiabilidade do aplicativo desenvolvido.`,
     palavrasChave: ['Biometria', 'Reconhecimento Facial', 'Vision Transformer'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -56,13 +455,13 @@ export const allTccs = [
   },
   {
     id: 202302,
-    titulo: 'Abordagem de aprendizado profundo para classificação de parkinson por meio de sinais de voz',
+  titulo: 'Abordagem de aprendizado profundo para classificação de Parkinson por meio de sinais de voz',
     autor: 'Andre Luiz da Silva Junior',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
     descricao: `A doença de Parkinson é um distúrbio neurológico progressivo que afeta o cérebro. O desenvolvimento de sistemas especializados capazes de diagnosticar automaticamente e com alta precisão estágios iniciais da Doença de Parkinon com base em sinais de fala representaria uma contribuição importante para o setor de saúde. Para isso, foram analisados modelos de machining learning como a regressão logistica, support vector machine, K-Neightbors, Random Forest, Decion Tree, Naive Bayes e XGBoost, além disso foi utilizado técnicas de deep learning como a Rede Neural Convolucional e a Rede Neural Recorrente. Essas abordagens foram aplicadas a três conjuntos de dados com caracteristicas próprias para um mais amplo estudo dos casos. Dois desses conjuntos de dados foram analisados com o uso de machining learning, e um com a utilização de deep learning com séries temporais, após o treino o modelo com o melhor desempenho foi selecionado. Os resultados revelaram que o modelo de teve um desempenho melhor nos dois conjunto de dados que utilizaram machining learning foi a Regressão Linear, e no deep learning foi a Rede Neural Convolucional. Os resultados obtidos revelaram uma acurácia de classificação de 92.31% e 86.84% para os dois conjuntos de dados, o que evidencia a capacidade de obter resultados excelentes mesmo com um conjunto limitado de dados. Além disso, foram observadas precisões de 91.43% e 86.72%, recalls de 100.00% e 97.37%, e F1-Scores de 95.52% e 91.74%. Esses valores corroboram a qualidade dos resultados alcançados. Por sua vez, a Rede Neural Convolucional apresentou uma acurácia de classificação de 86.69%, precisão de 86.83%, recall de 88.20% e F1-Score de 87.51%, mesmo com um número reduzido de épocas de treinamento. Isso evidencia a eficácia desse modelo como uma alternativa valiosa para a classificação. Esses resultados indicam que as classificações terão um papel significativo no avanço do setor médico. É importante ressaltar a relevância de uma análise cuidadosa na escolha do modelo a ser utilizado, pois diferentes conjuntos de dados podem apresentar resultados mais favoráveis em modelos distintos.`,
     palavrasChave: ['Parkinson', 'Sinais de Voz', 'Classificação'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -76,13 +475,13 @@ export const allTccs = [
   },
   {
     id: 202303,
-    titulo: 'Auxílio ao diagnóstico de doença neurodegenerativa utilizando expressões faciais',
+  titulo: 'Auxílio ao diagnóstico de doença neurodegenerativa utilizando expressões faciais',
     autor: 'Arissa Yoshida',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
     descricao: `O diagnóstico precoce da Esclerose Lateral Amiotrófica (ELA) é fundamental para a determinação do início dos tratamentos, auxiliando tanto no aumento da expectativa de vida quanto na melhora da qualidade de seus pacientes. A análise de movimentos faciais fornece informações importantes para o reconhecimento dos sintomas iniciais da ELA; entretanto, detectar esses sinais não é uma tarefa fácil. Com o advento da visão computacional e dos modelos de aprendizado de máquina, métodos computacionais de auxílio a diagnóstico de doenças neurodegenerativas por meio de vídeos vêm se tornando uma realidade, gerando diferentes abordagens para detecção dos biomarcadores da ELA. Por utilizarem métodos interpretativos, grande parte dos estudos acabam por não explorar a dimensão temporal durante o processo de classificação. Este trabalho propõe introduzir modelos sequenciais de Redes Neurais Recorrentes (Recurrent Neural Network - RNN) em dados sequenciais (vídeos) de tal forma que seja investigada a relevância da dinâmica temporal das unidades de ação (Action Units - AUs) na identificação da ELA. Concluindo com o desenvolvimento de uma ferramenta de auxílio ao diagnóstico por computador (computer-aided diagnosis, CAD).`,
     palavrasChave: ['Esclerose Lateral Amiotrófica', 'Expressões Faciais', 'Redes Neurais Recorrentes', 'Doença Neurodegenerativa'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -96,13 +495,13 @@ export const allTccs = [
   },
   {
     id: 202304,
-    titulo: 'Implementação do devops para gerenciamento de riscos de segurança na nuvem',
+    titulo: 'IMPLEMENTAÇÃO DO DEVOPS PARA GERENCIAMENTO DE RISCOS DE SEGURANÇA NA NUVEM',
     autor: 'Artur Kyung Min Lee',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
     descricao: `A conjuntura do mundo da tecnologia nos últimos anos permitiu com que a computação em nuvem progredisse de forma exponencial por ter diversos benefícios como a velocidade, a escalabilidade, o custo, a disponibilidade e outros. Porém, assim como novas tecnologias de nuvem foram surgindo, ameaças cibernéticas também foram aumentando. Hoje, tornou-se necessário que todo ambiente em \textit{cloud} tenha ferramentas que sejam capazes de manter a integridade, confiabilidade e disponibilidade das aplicações nesse ambiente. Entende-se que uma das principais funções das ferramentas de segurança é de detectar falhas ou ações suspeitas que devem ser bloqueadas em prol da proteção da aplicação. Por conta disso, é vital que as tecnologias de segurança sejam implementadas com um estudo prévio para que possam incorporar-se ao fluxo da aplicação sem anular os principais benefícios da nuvem. Esse trabalho propõe integrar ferramentas de segurança de maneira que as mesmas não interfiram de negativamente no fluxo da aplicação. Seguindo as melhores práticas do DevOps, será criado uma aplicação/programa na nuvem (AWS) que tenha fluxo de integração e entrega contínuas onde serão integradas as ferramentas responsáveis por trazer segurança e visibilidade ao ambiente.`,
     palavrasChave: ['DevOps', 'Segurança na Nuvem', 'Gerenciamento de Riscos'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -116,13 +515,13 @@ export const allTccs = [
   },
   {
     id: 202305,
-    titulo: 'Criação de um mapeador objeto-grafo para otimização e simplificação no gerenciamento de bancos de dados baseados em grafos em ambientes de big data: uma análise comparativa com mapeadores objeto-relacional e outros bancos de dados',
+    titulo: 'CRIAÇÃO DE UM MAPEADOR OBJETO-GRAFO PARA OTIMIZAÇÃO E SIMPLIFICAÇÃO NO GERENCIAMENTO DE BANCOS DE DADOS BASEADOS EM GRAFOS EM AMBIENTES DE BIG DATA: UMA ANÁLISE COMPARATIVA COM MAPEADORES OBJETO-RELACIONAL E OUTROS BANCOS DE DADOS',
     autor: 'Cassiano Henrique A Rodrigues',
     orientador: 'Prof. Assoc. Aparecido Nilceu Marana',
     curso: 'BCC',
     descricao: `O trabalho visou criar um mapeador objeto-grafo (OGM) para melhorar a manipulação e recuperação de dados em ambientes de big data. Em cenários de grande amplitude de da- dos, é crucial escolher soluções eficientes, uma vez que a complexidade desses ambientes pode impactar negativamente o desempenho. Portanto introduziu-se uma camada de abstração por meio dos OGMs para simplificar a interação com bancos de dados baseados em grafos. O projeto concentrou-se na estruturação, implementação e avaliação do mapeador. Testes exaustivos foram realizados para capturar métricas e indicadores, demonstrando a eficiên- cia do mapeador em otimizar a manipulação e recuperação de dados, proporcionando uma experiência simplificada para os desenvolvedores e validando sua capacidade de aprimorar a eficácia na manipulação de dados e fornecer uma interface intuitiva para o desenvolvi- mento de aplicações.`,
     palavrasChave: ['Mapeador Objeto-Grafo', 'Big Data', 'Bancos de Dados em Grafos', 'Objeto-Relacional', 'Otimização', 'Simplificação'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -136,13 +535,13 @@ export const allTccs = [
   },
   {
     id: 202306,
-    titulo: 'Análise do impacto da segurança viária na mobilidade ativa',
+    titulo: 'ANÁLISE DO IMPACTO DA SEGURANÇA VIÁRIA NA MOBILIDADE ATIVA',
     autor: 'Danilo Alves Siqueira',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
     descricao: `O presente trabalho tem como proposta aplicar técnicas de ciência de dados com python para analisar e visualizar dados tabulares e geolocalizados com o objetivo de entender o impacto do cenário atual da segurança viária sobre a mobilidade ativa na cidade de São Paulo. As análises buscam entender o panorama referente a quantidade de acidentes envolvendo ciclistas e pedestres, a distribuição desses, além de características dos acidentes e acidentados. Visa-se também entender a influência da segurança das infraestruturas cicloviárias sobre os acidentes e o gasto gerado ao sistema de saúde público para atendimento das vítimas.`,
     palavrasChave: ['Segurança Viária', 'Mobilidade Ativa', 'Ciência de Dados', 'Python', 'Acidentes'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -156,13 +555,13 @@ export const allTccs = [
   },
   {
     id: 202307,
-    titulo: 'Estudo sobre fraudes digitais e o desenvolvimento de aplicativo para smartphones android e ios para uso em palestras de sensibilização e esclarecimento',
+    titulo: 'ESTUDO SOBRE FRAUDES DIGITAIS E O DESENVOLVIMENTO DE APLICATIVO PARA SMARTPHONES ANDROID E IOS PARA USO EM PALESTRAS DE SENSIBILIZAÇÃO E ESCLARECIMENTO',
     autor: 'Gabriel Carvalho Polido',
     orientador: 'Prof. Assoc. Eduardo Martins Morgado',
     curso: 'BCC',
     descricao: `Golpes e fraudes digitais são uma ameaça em constante evolução, principalmente quando utilizam três estratégias de ataque: Phishing, Spoofing e Engenharia Social. Durante a pesquisa, foi destacada a natureza sofisticada dessas ameaças, que visam enganar os usuários e obter acesso a informações confidenciais. O estudo forneceu uma análise aprofundada de cada estratégia, explorando exemplos de casos e técnicas de mitigação. Além disso, foram estudadas as estratégias de ataque que são utilizadas atualmente para que seja possível enfrentar com êxito essas ameaças. tais estratégias de ataque tem o intuito de roubar informações e recursos, visando posteriormente utilizar tais informações para aplicar golpes e fraudes elaboradas na vítima. Assim sendo, foi enfatizada a importância da conscientização e da educação como estratégias cruciais para proteger indivíduos e organizações contra essas ameaças digitais em um ambiente cada vez mais interconectado, dependente da tecnologia e em constante evolução. Foi desenvolvido um aplicativo informático que incentiva as pessoas a tomarem medidas mais proativas para combater eficazmente os golpes e fraudes digitais, garantindo um ambiente cibernético mais seguro.`,
     palavrasChave: ['Fraudes Digitais', 'Golpes Digitais', 'Phishing', 'Spoofing', 'Engenharia Social', 'Segurança da Informação'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -176,13 +575,13 @@ export const allTccs = [
   },
   {
     id: 202308,
-    titulo: 'Aplicativo gamificado para organização de tarefas e rotinas acadêmicas',
+    titulo: 'APLICATIVO GAMIFICADO PARA ORGANIZAÇÃO DE TAREFAS E ROTINAS ACADÊMICAS',
     autor: 'Gabriel Henrique Garcia Ticianeli',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
     descricao: `O ingresso na faculdade é um momento de mudanças drásticas no estilo de vida dos estudantes. Ele marca uma transição onde o aluno deve se adaptar a novas responsabilidades que muitas vezes causam uma sobrecarga de trabalho. Esse aumento na demanda pode ser esmagador para aqueles que estão despreparados. Dessa forma, manejar o pouco tempo disponível de maneira efetiva torna-se essencial para o sucesso acadêmico. Como solução para o problema mencionado, o trabalho objetivou desenvolver um aplicativo mobile gamificado para organização de tarefas e rotinas, chamado de “Guilda dos Universitários”. Gamificação é a utilização de elementos de design de jogos em aplicações que não são jogos puros, visando aumentar a interatividade e o engajamento do usuário. Utilizando esta estratégia, o sistema foi projetado para fornecer uma maneira mais envolvente e motivadora de gerenciar a carga de trabalho acadêmica e criar bons hábitos. Por ser o sistema operacional mais usado pelos smartphones, foi escolhido o Android como plataforma para o programa, e a construção do trabalho foi feita na Unity Engine. O aplicativo resultante possui as funções de cadastrar tarefas (tanto únicas quanto repetíveis), contabilizar hábitos diários e formar grupos de usuários para compartilharem dos mesmos afazeres. As ferramentas são complementadas por mecânicas de progressão e recompensas, e os grupos possuem uma tabela de classificação para estimular a competitividade. Os resultados obtidos de uma comparação deste projeto com outros disponíveis no mercado de aplicativos mostra que existem poucas opções para organização de tarefas que aplicam a gamificação, e dentre estes, não há a presença de sistemas cooperativos entre os usuários.`,
     palavrasChave: ['Aplicativo Gamificado', 'Organização de Tarefas', 'Rotinas Acadêmicas', 'Gamificação', 'Unity'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -196,13 +595,13 @@ export const allTccs = [
   },
   {
     id: 202309,
-    titulo: 'Qualidade de software: análise de desempenho de ferramentas de automação em testes E2E',
+    titulo: 'QUALIDADE DE SOFTWARE: ANÁLISE DE DESEMPENHO DE FERRAMENTAS DE AUTOMAÇÃO EM TESTES E2E',
     autor: 'Geovanna Carolina F V T Brandao',
     orientador: 'Prof. Dr Kleber Rocha de Oliveira',
     curso: 'BCC',
     descricao: `O presente trabalho tem como tema a análise de desempenho de ferramentas de automação de testes de ponta-a-ponta. Onde o objetivo é abordar esse estudo de caso a partir do modelo ISSO 25010, aliado aos critérios ortogonais de classificação da abordagem de localização de objetos em tela. Ademais, é realizada uma análise do parecer da indústria de tecnologia em relação a essa categoria de testes. A escolha deste tema é impulsionada pela crescente complexidade dos sistemas de software, a necessidade da redução de custos e aumento da dependência social na tecnologia da informação.`,
     palavrasChave: ['Qualidade de Software', 'Testes E2E', 'Automação de Testes', 'Desempenho de Ferramentas'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -217,13 +616,13 @@ export const allTccs = [
 
   {
     id: 202310,
-    titulo: 'Uso de aprendizado de máquina para detecção de ataques DDoS',
+    titulo: 'USO DE APRENDIZADO DE MÁQUINA PARA DETECÇÃO DE ATAQUES DDOS',
     autor: 'Gustavo Amaral Duarte Rego',
     orientador: 'Prof. Dr. Kelton Augusto P da Costa',
     curso: 'BCC',
     descricao: `A Segurança Cibernética é um tema que possui muita relevância nos dias atuais, uma vez que a sociedade depende cada vez mais do mundo digital e de suas ferramentas. Ataques nesse meio são comuns de diversas formas, mas um dos mais ameaçadores para um serviço é o Distributed Denial of Service, ou, Ataque de negação de serviço distribuído, que tem por objetivo esgotar recursos do host. Aprendizado de Máquina pode ser definido como uma ramificação da inteligência artificial, que foca no uso de dados e algoritmos para imitar a forma como humanos aprendem. Por ser altamente eficiente no reconhecimento de padrões, é possível utilizar algoritmos desse tipo para auxiliar no reconhecimento de ataques cibernéticos. Nesse trabalho são abordados estudos e implementações sobre o uso desses algoritmos para verificar sua acurácia e viabilidade utilizando conjuntos de dados de tráfego de rede`,
     palavrasChave: ['Aprendizado de Máquina', 'Detecção de Ataques', 'DDoS', 'Segurança Cibernética'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -237,13 +636,13 @@ export const allTccs = [
   },
   {
     id: 202311,
-    titulo: 'Uso de aprendizado de máquina para detecção de faces falsas geradas por inteligência artificial',
+    titulo: 'USO DE APRENDIZADO DE MÁQUINA PARA DETECÇÃO DE FACES FALSAS GERADAS POR INTELIGÊNCIA ARTIFICIAL',
     autor: 'João Pedro Vieira Rodrigues',
     orientador: 'Prof. Dr. Kelton Augusto P da Costa',
     curso: 'BCC',
     descricao: `O avanço no campo da inteligência artificial, especialmente na área de aprendizado profundo, possibilitou a criação de rostos humanos por meio de modelos de redes neurais, como a Generative Adversarial Network (GAN). Entretanto, esse avanço levantou preocupações significativas em relação à segurança, especialmente nos contextos de biometria e autenticação digital. Diante desse problema, este trabalho concentra-se na aplicação de uma técnica específica de aprendizado de máquina conhecida como Capsule Neural Network (CapsNet). Esta abordagem se mostrou promissora para o processamento de imagens e será comparada a outras técnicas, como Local Binary Pattern, Res-Net e Gram-Net. A análise detalhada desses métodos permitirá uma compreensão mais aprofundada de suas capacidades e limitações, contribuindo para o desenvolvimento de sistemas mais seguros e eficazes no contexto da inteligência artificial e suas aplicações práticas. A avaliação crítica dessas técnicas é essencial para aprimorar a segurança e a autenticidade em sistemas que dependem de reconhecimento facial e autenticação digital.`,
     palavrasChave: ['Aprendizado de Máquina', 'Detecção de Faces Falsas', 'Inteligência Artificial', 'Capsule Neural Network', 'Generative Adversarial Network'],
-    dataDefesa: '2023-10',
+    dataDefesa: '2023-10-01',
     links: [
       {
         label: 'Monografia',
@@ -257,13 +656,13 @@ export const allTccs = [
   },
   {
     id: 202312,
-    titulo: 'Aplicação de solid em um sistema web para intermediação de compra e venda de comida na unesp',
+    titulo: 'APLICAÇÃO DE SOLID EM UM SISTEMA WEB PARA INTERMEDIAÇÃO DE COMPRA E VENDA DE COMIDA NA UNESP',
     autor: 'Julio Cesar Benelli Varella',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
     descricao: `A venda de alimentos por estudantes universitários tem se mostrado uma prática recorrente e vital para a manutenção financeira e suporte de projetos acadêmicos. Diante das dificuldades enfrentadas pelos estudantes para sustentar-se durante o curso, somado à necessidade de financiamento para projetos de extensão, o desenvolvimento de um sistema unificado para a comercialização de alimentos emerge como uma solução estratégica. Este trabalho propõe a criação de um sistema Web para facilitar e otimizar a venda de alimentos no campus da UNESP-Bauru, fornecendo um ponto de encontro virtual entre compradores e vendedores. Além disso, o sistema é desenvolvido com ênfase em práticas de codificação limpa e padrões de projeto, utilizando princípios SOLID e o padrão MVC para assegurar um código organizado, manutenível e expansível. A escolha do framework Symfony e do Bootstrap proporciona a funcionalidade e responsividade necessárias ao sistema. A disponibilização do código como open-source reforça a intenção de contribuir para a comunidade acadêmica, permitindo evolução contínua do projeto. Este trabalho, portanto, não só atende uma necessidade prática, mas também promove a manutenibilidade, a extensibilidade do sistema e a prática colaborativa dentro do ambiente universitário.`,
     palavrasChave: ['Sistema Web', 'Compra e Venda de Comida', 'UNESP', 'SOLID', 'MVC', 'Symfony', 'Bootstrap'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -277,13 +676,13 @@ export const allTccs = [
   },
   {
     id: 202313,
-    titulo: 'Detecção de fake news em português utilizando inferência de linguagem natural',
+    titulo: 'DETECÇÃO DE FAKE NEWS EM PORTUGUÊS UTILIZANDO INFERÊNCIA DE LINGUAGEM NATURAL',
     autor: 'Larissa Mayumi Barela Hondo',
     orientador: 'Prof. Assoc. Aparecido Nilceu Marana',
     curso: 'BCC',
     descricao: `Com o advento da Internet, é possível obter informações a partir de quaisquer fontes sobre eventos ao redor do mundo, inclusive informações imprecisas e até mesmo falsas, sendo estas chamadas de fake news. A divulgação e a proliferação de fake news podem causar prejuízos e danos seríssimos para as pessoas e para a sociedade de modo geral, salientando a extrema importância de sua identificação. Isso pode ser feito com o uso do Processamento de Linguagem Natural, que abrange técnicas computacionais para a análise automática e à representação de linguagens antropológicas. Por exemplo, a detecção de fake news pode ser feita com a Inferência de Linguagem Natural, uma sub-área do Processamento de Linguagem Natural focada na verificação da implicação ou contradição em um par de sentenças, que pode ser utilizada neste contexto considerando notícias já confirmadas como sendo verdadeiras como a premissa e uma notícia suspeita como a hipótese, dessa forma, caso haja contradição entre a hipótese e a premissa, a notícia suspeita é considerada falsa, caso contrário, ela é rotulada como verdadeira. Visto isso, o objetivo deste trabalho é propor um método de detecção automática de fake news para a língua portuguesa utilizando a Inferência de Linguagem Natural. Como não há uma base de dados em português que utilize a Inferência de Linguagem Natural para esta aplicação, é possível traduzir dados já existentes para este idioma, em vista disso, neste trabalho utilizou-se a base de dados em inglês denominada FNID-FakeNewsNet. Com base nos resultados obtidos para o conjunto de teste, observa-se um desempenho melhor quando a premissa é utilizada junto à hipótese. Além disso, de modo geral, é possível observar que os resultados não foram afetados significativamente pela tradução dos dados em inglês para o português.`,
     palavrasChave: ['Fake News', 'Inferência de Linguagem Natural', 'Processamento de Linguagem Natural', 'Detecção Automática', 'FNID', 'FakeNewsNet'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -297,13 +696,13 @@ export const allTccs = [
   },
   {
     id: 202314,
-    titulo: 'Construção de um módulo quântico para o classificador baseado em floresta de caminhos ótimos',
+    titulo: 'CONSTRUÇÃO DE UM MÓDULO QUÂNTICO PARA O CLASSIFICADOR BASEADO EM FLORESTA DE CAMINHOS ÓTIMOS',
     autor: 'Maria Angélica Krüger Miranda',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
     descricao: `O interesse pela computação quântica tem experimentado um aumento constante, impulsionado principalmente pelas recentes inovações tecnológicas anunciadas por empresas renomadas, como a IBM e a Google. Essas inovações têm o potencial de solucionar desafios significativos em diversos setores, como financeiro, médico, físico, farmacêutico, químico, entre outros. Esse potencial advém da capacidade da computação quântica de resolver problemas que eram anteriormente considerados inviáveis. Concomitantemente a esse crescimento, o campo do aprendizado de máquina tem se destacado como uma ferramenta computacional crucial para o desenvolvimento de novas soluções e tecnologias. Desta forma, o trabalho tem por interesse implementar e avaliar um módulo quântico para o classificador baseado em floresta de caminhos ótimos para explorar a abordagem híbrida do aprendizado de máquina quântico. Os experimentos conduzidos revelaram desafios a serem superado, no entanto, a implementação demonstrou ser promissora devido à sua viabilidade, além de representar o primeiro estudo sobre a aplicação da computação quântica neste classificador em específico.`,
     palavrasChave: ['Computação Quântica', 'Aprendizado de Máquina Quântico', 'Floresta de Caminhos Ótimos', 'Classificador Quântico'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -317,13 +716,13 @@ export const allTccs = [
   },
   {
     id: 202315,
-    titulo: 'Desenvolvimento de uma aplicação integrada para gerenciamento de projetos e recursos para programadores',
+    titulo: 'DESENVOLVIMENTO DE UMA APLICAÇÃO INTEGRADA PARA GERENCIAMENTO DE PROJETOS E RECURSOS PARA PROGRAMADORES',
     autor: 'Matheus dos Santos Ribeiro Silva',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
     descricao: `A área de Desenvolvimento de Software experimentou um crescimento exponencial nas últimas décadas, impulsionando uma revolução tecnológica que tem tido um impacto significativo na vida cotidiana de bilhões de pessoas. Esse avanço se traduz em benefícios notáveis em setores como Educação, Medicina, Engenharia, Matemática, Indústria, entre outros. Em consonância com a crescente demanda, houve um aumento substancial na quantidade de profissionais de desenvolvimento de software. No contexto da programação no Brasil, modalidades de emprego mais flexíveis, a exemplo o trabalho como pessoa jurídica, oferece vantagens atrativas, como salários superiores e benefícios fiscais. No entanto, a gestão de projetos em diversas empresas, em múltiplos projetos e com uma variedade de tecnologias pode ser desafiadora, resultando na dispersão da atenção dos programadores, o que prejudica sua eficiência e desempenho. Com o advento e a disseminação do acesso às Inteligências Artificiais Generativas (IAG) para um público mais amplo, observou-se a integração de serviços e conjuntos de software com Inteligência Artificial (IA), unificando funcionalidades e dados para melhorar a eficiência e o desempenho dos usuários. Grandes empresas, como Microsoft e Google, buscam cada vez mais integrar seus diversos serviços e ambientes de trabalho com IAs, como o ChatGPT da OpenAI ou o Bart da Google, com o objetivo de disponibilizar produtos úteis para seus usuários e otimizar seus lucros por meio da melhoria contínua de suas ferramentas. Nesse contexto, este projeto propõe a criação de uma dashboard integrada que utiliza uma Application Programing Interface (API) do ChatGPT e do Google Workspace. Essa plataforma visa centralizar o gerenciamento de códigos e anotações em projetos de desenvolvimento, com o propósito de aprimorar a eficiência e a produtividade dos desenvolvedores de software.`,
     palavrasChave: ['Gerenciamento de Projetos', 'Desenvolvimento de Software', 'Inteligência Artificial Generativa', 'ChatGPT', 'Google Workspace', 'Dashboard Integrada'],
-    dataDefesa: '2023-03-11',
+    dataDefesa: '2023-11-03',
     links: [
       {
         label: 'Monografia',
@@ -337,13 +736,13 @@ export const allTccs = [
   },
   {
     id: 202316,
-    titulo: 'Detecção de imagens deepfake: um estudo comparativo',
+    titulo: 'DETECÇÃO DE IMAGENS DEEPFAKE: UM ESTUDO COMPARATIVO',
     autor: 'Miguel Cesar Correa',
     orientador: 'Prof. Dr. Leandro A Passos Junior',
     curso: 'BCC',
     descricao: `Com o avanço acelerado da inteligência artificial, os deepfakes - vídeos ou imagens manipulados de maneira convincente - emergiram como uma preocupação significativa na era digital. Essas falsificações hiper-realistas têm o potencial de enganar indivíduos, disseminar desinformação e comprometer a autenticidade da informação, representando uma ameaça real à segurança digital e à integridade informativa. Este trabalho aborda a necessidade de desenvolver métodos eficazes para a detecção de deepfakes, uma ferramenta essencial na luta contra a desinformação, apresentando os conceitos fundamentais da área. Este trabalho comparou três métodos estado-da-arte de detecção de imagens falsas, apresentando resultados satisfatórios, com o método que emprega medidas contra o sobre-ajuste tendo o melhor desempenho.`,
     palavrasChave: ['Deepfake', 'Detecção de Imagens Falsas', 'Inteligência Artificial', 'Segurança Digital', 'Desinformação'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -357,13 +756,13 @@ export const allTccs = [
   },
   {
     id: 202317,
-    titulo: 'Análise de dados da saúde para melhorias em políticas públicas',
+    titulo: 'ANÁLISE DE DADOS DA SAÚDE PARA MELHORIAS EM POLÍTICAS PÚBLICAS',
     autor: 'Nathan Del Grande Souza',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
     descricao: `O campo da saúde pública enfrenta desafios complexos. Questões de desigualdade na distribuição de médicos e alto deslocamento de pacientes para internações têm implicações profundas na eficiência e equidade do SUS (Sistema Único de Saúde). Este trabalho tem como objetivo investigar esses desafios críticos por meio de análises geoespaciais, gráficas e correlacionais. Visa-se avaliar a distribuição de médicos, o deslocamento de pacientes e a possível relação entre esses fatores. Além disso, busca-se fornecer uma base sólida para melhorar as políticas públicas de saúde no estado de São Paulo. O estudo empregou análises geoespaciais para mapear a distribuição de médicos, gráficos de dispersão para explorar relações entre variáveis-chave, como renda per capita e deslocamento de pacientes, e análises correlacionais com o método de Pearson para quantificar essas relações. As análises revelaram disparidades significativas na distribuição de médicos e desafios relacionados ao deslocamento de pacientes. Correlações importantes foram identificadas, mas a complexidade das variáveis sugere que há fatores adicionais a serem considerados.`,
     palavrasChave: ['Saúde Pública', 'Análise de Dados', 'Políticas Públicas', 'Desigualdade na Saúde', 'Geoespacial'],
-    dataDefesa: '2023-16-11',
+    dataDefesa: '2023-11-16',
     links: [
       {
         label: 'Monografia',
@@ -377,13 +776,13 @@ export const allTccs = [
   },
   {
     id: 202318,
-    titulo: 'Diagnóstico automático de avc pós-trauma com base na face de pacientes utilizando redes neurais em grafos',
+    titulo: 'DIAGNÓSTICO AUTOMÁTICO DE AVC PÓS-TRAUMA COM BASE NA FACE DE PACIENTES UTILIZANDO REDES NEURAIS EM GRAFOS',
     autor: 'Nícolas Barbosa Gomes',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
     descricao: `O acidente vascular cerebral (AVC) pode causar danos significativos aos neurônios, resultando em várias sequelas que afetam negativamente a capacidade do paciente de realizar atividades diárias essenciais, como mastigar, engolir e se comunicar verbalmente. Portanto, é importante que pacientes com essas dificuldades passem por um processo de tratamento e sejam monitorados durante sua execução para avaliar a melhora de sua condição de saúde. O uso de ferramentas computadorizadas e algoritmos que podem detectar rapidamente e de maneira acessível tais sequelas é útil para auxiliar na recuperação do paciente. Devido à morte das células internas do cérebro, um AVC frequentemente leva à paralisia facial, resultando em assimetria entre os dois lados do rosto. Esta monografia se concentra na análise desta assimetria usando um método de aprendizado profundo sem aplicar cálculos de características manuais, introduzindo o modelo “Facial Point Graphs” (FPG), uma abordagem inovadora que se destaca na aprendizagem de informações geométricas e no tratamento eficaz de variações, além do escopo dos cálculos manuais. O FPG permite que o modelo detecte de forma eficaz os distúrbios orofaciais causados por um AVC, a partir de imagens do paciente. A abordagem proposta atingiu acurácias superiores a 90% no conjunto de dados Toronto Neuroface, apontando para avanços substanciais neste domínio.`,
     palavrasChave: ['Acidente Vascular Cerebral', 'Redes Neurais em Grafos', 'Diagnóstico Automático', 'Assimetria Facial', 'Facial Point Graphs'],
-    dataDefesa: '2023-16-11',
+    dataDefesa: '2023-11-16',
     links: [
       {
         label: 'Monografia',
@@ -397,13 +796,13 @@ export const allTccs = [
   },
   {
     id: 202319,
-    titulo: 'Desenvolvimento de uma aplicação para análise de desempenho de grandes modelos de linguagem',
+    titulo: 'DESENVOLVIMENTO DE UMA APLICAÇÃO PARA ANÁLISE DE DESEMPENHO DE GRANDES MODELOS DE LINGUAGEM',
     autor: 'Nicole Barbosa Gomes',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
     descricao: `A linguagem é uma necessidade humana desde sua origem. Com métodos mais rudimentares ou mais rebuscados, o ser humano encontra maneiras de se comunicar. A partir do surgimento dos computadores e das mudanças proporcionadas por eles, um novo desafio também chegou: descobrir como gerar conversações com as máquinas. Os estudos a esse respeito levaram a invenções importantes que provocaram ideias antes consideradas impossíveis. A área de aprendizado de máquina foi responsável pela maior parte desses avanços e, graças ao ramo, modelos de redes neurais artificiais foram cada vez mais explorados. Como um dos resultados, os large language models, caracterizados por serem compostos por essas redes, apresentaram resultados admiráveis ao produzir textos muito parecidos com os escritos por humanos. O sucesso desses modelos despertou o interesse de empresas que passaram a desenvolver suas próprias versões. A partir disso, cresce a demanda por entender quais deles são mais apropriados para certas aplicações, e outras questões de desempenho. Com esse propósito, o projeto buscou desenvolver um site que pudesse reunir large language models a fim de que gerassem respostas baseadas em instruções do usuário. Além disso, a aplicação deveria ser capaz de receber feedbacks sobre o melhor texto para uma instrução específica e, dessa maneira, possibilitar análises dos dados coletados para descobrir os pontos fracos e fortes de cada modelo. No final do desenvolvimento, esses objetivos foram atingidos e o site se tornou uma ferramenta intuitiva, para atender a um grande público, e proveitosa para captura de informações relevantes e estudo dos retornos recebidos.`,
     palavrasChave: ['Grandes Modelos de Linguagem', 'Aprendizado de Máquina', 'Redes Neurais Artificiais', 'Análise de Desempenho', 'Processamento de Linguagem Natural'],
-    dataDefesa: '2023-16-11',
+    dataDefesa: '2023-11-16',
     links: [
       {
         label: 'Monografia',
@@ -417,13 +816,13 @@ export const allTccs = [
   },
   {
     id: 202320,
-    titulo: 'Reconhecimento de marcha humana utilizando poses 3d estimadas de múltiplas poses 2d',
+    titulo: 'RECONHECIMENTO DE MARCHA HUMANA UTILIZANDO POSES 3D ESTIMADAS DE MÚLTIPLAS POSES 2D',
     autor: 'Pedro Luiz Cason Caldato',
     orientador: 'Prof. Assoc. Aparecido Nilceu Marana',
     curso: 'BCC',
     descricao: `O reconhecimento biométrico de indivíduos é um campo de estudo amplamente explorado nos dias atuais, impulsionado pelos avanços recentes na computação e pela necessidade premente de reforçar a segurança em diversas configurações, incluindo vigilância e processos de autenticação em aplicativos como bancos e gerenciamento de documentos. Dentre as diversas abordagens biométricas desenvolvidas, destacam-se o reconhecimento facial, análise de impressões digitais, leitura da íris e reconhecimento de voz. No entanto, esses métodos geralmente exigem interação direta com os indivíduos, equipamentos especializados (no caso do reconhecimento de impressões digitais) ou imagens de alta resolução (no caso do reconhecimento facial ou de íris). Em situações que demandam reconhecimento biométrico indireto, a análise da marcha se mostra valiosa. Essa abordagem envolve a avaliação do padrão de caminhada de um indivíduo, bem como a análise de medidas relacionadas ao comprimento dos membros, como braços e pernas, a fim de identificar a pessoa comparando-a com um banco de dados existente. Este projeto tem como objetivo estabelecer uma abordagem de reconhecimento biométrico com base na marcha, utilizando representações tridimensionais de poses humanas extraídas de múltiplas imagens bidimensionais. Uma das vantagens notáveis dessa abordagem é sua maior resistência a oclusões, juntamente com um aumento na precisão do reconhecimento da marcha, alcançado por meio da incorporação de um conjunto mais abrangente de dados correlacionados provenientes de diferentes fontes de câmeras. O método proposto faz uso de uma Rede Neural Convolucional (CNN) para calcular um vetor descritivo por meio da agregação temporal das poses tridimensionais estimadas a partir de múltiplas imagens bidimensionais. A eficácia desse método foi avaliada usando as bases de dados CASIA GAIT-A e CASIA GAIT-B, resultando em taxas de precisão de 90,00% e 86,10%, respectivamente.`,
     palavrasChave: ['marca humana', 'biometria', 'poses 3D', 'redes neurais convolucionais', 'reconhecimento de padrões', 'poses 2D'],
-    dataDefesa: '2023-14-11',
+    dataDefesa: '2023-11-14',
     links: [
       {
         label: 'Monografia',
@@ -437,13 +836,13 @@ export const allTccs = [
   },
   {
     id: 202321,
-    titulo: 'Análise do desempenho de honeypots e algoritmos de machine learning em tarefas de detecção de intrusão',
+  titulo: 'Análise do desempenho de honeypots e algoritmos de Machine Learning em tarefas de detecção de intrusão',
     autor: 'Renato Leite Camilo',
     orientador: 'Prof. Dr. Kelton Augusto P da Costa',
     curso: 'BCC',
     descricao: `A cibersegurança é uma área de grande interesse na computação. A capacidade de detectar e lidar com invasores em ambientes digitais é uma preocupação para muitas pessoas e empresas. Em contrapartida, os mecanismos que proporcionam essa capacidade nem sempre são totalmente confiáveis, falhando em algumas ocasiões e causando prejuízos inimagináveis para seus usuários. Como resolução para esse problema, muito se propõe o uso de machine learning. Esse projeto emprega dois algoritmos de clustering: K-Means e DBSCAN. O objetivo é analisar seu impacto quando usados em conjuntos com outros classificadores baseados em três algoritmos de aprendizado de máquina: Support Vector Machines, Multilayer Perceptron e K-Nearest Neighbors. Além disso, é empregado o conceito de honeypots para analisar sua usabilidade como receptáculo de informações a respeito de ataques para providenciar dados aos modelos preditivos. Tudo que chega a um honeypot é considerando um ataque e esse tipo de informação pode ser aproveitado por modelos de aprendizado de máquina.`,
     palavrasChave: ['Cibersegurança', 'Ciberataques', 'Honeypots', 'Machine Learning', 'Clustering'],
-    dataDefesa: '2023-12',
+    dataDefesa: '2023-12-01',
     links: [
       {
         label: 'Monografia',
@@ -457,13 +856,13 @@ export const allTccs = [
   },
   {
     id: 202322,
-    titulo: 'Mineração de repositórios para análise de ciclos de software',
+    titulo: 'MINERAÇÃO DE REPOSITÓRIOS PARA ANÁLISE DE CICLOS DE SOFTWARE',
     autor: 'Ronaldo Rubens Gesse Junior',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
     descricao: `Em um cenário tecnológico em constante evolução, a análise para escolha dos componentes e tecnologias de forma assertiva desempenha um papel crucial no sucesso de qualquer projeto de software. Frameworks e bibliotecas são componentes essenciais que oferecem funcionalidades ao código e agilizam o processo de desenvolvimento, auxiliando times a entregar um resultado de forma mais eficiente ao usuário final. A mineração de repositórios surgiu como uma forma valiosa de obter informações sobre os códigos-fonte desses softwares, possibilitando análises que visualizem seus ciclos de vida e entendam seu estado atual. Neste trabalho foram analisados 85 softwares com métricas de tendências e correlações para os seguintes dados: número de commits e autores dos seus respectivos repositórios de código e nível do interesse relativo, com base nos dados do Google Trends para medir engajamento dos desenvolvedores. A partir disso foi possível analisar os resultados e entender se determinado projeto é realmente viável em seu estado atual de vida, se ele ainda é constantemente atualizado, tem as manutenções devidas e é procurado pela comunidade. Portanto, a aplicação da mineração de repositórios representa um passo importante em direção a um desenvolvimento mais informado e eficaz, alinhado com as necessidades do mercado.`,
     palavrasChave: ['Mineração de repositórios', 'Frameworks', 'Bibliotecas', 'Ciência de dados', 'Tendências de software', 'Análise de ciclos de software', 'Correlação de dados', 'Análise'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -477,13 +876,13 @@ export const allTccs = [
   },
   {
     id: 202323,
-    titulo: 'Estudo da eficácia de modelos de estimativa de irradiação solar na região do centro de são paulo',
+    titulo: 'ESTUDO DA EFICÁCIA DE MODELOS DE ESTIMATIVA DE IRRADIAÇÃO SOLAR NA REGIÃO DO CENTRO DE SÃO PAULO',
     autor: 'Virgilio Santinho Tagliavini',
     orientador: 'Prof. Assoc. João Eduardo Machado Perea Martins',
     curso: 'BCC',
     descricao: `A irradiação solar incidente na superfície terrestre é uma variável importante em diversas aplicações científicas e comerciais assim a capacidade de estimar e prever a irradiação solar global é necessária em diversos cenários, por isso existem diversos modelos para a estimar mas nenhum modelo é efetivo para toda a superfície terrestre. Assim, este trabalho tem como objetivo avaliar o desempenho de três modelos numéricos para estimar a irradiação solar diária para a região do centro do estado de São Paulo. Para isso foram utilizados dados meteorológicos de sete cidades do centro do estado de São Paulo disponibilizados pelo INMET para executar e registrar os resultados dos modelos estudados, então seus resultados foram comparados com os dados reais registrados utilizando medidas estatísticas e estocásticas. Os resultados inicialmente obtidos indicaram que apenas o modelo de Hargreaves e Samani é efetivo em estimar a irradiação solar incidente na região porque os resultados dos demais modelos apresentaram baixos índices de concordância com os dados reais. Para aumentar a precisão dos modelos estudados foi adicionado um coeficiente de ajuste para cada cidade e modelo, isso resultou em estimativas adequadas em todos os modelos, com altos valores nas medidas de avaliação utilizadas, mas o modelo de Hargreaves e Samani permaneceu como o modelo de maior precisão para todas as cidades estudadas, com exceção de Barra Bonita onde é o segundo modelo mais preciso. Assim, estes modelos são apropriados para a estimativa da irradiação solar na região do centro do estado de São Paulo.`,
     palavrasChave: ['Irradiação Solar', 'Modelos Numéricos', 'Estimativa', 'Centro de São Paulo', 'Avaliação de Desempenho'],
-    dataDefesa: '2023-11',
+    dataDefesa: '2023-11-01',
     links: [
       {
         label: 'Monografia',
@@ -498,13 +897,13 @@ export const allTccs = [
 
   {
     id: 202201,
-    titulo: 'Investigação de técnicas de otimização para algoritmos de aprendizagem de máquina',
+    titulo: 'INVESTIGAÇÃO DE TÉCNICAS DE OTIMIZAÇÃO PARA ALGORITMOS DE APRENDIZAGEM DE MÁQUINA',
     autor: 'André Libório de Barros Ferraz',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
     descricao: `Tendo em vista as inovações tecnológicas da última década, este trabalho busca, por meio de técnicas como vetorização utilizando AVX-512 e arcabouços computacionais para arquiteturas paralelas como o Galois, modificar algoritmos de aprendizado de máquina baseados em grafos, neste caso em particular, o OPF (Optimum‐Path Forest) com a finalidade de melhorar o seu tempo de execução.Resultados apresentam ganhos significativos com o uso da tecnologia AVX-512, particularmente nas configurações com 1 thread de até 26,84% se comparado a versão com uso de AVX2 e 112,83% se comparado a versão não vetorizada.Quanto ao Galois, fora realizado um estudo inicial que avaliou o desempenho do MST (Minimum Spanning Tree) e os resultados preliminares apontam um speedup de até 6x com o dataset Epinions. No futuro, esperase complementar a implementação do Galois para outros algoritmos de grafos baseados no OPF.`,
     palavrasChave: ['Computação de alto desempenho', 'Redes neurais', 'Informática'],
-    dataDefesa: '2022-07',
+    dataDefesa: '2022-07-01',
     links: [
       {
         label: 'Monografia',
@@ -519,7 +918,7 @@ export const allTccs = [
 
   {
     id: 202202,
-    titulo: 'Sistema para gerenciamento de despensa com utilização de data visualization',
+    titulo: 'SISTEMA PARA GERENCIAMENTO DE DESPENSA COM UTILIZAÇÃO DE DATA VISUALIZATION',
     autor: 'Karen Aya Murakawa',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -540,13 +939,13 @@ export const allTccs = [
 
   {
     id: 202203,
-    titulo: 'Auxílio ao diagnóstico de ela e avc através de expressão facial',
+    titulo: 'AUXÍLIO AO DIAGNÓSTICO DE ELA E AVC ATRAVÉS DE EXPRESSÃO FACIAL',
     autor: 'Leonardo Silva de Oliveira',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
     descricao: `O presente trabalho foca em verificar a possibilidade do auxílio ao diagnóstico de pessoas que possuem ou não doenças neurológicas através do estudo das expressões faciais. O trabalho utiliza a ferramenta de extração de Action Units (py-feat) para extrair informações de alguns vídeos, para serem analisados onde nesses vídeos voluntários realizaram algumas tarefas de fala ou movimento olhando para a câmera. Através desses actions units extraídos, uma análise exploratória foi feita dos dados extraídos e alguns testes de predição de classificação de algoritmos específicos de aprendizado de máquina para classificar quais dos pacientes possuíam ou não algum tipo de doença. Por fim, o trabalho apresenta a conclusão com base nos resultados que apresentaram pontuações altas para tarefas e algoritmos específicos e depois alguns possíveis trabalhos futuros.`,
     palavrasChave: ['Aprendizado Artificial', 'Reconhecimento Facial', 'Diagnóstico de doenças neurológicas', 'Actions Units', 'Inteligência Artificial', 'Ciência de Dados'],
-    dataDefesa: '2022-07',
+    dataDefesa: '2022-07-01',
     links: [
       {
         label: 'Monografia',
@@ -561,13 +960,13 @@ export const allTccs = [
 
   {
     id: 202204,
-    titulo: 'Resolução do problema de escalonamento de enfermeiros em hospital utilizando simulated annealing',
+    titulo: 'RESOLUÇÃO DO PROBLEMA DE ESCALONAMENTO DE ENFERMEIROS EM HOSPITAL UTILIZANDO SIMULATED ANNEALING',
     autor: 'Lucas Henrique Russo do Nascimento',
     orientador: 'Profª. Drª. Andréa Carla Gonçalves Vianna',
     curso: 'BCC',
     descricao: `O Problema de Escalonamento de Enfermeiros se baseia em definir em quais dias e turnos cada enfermeiro trabalhará respeitando a demanda do hospital. Geralmente, nas instituições hospitalares, essa escala é definida manualmente por uma pessoa responsável a cada mês. Como a quantidade de combinações possíveis é muito grande, encontrar uma escala adequada pode levar muito tempo, além de demandar muita experiência da pessoa encarregada. Este trabalho propõe a resolução do problema utilizando a metaheurística Simulated Annealing para determinar uma solução do Problema de Escalonamento de Enfermeiros. Os resultados são apresentados de forma a avaliar a qualidade da solução obtida. Foram feitos diversos testes computacionais comprovando a viabilidade da metaheurística proposta.`,
     palavrasChave: ['Problema de Escalonamento de Enfermeiros','Metaheurísticas', 'Simulated Annealing', 'Otimização Matemática'],
-    dataDefesa: '2022-08',
+    dataDefesa: '2022-08-01',
     links: [
       {
         label: 'Monografia',
@@ -582,7 +981,7 @@ export const allTccs = [
 
   {
     id: 202205,
-    titulo: 'Detecção de esteganografia em imagens utilizando aprendizado de máquina',
+    titulo: 'DETECÇÃO DE ESTEGANOGRAFIA EM IMAGENS UTILIZANDO APRENDIZADO DE MÁQUINA',
     autor: 'Matheus Esquinelato Polachini',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -603,13 +1002,13 @@ export const allTccs = [
 
   {
     id: 202206,
-    titulo: 'Ferramenta de coleta e análise de dados de licitações públicas',
+    titulo: 'FERRAMENTA DE COLETA E ANÁLISE DE DADOS DE LICITAÇÕES PÚBLICAS',
     autor: 'Matheus Yuichi Yamashiro',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
     descricao: `O mundo conectado atual vêm causando grandes mudanças no dia-a-dia das pessoas. Uma delas é a quantidade de informações consumidas e produzidas. Isso vêm crescendo de maneira tão alarmante que já não é mais possível analisar essas informações de maneira manual. É necessário automatizá-las. Contudo, a maneira que as pessoas pensam e se comunicam, seja pessoalmente ou por meios informatizados (pela internet), é fundamentalmente diferente da maneira que os computadores o fazem. Assim, é necessário gerar métodos e interfaces para que os computadores, capazes de processar um volume de dados muito maior que os humanos, entendam e utilizem os dados gerados pelas pessoas. A área de pesquisa de Processamento de Linguagem Natural (PLN) é justamente isso, desenvolver técnicas para que os computadores processem dados textuais gerados por- humanos-para-humanos de maneira automática. Neste trabalho, foi realizado um estudo sobre esta área de pesquisa, algumas técnicas implementadas e aplicadas em dados de licitações públicas da Prefeitura de Bauru, e desenvolvida uma interface web para a visualização dos resultados obtidos.`,
     palavrasChave: ['Processamento de Linguagem Natural', 'Desenvolvimento web', 'Licitações Públicas'],
-    dataDefesa: '2022-08',
+    dataDefesa: '2022-08-01',
     links: [
       {
         label: 'Monografia',
@@ -624,13 +1023,13 @@ export const allTccs = [
 
   {
     id: 202207,
-    titulo: 'Criptowatcher: robô de investimento em criptomoedas utlizando algoritmo de arbitragem triangular',
+    titulo: 'CRIPTOWATCHER: ROBÔ DE INVESTIMENTO EM CRIPTOMOEDAS UTLIZANDO ALGORITMO DE ARBITRAGEM TRIANGULAR',
     autor: 'Maurício Sugimoto Polloni',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
     descricao: `Por possuírem alta volatilidade, criptomoedas, como Bitcoin, Ethereum, Dogecoin em um curto espaço de tempo e em alta frequência, tem expressiva variação de preços. O processo de negociações, envolvendo o atos de compra ou venda destas criptomoedas, denominado trade, pode se mostrar ineficiente e inseguro se executado de forma manual. Neste cenário, foi produzido um robô de investimentos para executar estas negociações de forma automática, ininterrupta e que conseguisse acompanhar a volatilidade das criptomoedas. Este robô foi desenvolvido utilizando a linguagem de programação Python e alocado na plataforma de computação em nuvem AWS. Nele foi implementado o algoritmo de arbitragem triangular, com objetivo de ganho tanto na alta, quanto na baixa. Como resultado foi feito um protótipo para monitorar os preços e executar ações de trade através da API da corretora de investimentos em criptomoedas Binance.`,
     palavrasChave: ['Criptomoedas', 'Algoritmo de Arbitragem', 'Arbitragem Triangular', 'Licitações Públicas'],
-    dataDefesa: '2022-07',
+    dataDefesa: '2022-07-01',
     links: [
       {
         label: 'Monografia',
@@ -645,7 +1044,7 @@ export const allTccs = [
 
   {
     id: 202208,
-    titulo: 'Segurança em web3 : vulnerabilidades em carteiras digitais baseadas em navegadores',
+    titulo: 'SEGURANÇA EM WEB3 : VULNERABILIDADES EM CARTEIRAS DIGITAIS BASEADAS EM NAVEGADORES',
     autor: 'Caio Castilho Donato Regal',
     orientador: 'Prof. Me. Luiz Felipe de Camargo',
     curso: 'BCC',
@@ -666,7 +1065,7 @@ export const allTccs = [
 
   {
     id: 202209,
-    titulo: 'Módulo de reconhecimento de gestos para ambientes de realidade aumentada',
+    titulo: 'MÓDULO DE RECONHECIMENTO DE GESTOS PARA AMBIENTES DE REALIDADE AUMENTADA',
     autor: 'Davi Augusto Neves Leite',
     orientador: 'Prof. Dr. Antonio Carlos Sementille',
     curso: 'BCC',
@@ -687,13 +1086,13 @@ export const allTccs = [
 
   {
     id: 202210,
-    titulo: 'Aplicação de técnicas de ensemble learning na detecção estática e dinâmica de malwares',
+    titulo: 'APLICAÇÃO DE TÉCNICAS DE ENSEMBLE LEARNING NA DETECÇÃO ESTÁTICA E DINÂMICA DE MALWARES',
     autor: 'Denis Henrique dos Santos',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
     descricao: `Com o constante aumento do uso de tecnologia no dia a dia a importância da segurança da informação cresce drasticamente, levando à existência de malwares ser uma ameaça ao funcionamento de sistemas e dados importantes, requisitando formas de combatê-los. Modelos de ensemble learning são modelos de aprendizado de máquina que utilizam vários algoritmos para chegar a resultados de um determinado problema. Este trabalho propõe um sistema de detecção de malware utilizando modelos ensemble learning dos tipos bagging, boosting e stacking, usando o conjunto de dados Malevis para análise estática e o conjunto de dados Top-1000 PE Imports para análise dinâmica. Os modelos foram treinados e os resultados foram comparados com outro sistema de detecção de malware. Os resultados obtidos foram satisfatórios, especialmente os da análise dinâmica, com modelos do tipo bagging e stacking mostrando maior desempenho em ambos os cenários, enquanto que os modelos do tipo boosting apresentaram maior dificuldade em chegar a resultados mais eficazes com os conjuntos de dados usados.`,
     palavrasChave: ['Malware', 'Aprendizado de máquina', 'Ensemble learning'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -708,7 +1107,7 @@ export const allTccs = [
 
   {
     id: 202211,
-    titulo: 'Jogo sério para simulação e conscientização de problemas relacionados à mobilidade urbana',
+    titulo: 'JOGO SÉRIO PARA SIMULAÇÃO E CONSCIENTIZAÇÃO DE PROBLEMAS RELACIONADOS À MOBILIDADE URBANA',
     autor: 'Eduardo Antonio Comerão Stecca Almeida',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -729,13 +1128,13 @@ export const allTccs = [
 
   {
     id: 202212,
-    titulo: 'Inteligência artificial explicável com lime e shap aplicada à rede neural convolucional',
+    titulo: 'INTELIGÊNCIA ARTIFICIAL EXPLICÁVEL COM LIME E SHAP APLICADA À REDE NEURAL CONVOLUCIONAL',
     autor: 'Fabricio Steinle Amoroso',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
     descricao: `Modelos de inteligência artificial estão presentes na vida cotidiana nos mais diversos contextos, como sistemas médicos para auxílio na detecção de doenças e motores de busca, estando, por vezes, presentes até de maneira transparente aos usuários como no caso de algoritmos de recomendação de produtos. Ao passo que a adoção de IA cresce, a complexidade dos sistemas de inteligência artificial também aumenta, tornando mais desafiadora a tarefa de compreender como foi obtido determinado resultado. Refere-se a estes modelos complexos como caixa-preta, devido à sua dificuldade de interpretação. Inteligência artificial explicável pode ser utilizada para compreender como os modelos complexos, como redes neurais convolucionais, que são amplamente aplicados, chegam a seus resultados. É proposto neste projeto de conclusão de curso, implementar técnicas de inteligência artificial explicável utilizando duas das ferramentas mais populares neste contexto: LIME e SHAP, ambas aplicadas a um modelo de rede neural convolucional utilizado para classificar imagens de exames médicos de escrita, pertencentes a um grupo de indivíduos saudáveis e outro grupo de pacientes de Parkinson. Através dos resultados obtidos foi possível obter explicações sobre o modelo descrito que podem ser interpretadas por seres humanos.`,
     palavrasChave: ['Inteligência Artificial Explicável', 'LIME', 'Parkinson', 'Rede Neural Convolucional', 'SHAP'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -750,13 +1149,13 @@ export const allTccs = [
 
   {
     id: 202213,
-    titulo: 'Trabalhante : rede social para facilitar turnover em trabalhos rotativos',
+    titulo: 'TRABALHANTE : REDE SOCIAL PARA FACILITAR TURNOVER EM TRABALHOS ROTATIVOS',
     autor: 'Felipe Kroitor Cara Modena',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
     descricao: `O turnover é uma medida usada para avaliar a rotatividade de funcionários em uma empresa, ou seja, o número de funcionários que deixam a empresa em um determinado período de tempo. É considerado um indicador importante da saúde e da cultura organizacional de uma empresa, pois pode indicar problemas como falta de satisfação no trabalho, baixa remuneração ou falta de oportunidades de crescimento. A proposta apresentada é de desenvolver uma rede social, onde os usuários podem criar perfis, se conectar com outros profissionais e compartilhar suas experiências de trabalho. Os usuários também podem avaliar as empresas e funcionários com os quais trabalharam, informando o nível de satisfação no trabalho, a remuneração e o nível de oportunidades de crescimento oferecidas. Com essas informações, o software cria uma base de dados completa e atualizada sobre as empresas e funcionários avaliados, permitindo que outros profissionais vejam as avaliações e tomem decisões informadas sobre suas carreiras. Além disso, as empresas também podem acessar o software e ver as avaliações de seus funcionários, o que as ajuda a entender melhor os pontos fortes e fracos de sua cultura organizacional e a tomar medidas para melhorar a satisfação no trabalho de seus funcionários.`,
     palavrasChave: ['rotatividade profissional', 'software', 'empresas', 'inteligência de negócios', 'contratação', 'rede social', 'recomendação profissional', 'inovação'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -771,7 +1170,7 @@ export const allTccs = [
 
   {
     id: 202214,
-    titulo: 'Software para gestão de inventário de crédito de carbono visando a compensação da emissão de gases de efeito estufa',
+    titulo: 'SOFTWARE PARA GESTÃO DE INVENTÁRIO DE CRÉDITO DE CARBONO VISANDO A COMPENSAÇÃO DA EMISSÃO DE GASES DE EFEITO ESTUFA',
     autor: 'Gabriel Dadamos Rossetto',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -792,13 +1191,13 @@ export const allTccs = [
 
   {
     id: 202215,
-    titulo: 'Uso da computação gráfica para ensino de astronomia: desenvolvimento de um software educacional utilizando unity',
+    titulo: 'USO DA COMPUTAÇÃO GRÁFICA PARA ENSINO DE ASTRONOMIA: DESENVOLVIMENTO DE UM SOFTWARE EDUCACIONAL UTILIZANDO UNITY',
     autor: 'Gabriel Francisco Sahm Gallo',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
     descricao: `Com o passar do tempo, percebeu-se que os alunos estão cada vez mais tecnológicos, porém o modo de ensinar e as ferramentas utilizadas pelos docentes não estão acompanhando essa mudança, principalmente na área de Astronomia. Durante o ensino de Astronomia, alguns temas são explicados de modo que o aluno consiga entender, porém nos assuntos complexo, tais como a comparação de tamanho dos planetas não é possível ter um total entendimento. Para resolver tal problema, este trabalho apresenta um software educativo que tem o objetivo de simular o Sistema Solar para auxiliar os docentes à explicarem e apresentarem conceitos de Astronomia, tais como as escalas, velocidades, movimentos e órbitas dos objetos celestiais.`,
     palavrasChave: ['Astronomia', 'Ensino', 'Softwares educativos', 'Simulador'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -813,13 +1212,13 @@ export const allTccs = [
 
   {
     id: 202216,
-    titulo: 'Uma aplicação web para análise comparativa de meta-heuristicas de otimização',
+    titulo: 'UMA APLICAÇÃO WEB PARA ANÁLISE COMPARATIVA DE META-HEURISTICAS DE OTIMIZAÇÃO',
     autor: 'Giovani Candido',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
     descricao: `Nas últimas décadas, a demanda por uma melhor administração de recursos como tempo e dinheiro tem crescido na sociedade, fazendo com que problemas de otimização sejam cada vez mais estudados por áreas como pesquisa operacional e ciência da computação. No entanto, as técnicas tradicionais de otimização não são eficientes para lidar com os problemas desafiadores encontrados no mundo real. Nesse cenário, as meta-heurísticas se apresentam como uma alternativa interessante, uma vez que são capazes de encontrar soluções satisfatórias para inúmeros problemas. Logo, faz-se necessário o desenvolvimento de uma ferramenta que traga as mais populares entre essas abundantes técnicas, acompanhadas de distintos problemas artificiais de teste que traduzam suas performances, viabilizando a rápida realização de análises comparativas. Neste trabalho, estudou-se as meta-heurísticas e as funções de teste mais empregadas na literatura, visando a criação de um ambiente web. Dentre as funcionalidades dessa aplicação, pode-se citar o ajuste de parâmetros de execução, a apresentação do progresso das tarefas em tempo real, a persistência dos dados de execução, a apresentação dos resultados juntamente com dados estatísticos e a produção de gráficos de convergência.`,
     palavrasChave: ['Aplicação Web', 'Análise Comparativa', 'Meta-heurísticas', 'Funções de Teste', 'Otimização Matemática'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -834,7 +1233,7 @@ export const allTccs = [
 
   {
     id: 202217,
-    titulo: 'Aplicação de algoritmo genético para roteirização e carregamento de veículo',
+    titulo: 'APLICAÇÃO DE ALGORITMO GENÉTICO PARA ROTEIRIZAÇÃO E CARREGAMENTO DE VEÍCULO',
     autor: 'Giulia Rossatto Rocha',
     orientador: 'Profª. Drª. Márcia A Zanoli Meira e Silva',
     curso: 'BCC',
@@ -855,7 +1254,7 @@ export const allTccs = [
 
   {
     id: 202218,
-    titulo: 'Sistema de gerenciamento de uma fazenda',
+    titulo: 'SISTEMA DE GERENCIAMENTO DE UMA FAZENDA',
     autor: 'Guilherme Vieira Siena Martins',
     orientador: 'Profª. Drª. Andréa Carla Gonçalves Vianna',
     curso: 'BCC',
@@ -876,7 +1275,7 @@ export const allTccs = [
 
   {
     id: 202219,
-    titulo: 'Paralelização da técnica de extração de pontos de interesse foagdd utilizando a arquitetura cuda',
+    titulo: 'PARALELIZAÇÃO DA TÉCNICA DE EXTRAÇÃO DE PONTOS DE INTERESSE FOAGDD UTILIZANDO A ARQUITETURA CUDA',
     autor: 'Gustavo Henrique Stahl',
     orientador: 'Prof. Dr. Antonio Carlos Sementille',
     curso: 'BCC',
@@ -897,13 +1296,13 @@ export const allTccs = [
 
   {
     id: 202220,
-    titulo: 'Sobre detecção de intrusão com aprendizado de máquina: estudo da aplicação de ensemble learning e clusterização na melhoria de desempenho',
+    titulo: 'SOBRE DETECÇÃO DE INTRUSÃO COM APRENDIZADO DE MÁQUINA: ESTUDO DA APLICAÇÃO DE ENSEMBLE LEARNING E CLUSTERIZAÇÃO NA MELHORIA DE DESEMPENHO',
     autor: 'Inaê Soares de Figueiredo',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
     descricao: `Sistemas de detecção de intrusão em redes de computadores têm uma grande importância na manutenção da segurança de uma rede e são foco constante de pesquisas que buscam aprimorar IDSs já existentes ou desenvolver novos ainda melhores. Este trabalho apresenta um estudo dos modelos de aprendizado de máquina autoencoder e Restricted Boltzmann Machine, comprovadamente efetivos na detecção de intrusão. Os modelos são comparados e busca-se melhorá-los por meio da aplicação de técnicas de clusterização e ensemble learning (majority-voting). As métricas mostraram-se pouco afetadas pela aplicação das técnicas de melhoria individualmente, mas bons resultados foram obtidos ao combiná-las, alçando 84,71% de acurácia e 91,31% F1-score no dataset KDD99.`,
     palavrasChave: ['Sistema de detecção de intrusão', 'aprendizado de máquina', 'redes de computadores'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -918,13 +1317,13 @@ export const allTccs = [
 
   {
     id: 202221,
-    titulo: 'Desenvolvimento de um sistema de simulação computacional de ocorrência de chuvas',
+    titulo: 'DESENVOLVIMENTO DE UM SISTEMA DE SIMULAÇÃO COMPUTACIONAL DE OCORRÊNCIA DE CHUVAS',
     autor: 'João Pedro Olimpio',
     orientador: 'Prof. Dr. João Eduardo Machado Perea Martins',
     curso: 'BCC',
     descricao: `O presente trabalho objetiva o desenvolvimento de um sistema de simulação computacional que seja capaz de representar o regime de chuvas para a cidade de Bauru, São Paulo. Para tanto, serão considerados dois aspectos do fenômeno precipitação: a possibilidade de sua ocorrência em determinado dia e a probabilidade de acontecer em certa intensidade. A possibilidade de ocorrência será gerada a partir do uso do conceito de cadeia de Markov, que é uma sequência finita de estados, na qual a transição a um estado presente apenas depende do estado que imediatamente o antecede. Neste trabalho, cada estado representa um dia do ano, que possui uma probabilidade de transição para o dia seguinte calculada com base no padrão de chuvas dos dados analisados. Já a intensidade de chuva será determinada por uma distribuição de probabilidades em classes de magnitude, de forma que cada classe possua uma condição de entrada que, se satisfeita, irá determinar em qual faixa de magnitude a chuva do dia ocorrerá. Os intervalos de tempo analisados, para gerar os valores de probabilidade, serão variados com o objetivo de validar a hipótese de que, ao se utilizar períodos menores, maior é a fidelidade do modelo de simulação ao sistema real e melhor é o resultado simulado, em termos de sua assertividade.`,
     palavrasChave: ['sistema de simulação', 'chuva', 'cadeia de Markov'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -939,7 +1338,7 @@ export const allTccs = [
 
   {
     id: 202222,
-    titulo: 'Programação das bombas hidráulicas para otimização energética em sistemas de abastecimento de água utilizando python e o software epanet',
+    titulo: 'PROGRAMAÇÃO DAS BOMBAS HIDRÁULICAS PARA OTIMIZAÇÃO ENERGÉTICA EM SISTEMAS DE ABASTECIMENTO DE ÁGUA UTILIZANDO PYTHON E O SOFTWARE EPANET',
     autor: 'Larissa de Castro Bonadio',
     orientador: 'Profª. Drª. Edilane Martins Soler',
     curso: 'BCC',
@@ -960,13 +1359,13 @@ export const allTccs = [
 
   {
     id: 202223,
-    titulo: 'Visualização de dados e análise do mercado de ações brasileiro',
+    titulo: 'VISUALIZAÇÃO DE DADOS E ANÁLISE DO MERCADO DE AÇÕES BRASILEIRO',
     autor: 'Luciano Eiji Tanaka',
     orientador: 'Prof. Dr. João Pedro Albino',
     curso: 'BCC',
     descricao: `O mercado de ações é uma das áreas mais populares dentro do mercado financeiro, hoje em dia, através da popularização da internet, da mídia e da democratização da informação, tornou-se uma das formas mais comuns de obtenção de renda alternativa. A previsão do preço das ações sempre foi muito pesquisada, mas devido à sua natureza dinâmica e volátil, é considerada uma das tarefas mais difíceis no campo da matemática e da ciência da computação. O mercado é afetado por vários fatores macroeconômicos, como políticas governamentais, relações internacionais, cenário econômico, expectativas e psicologia dos investidores, etc. O presente trabalho busca combinar sistemas inteligentes para prever os preços finais das ações do índice Bovespa, que são as mais consolidadas e negociadas no mercado. Conceitos sobre mercado financeiro, aprendizado de máquina e visualização de dados serão estudados para dar suporte ao projeto. Foram propostos modelos para analisar e encontrar padrões nos preços das ações, bem como indicar tendências de longo prazo, e por fim a implementação do projeto para uso geral. Para as análises foram utilizados os dados de janeiro de 2012 a julho de 2022, disponíveis na seção de cotações históricas diretamente do site da B3. O estudo foi desenvolvido utilizando redes neurais e uma máquina de vetores de suporte utilizando dados do preço de fechamento das ações negociadas na bolsa de valores.`,
     palavrasChave: ['Redes neurais', 'redes neurais artificiais', 'máquina de vetor de suporte', 'mercado de ações', 'LSTM', 'previsão de valores', 'ciência de dados'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -981,7 +1380,7 @@ export const allTccs = [
 
   {
     id: 202224,
-    titulo: 'Sistema de reconhecimento biométrico de múltiplas pessoas baseado em métodos de estimação de pose e rastreamento de objetos',
+    titulo: 'SISTEMA DE RECONHECIMENTO BIOMÉTRICO DE MÚLTIPLAS PESSOAS BASEADO EM MÉTODOS DE ESTIMAÇÃO DE POSE E RASTREAMENTO DE OBJETOS',
     autor: 'Luís Henrique Morélli',
     orientador: 'Prof. Dr. Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -1002,13 +1401,13 @@ export const allTccs = [
 
   {
     id: 202225,
-    titulo: 'Uma aplicação web para análise comparativa de seleção de características baseadas em meta-heuristicas',
+    titulo: 'UMA APLICAÇÃO WEB PARA ANÁLISE COMPARATIVA DE SELEÇÃO DE CARACTERÍSTICAS BASEADAS EM META-HEURISTICAS',
     autor: 'Luiz Fernando Merli de Oliveira Sementille',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
     descricao: `Nos dias atuais, é notório o crescimento da importância que as técnicas de aprendizado de máquina têm tido em virtude da massiva quantidade de dados presentes na Internet. Dentre as situações em que o aprendizado de máquina pode ser empregado, pode-se citar a detecção de tumores em exames médicos, a identificação de perfis de consumo e a detecção de intrusões em redes de computadores. Diante desse contexto, uma das etapas mais importantes para que um sistema de aprendizado tenha desempenhos satisfatórios é a seleção de aracterísticas. Esta etapa envolve aplicar algoritmos ao vetor de características, com a finalidade de encontrar um subconjunto deste vetor tal que aumente a acurácia na classificação e reduza a complexidade do modelo de aprendizado, podendo assim ser compreendida como um problema de otimização NPDifícil. Deste modo, a utilização de métodos determinísticos não apresenta bom desempenho, tornando as meta-heurísticas, técnicas que se baseiam em comportamentos ótimos encontrados na natureza, excelentes candidatas para esse tipo de problema. Assim sendo, o presente projeto visa o desenvolvimento e implementação de uma aplicação web cujo objetivo é permitir a comparação de tarefas de seleção de características baseadas em técnicas meta-heurísticas.`,
     palavrasChave: ['Aplicação Web', 'Seleção de Características', 'Meta-Heurística'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -1023,13 +1422,13 @@ export const allTccs = [
 
   {
     id: 202226,
-    titulo: 'Análise do crescimento da indústria dos jogos digitais',
+    titulo: 'ANÁLISE DO CRESCIMENTO DA INDÚSTRIA DOS JOGOS DIGITAIS',
     autor: 'Michel Marques Mbakirtzis',
     orientador: 'Prof. Dr. João Pedro Albino',
     curso: 'BCC',
     descricao: `Este trabalho possui como objetivo entender o contexto que tem levado ao expressivo crescimento histórico da indústria de jogos digitais ao redor do mundo, partindo de pesquisas bibliográficas sobre as características dessa indústria, este trabalho se propõe a identificar elementos mercadológicos, tecnológicos, sociais e pandêmicos que contribuíram positivamente para o aumento do faturamento e crescimento da base de usuários. Após realizada a abordagem das principais características do mercado de jogos, este trabalho apresenta um modelo de visualização em Dashboard desenvolvido em Power BI, apresentando de modo dinâmico e interativo o progresso dos números obtidos pelo setor de jogos digitais desde seus primórdios.`,
     palavrasChave: ['Jogos Digitais', 'Dashboard', 'Power BI'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -1044,7 +1443,7 @@ export const allTccs = [
 
   {
     id: 202227,
-    titulo: 'Organizador de rotinas dinâmico',
+    titulo: 'ORGANIZADOR DE ROTINAS DINÂMICO',
     autor: 'Rafael Kawagoe Gomes Muller',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1065,7 +1464,7 @@ export const allTccs = [
 
   {
     id: 202228,
-    titulo: 'Dashboard para análise de dados climáticos de bauru',
+    titulo: 'DASHBOARD PARA ANÁLISE DE DADOS CLIMÁTICOS DE BAURU',
     autor: 'Rafael Mendes Costa',
     orientador: 'Prof. Dr. João Pedro Albino',
     curso: 'BCC',
@@ -1086,7 +1485,7 @@ export const allTccs = [
 
   {
     id: 202229,
-    titulo: 'Caminho ótimo em malha dinâmica bidimensional',
+    titulo: 'CAMINHO ÓTIMO EM MALHA DINÂMICA BIDIMENSIONAL',
     autor: 'Rafael Nunes Caseiro',
     orientador: 'Profª.Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1107,13 +1506,13 @@ export const allTccs = [
 
   {
     id: 202230,
-    titulo: 'Gamificação de exercícios físicos com lousa inteligente',
+    titulo: 'GAMIFICAÇÃO DE EXERCÍCIOS FÍSICOS COM LOUSA INTELIGENTE',
     autor: 'Rafael Ragozoni Conrado',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
     descricao: `Realizar atividades físicas são importantes para uma vida saudável e equilibrada. Existem muitos exercícios físicos elaborados de forma a estimular diferentes aspectos do corpo, como o sistema cardiovascular ou cada um dos tecidos musculares, a fim de buscar otimizar seus benefícios. Porém, é possível observar certa resistência a sua realização rotineira tendo em vista sua natureza monótona e repetitiva. Com o objetivo de superar essa barreira presente em diversas tarefas, pode-se recorrer a gamificação, que usa elementos típicos de jogos, sobretudo digitais, para tornar mais interessante quaisquer atividades. Foram utilizados conceitos de gamificação aplicados no contexto de exercício físico para buscar estimular a realização de atividade física entre adultos, e contribuir para a manutenção de uma vida ativa entre os usuários. Isso foi feito por meio de um software gamificado feito na plataforma Unity para ser usado na lousa inteligente Huawei IdeaHub que conta com um sistema operacional Windows e uma câmera. O software possui um menu com estatísticas, conquistas e exercícios com descrição da atividade. Com isso, o usuário realiza exercícios providenciados pelo software, visualizando informações sobre a atividade e com a câmera do IdeaHub, capturando os movimentos para contar os exercícios.`,
     palavrasChave: ['Gamificação', 'Lousa Inteligente', 'Exercícios Físicos'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -1128,7 +1527,7 @@ export const allTccs = [
 
   {
     id: 202231,
-    titulo: 'Uma estratégia de futebol de robôs baseada em aprendizado por reforço',
+    titulo: 'UMA ESTRATÉGIA DE FUTEBOL DE ROBÔS BASEADA EM APRENDIZADO POR REFORÇO',
     autor: 'Rodrigo Cesar Barboza Rossetti',
     orientador: 'Prof. Dr. Renê Pegoraro',
     curso: 'BCC',
@@ -1149,13 +1548,13 @@ export const allTccs = [
 
   {
     id: 202232,
-    titulo: 'Um sistema de telemetria com tecnologias gsm/gprs para a área ambiental',
+    titulo: 'UM SISTEMA DE TELEMETRIA COM TECNOLOGIAS GSM/GPRS PARA A ÁREA AMBIENTAL',
     autor: 'Samuel Cabral',
     orientador: 'Prof. Dr. João Eduardo Machado Perea Martins',
     curso: 'BCC',
     descricao: `O monitoramento ambiental remoto é importante sob o ponto de vista social, ecológico e agrícola, pois oferece melhor visualização do estado de um ambiente e, consequentemente, providencia o melhor controle dele. A fim de criar uma maneira de monitorar um parâmetro físico ambiental à distância, mesmo sem rede Wi-Fi, este trabalho propõe e detalha o desenvolvimento de um sistema de monitoramento ambiental remoto utilizando rede GSM e GPRS. Os dados de temperatura e umidade relativa do ar são lidos através de sensores, verificados e analisados pela placa Arduino UNO, e transmitidos para um servidor na web através de rede GPRS, podendo ser exibidos e analisados através de um front-end composto de páginas na web. O sistema utiliza um serviço de hospedagem na web para armazenamento dos arquivos das páginas, scripts e sistema de gerenciamento de banco de dados. Além da transmissão de dados através da Internet, caso os valores das medições físicas ultrapassem limites definidos, o usuário é automaticamente notificado através de mensagens alerta de SMS em seu telefone, utilizando a tecnologia de rede GSM.`,
     palavrasChave: ['Internet das Coisas', 'Arduino', 'Redes de dados', 'Sensores'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -1170,7 +1569,7 @@ export const allTccs = [
 
   {
     id: 202233,
-    titulo: 'Acessibilidade web: metodologia de diagnóstico e implementação de sites acessíveis',
+    titulo: 'ACESSIBILIDADE WEB: METODOLOGIA DE DIAGNÓSTICO E IMPLEMENTAÇÃO DE SITES ACESSÍVEIS',
     autor: 'Sarah Rodrigues Campos',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1191,7 +1590,7 @@ export const allTccs = [
 
   {
     id: 202234,
-    titulo: 'Smart campus: um estudo sobre visão computacional para detecção de pessoas em filas',
+    titulo: 'SMART CAMPUS: UM ESTUDO SOBRE VISÃO COMPUTACIONAL PARA DETECÇÃO DE PESSOAS EM FILAS',
     autor: 'Thiago Esteves La Scala',
     orientador: 'Prof. Me. Luiz Felipe de Camargo',
     curso: 'BCC',
@@ -1212,13 +1611,13 @@ export const allTccs = [
 
   {
     id: 202235,
-    titulo: 'Detecção de páginas de phishing utilizando aprendizado de máquina',
+    titulo: 'DETECÇÃO DE PÁGINAS DE PHISHING UTILIZANDO APRENDIZADO DE MÁQUINA',
     autor: 'Vinicius Machado Coutinho',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
     descricao: `Com o avanço da Internet e o aumento de serviços digitais, tentativas de fraudes online, como o phishing, se tornaram um problema cada vez maior. Devido ao contínuo aumento e evolução desses ataques, há a necessidade do desenvolvimento e aprimoramento de métodos para detecção deles. Neste trabalho, foi criado um sistema de detecção de páginas de phishing, utilizando técnicas de aprendizado de máquina como Árvore de Decisão, Floresta Aleatória, Árvores Extremamente Aleatórias e XGBoost. Os modelos foram desenvolvidos com um conjunto de dados de 88.647 entradas e mediu-se suas efetividades através de métricas já estabelecidas na área de aprendizado de máquina. Os resultados obtidos foram promissores, com o modelo XGBoost apresentando o melhor resultado, mostrando-se eficaz para a detecção de páginas da internet falsas.`,
     palavrasChave: ['Aprendizado de máquinas', 'Inteligência Artificial', 'Fraude na Internet', 'Árvores de Decisão'],
-    dataDefesa: '2023-01',
+    dataDefesa: '2023-01-01',
     links: [
       {
         label: 'Monografia',
@@ -1233,7 +1632,7 @@ export const allTccs = [
 
   {
     id: 202236,
-    titulo: 'Técnicas de inteligência artificial para diagnóstico de acidente vascular cerebral através de imagens e dados textuais sobre possíveis vítimas',
+    titulo: 'TÉCNICAS DE INTELIGÊNCIA ARTIFICIAL PARA DIAGNÓSTICO DE ACIDENTE VASCULAR CEREBRAL ATRAVÉS DE IMAGENS E DADOS TEXTUAIS SOBRE POSSÍVEIS VÍTIMAS',
     autor: 'Vinicius de Paula Pilan',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -1254,7 +1653,7 @@ export const allTccs = [
 
   {
     id: 202401,
-    titulo: 'Em busca da aplicação de protocolos de roteamento para evitar ataques do tipo buraco negro',
+    titulo: 'EM BUSCA DA APLICAÇÃO DE PROTOCOLOS DE ROTEAMENTO PARA EVITAR ATAQUES DO TIPO BURACO NEGRO',
     autor: 'Alex Luiz Domingues Cassinelli',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -1284,7 +1683,7 @@ export const allTccs = [
     curso: 'BCC',
     descricao: `O presente trabalho visa ao desenvolvimento de um software para automação da interpretação de demonstrações financeiras, denominado IDF (Interpretador de Demonstrações Financeiras). O objetivo é facilitar a análise financeira, calculando e interpretando automaticamente índices de liquidez, estrutura de capital e rentabilidade, essenciais para a avaliação econômica das empresas. Utilizando uma abordagem modular e a linguagem Python com bibliotecas específicas como Pandas e ReportLab, o sistema processa dados extraídos de planilhas financeiras, gerando relatórios detalhados. O estudo exploratório se apoiou em revisão bibliográfica e experimentação com dados reais, comparando os resultados do sistema com análises manuais para validar a precisão e consistência do software. Os resultados indicam que o IDF pode otimizar o tempo de análise e fornecer interpretações padronizadas e confiáveis, beneficiando profissionais da área financeira na tomada de decisões estratégicas. O trabalho conclui que a automação da análise financeira é uma ferramenta valiosa para a modernização da contabilidade e pode ser expandida para outras áreas financeiras.`,
     palavrasChave: ['contabilidade', 'análise financeira', 'automatização', 'índices financeiros'],
-    dataDefesa: '2024-11',
+    dataDefesa: '2024-11-01',
     links: [
       {
         label: 'Monografia',
@@ -1557,7 +1956,7 @@ export const allTccs = [
     curso: 'BCC',
     descricao: `Com a popularização da internet, crimes virtuais como o phishing estão se tornando cada vez mais comuns. Em função disto, torna-se necessário o desenvolvimento de métodos de detecção simples para proteger a população. Este trabalho propõe a criação de uma aplicação simplificada para a detecção destes ataques, utilizando-se de modelos de aprendizado de máquina para validar os endereços web apresentados pelo usuário. Os modelos utilizados foram Árvore de Decisão, Floresta Aleatória, Árvores Extremamente Aleatórias, XGBoost, CatBoost e Regressão Logística, orquestrados de forma a poupar poder computacional e minimizar o tempo de execução.`,
     palavrasChave: ['Aprendizado de máquina', 'Crimes Virtuais', 'Inteligência Artificial', 'Árvore de Decisão', 'XGBoost'],
-    dataDefesa: '2024-11',
+    dataDefesa: '2024-11-01',
     links: [
       {
         label: 'Monografia',
