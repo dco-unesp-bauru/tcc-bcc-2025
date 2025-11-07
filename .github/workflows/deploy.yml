@@ -2,10 +2,6 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Executa em push para a branch main
-  push:
-    branches: [ main ]
-  
   # Permite execução manual do workflow
   workflow_dispatch:
 
