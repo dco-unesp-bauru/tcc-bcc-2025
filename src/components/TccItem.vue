@@ -81,7 +81,8 @@ export default {
       this.$emit('toggle');
     },
     formatarData(data) {
-      const date = new Date(data);
+      // Adiciona 'T00:00:00' para forçar interpretação como horário local
+      const date = new Date(data + 'T00:00:00');
       return date.toLocaleDateString('pt-BR', {
         year: 'numeric',
         month: 'long',
