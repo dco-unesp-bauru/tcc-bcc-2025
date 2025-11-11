@@ -353,24 +353,24 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'null')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'null')
       }
     ]
   },
 
     {
     id: 202516,
-  titulo: 'Tutor de IA conversacional para o aprendizado de inglês',
+    titulo: 'TUTOR DE IA CONVERSACIONAL PARA O APRENDIZADO DE INGLÊS',
     autor: 'Luis Felipe Muniz de Angelo',
     orientador: 'Dr. João Paulo Papa',
     curso: 'BCC',
     descricao: `Este trabalho apresenta o desenvolvimento de um tutor de inteligência artificial conversacional para o aprendizado de inglês, focado em falantes de português. O projeto aborda as limitações das abordagens puramente neurais no ensino , que carecem de precisão e personalização, bem como o alto custo e latência da arquitetura multiagente tradicional. A solução proposta é uma arquitetura composta por um pipeline  de processamento em camadas implementado em LangGraph para análise gramatical, e um agente central unificado (AFM) que adota o paradigma Chain-of-Agents (CoA). Este agente simula internamente a colaboração de múltiplos agentes com diferentes papéis a fim de estabelecer raciocínios complexos com eficiência. O sistema integra tanto ferramentas simbólicas como o LanguageTool para validação gramatical determinística, quanto neurais para análise semântica, sendo implementado como um aplicativo móvel cliente usando React Native, e servidor em FastAPI. A eficiência da arquitetura foi validada frente os pilares do framework OAgents e como resultado o trabalho entrega uma ferramenta pedagógica de baixa latência e com menor custo do que a abordagem multiagente tradicional, sendo capaz de oferecer correções instantâneas, proporcionando um ambiente seguro para a prática conversacional.`,
     palavrasChave: ['Inteligência artificial', 'Ensino de línguas', 'Processamento de linguagem natural', 'Arquitetura de agentes', 'Tutor de IA'],
-    dataDefesa: '2025-11-10',
+    dataDefesa: '2025-11-11',
     links: [
       {
         label: 'Monografia',
@@ -432,6 +432,149 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     }
   ]
 },
+
+  {
+    id: 202519,
+    titulo: 'ANÁLISE COMPARATIVA DE DIFERENTES ALGORITMOS DE APRENDIZADO POR REFORÇO APLICADAS AO MAHJONG',
+    autor: 'Luciano Henrique Arendt Rodrigues',
+    orientador: 'Dr(a) André Luis Debiasso Rossi',
+    curso: 'BCC',
+    descricao: `Este trabalho apresenta uma análise comparativa de diferentes algoritmos de Aprendizado por Reforço Profundo aplicados ao jogo Riichi Mahjong, um ambiente caracterizado por múltiplos agentes, grande espaço de estados e informação parcial. Foram implementados e avaliados três agentes baseados em abordagens distintas: Deep Q-Learning (DQL), Advantage Actor–Critic (A2C) e Masked Proximal Policy Optimization (MaskedPPO), todos utilizando uma rede neural convolucional. Os experimentos foram conduzidos em dois cenários: contra agentes do artigo Variational Oracle Guiding for Reinforcement Learning (Han et al., 2022) e em partidas entre os próprios agentes, com a inclusão de um agente aleatório. Os resultados mostraram que, em um ambiente de treinamento com número de episódios fixo, os métodos baseados em política apresentaram melhor desempenho e maior capacidade de adaptação, embora exigindo mais tempo e recursos computacionais para o treinamento. O agente MaskedPPO obteve a melhor taxa de vitória e estabilidade entre os modelos testados. Apesar de o ambiente reduzido e a ausência de pré-treinamento supervisionado limitarem o desempenho absoluto frente ao modelo de referência, a comparação permitiu identificar diferenças claras entre as abordagens. Os resultados reforçam a adequação dos métodos baseados em política para ambientes complexos e parcialmente observáveis, como o Mahjong, e destacam a relevância do Aprendizado por Reforço como ferramenta de pesquisa em inteligência artificial aplicada a jogos.`,
+    palavrasChave: ['Aprendizado por Reforço', 'Inteligência Artificial', 'Mahjong', 'PPO', 'A2C', 'DQL'],
+    dataDefesa: '2025-11-14',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
+  {
+    id: 202520,
+    titulo: 'DESENVOLVIMENTO DE UM JOGO SÉRIO COM CAPTURA DE MOVIMENTOS PARA REABILITAÇÃO FISIOTERAPÊUTICA DE PESSOAS COM FIBROMIALGIA',
+    autor: 'Maria Victória Brito Valentim',
+    orientador: 'Dr(a) Juliana da Costa Feitosa',
+    curso: 'BCC',
+    descricao: `A fibromialgia é uma síndrome caracterizada pela dor musculoesquelética, que causa grande desconforto e compromete a qualidade de vida das pessoas que convivem com ela. Entre os tratamentos utilizados para amenizar seus sintomas destaca-se a cinesioterapia, que emprega a prática de atividades físicas como forma de reabilitação e tratamento. O uso de jogos sérios na área da saúde tem crescido significativamente, e seus benefícios vêm sendo amplamente investigados. Nesse contexto, o presente trabalho teve como objetivo o desenvolvimento de um jogo sério, nomeado FibroQuest, que utiliza a captura de movimento como ferramenta de apoio ao tratamento fisioterapêutico da fibromialgia, utilizando tecnologias atuais para o seu desenvolvimento, a fim de contribuir com a melhora na qualidade de vida das pessoas que convivem com essa síndrome.`,
+    palavrasChave: ['Jogos digitais', 'Jogos sérios', 'Captura de movimento', 'Fibromialgia'],
+    dataDefesa: '2025-11-13',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
+  {
+    id: 202521,
+    titulo: 'APLICATIVO MOBILE PARA IDENTIFICAÇÃO DE DOENÇA FOLIAR',
+    autor: 'Paulo Henrique de Camargo Dionysio Martins',
+    orientador: 'Dr(a) André Luis Debiasso Rossi',
+    curso: 'BCC',
+    descricao: `Este trabalho propõe o desenvolvimento de um aplicativo móvel para reconhecimento de doenças foliares a partir de imagens, visando apoiar a tomada de decisão de pequenos e médios produtores. A solução combina um modelo de deep learning baseado em redes neurais convolucionais (CNNs) com uma arquitetura cliente–servidor: a interface é implementada em Flutter e a inferência do modelo é disponibilizada por meio de uma API em Flask. O projeto contempla curadoria e pré-processamento de um conjunto de imagens de folhas, treinamento e ajuste de um classificador CNN, construção de serviços REST para comunicação com o aplicativo e avaliação de acurácia e desempenho com imagens reais. Espera-se demonstrar que a integração entre IA e dispositivos móveis possibilita diagnósticos rápidos e acessíveis, contribuindo para a detecção precoce de doenças, uso mais racional de insumos e aumento da eficiência produtiva na agricultura de precisão. O estudo discute limitações, como variações de iluminação e qualidade de captura, e indica melhorias futuras, incluindo aumento de base de dados e técnicas de data augmentation.`,
+    palavrasChave: ['Visão computacional', 'CNN', 'Diagnóstico de doenças de plantas', 'Flutter', 'Flask', 'Agricultura de precisão'],
+    dataDefesa: '2025-11-12',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
+  {
+    id: 202522,
+    titulo: 'USO DE INTELIGÊNCIA ARTIFICIAL EM JOGOS DIGITAIS TRIDIMENSIONAIS: APLICAÇÃO DE ALGORITMOS DE MACHINE LEARNING PARA MOVIMENTAÇÃO DE AGENTES',
+    autor: 'Rafael Piccolomini de Lima',
+    orientador: 'Dr(a) Juliana da Costa Feitosa',
+    curso: 'BCC',
+    descricao: `O uso de Inteligência Artificial em ambientes virtuais tem ampliado as possibilidades de criação de agentes autônomos, mas ainda apresenta desafios quanto à definição de estratégias de treinamento que garantam aprendizado consistente e generalizável em cenários tridimensionais. Este trabalho investiga o uso de técnicas de Inteligência Artificial (IA) e Aprendizado de Máquina (Machine Learning) para treinar um agente em ambiente 3D no Unity, construído como uma pista com obstáculos e sensores de percepção. Duas abordagens foram implementadas: aprendizado por reforço (PPO via ML-Agents) e algoritmo genético controlando ações de locomoção. A avaliação considerou indicadores como taxa de sucesso, waypoints alcançados, distância ao objetivo, colisões e passos por episódio. Observou-se que ajustes finos em recompensas, hiperparâmetros e sensores impactam fortemente a estabilidade do aprendizado e a capacidade de generalização. Como contribuição, o trabalho apresenta um panorama prático das escolhas de projeto que mais influenciam o treinamento de agentes com aprendizado por reforço e algoritmos genéticos em cenários 3D, oferecendo diretrizes úteis para configurações mais estáveis e comportamentos mais consistentes no desenvolvimento de jogos 3D utilizando a engine Unity.`,
+    palavrasChave: ['Machine Learning', 'Inteligência Artificial', 'Desenvolvimento de jogos', 'Jogos digitais'],
+    dataDefesa: '2025-11-12',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
+  {
+    id: 202523,
+    titulo: 'IMPLEMENTAÇÃO DE UMA EXTENSÃO DE NAVEGADOR PARA MODERAÇÃO E FILTRAÇÃO HEURÍSTICA DE MAUS ELEMENTOS EM REDES SOCIAIS',
+    autor: 'Rafael Yoshihiro Costa Kussuda',
+    orientador: 'Prof. Kelton Augusto Pontara da Costa',
+    curso: 'BCC',
+    descricao: `O trabalho consiste em duas partes distintas, sendo a primeira uma pesquisa aprofundada em diversos casos de estudo que demonstram a artificialização de interações e conversas em redes sociais na última década, movida principalmente por avanços na tecnologia da inteligência artificial e a crescente facilidade de monetizar conteúdo e cliques online. Essa parte inclui alguns tópicos mais específicos como a crescente tolerância de governos e públicos gerais a anúncios de sites de aposta ou conteúdo de teor adulto facilmente acessível, também influenciados por essa leva de bots que tem tomado conta de tudo. Também será discutida uma pesquisa de campo feita com usuários da plataforma Reddit ao redor do mundo sobre sua posição sobre esses problemas. A segunda parte é a implementação do projeto em si, com justificativas dadas na primeira parte. Esse projeto trata-se de uma extensão de navegador que remove esses elementos por algumas regras heurísticas, que, apesar de não perfeitas, ajudam bastante a restaurar a humanidade nesses espaços. O projeto foi criado com o framework da plataforma da Google ManifestV3, e é escrito primariamente em JavaScript, com elementos de HTML utilizados para reconhecimento e para a página de configurações.`,
+    palavrasChave: ['Bots', 'Redes Sociais', 'Twitter', 'ManifestV3', 'JavaScript'],
+    dataDefesa: '2025-11-14',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
+  {
+    id: 202524,
+    titulo: 'CONSTRUÇÃO DE AGENTE INTELIGENTE PARA RESOLUÇÃO DE QUESTÕES DE VESTIBULAR COM LLM',
+    autor: 'Sofia Azevedo Rosa',
+    orientador: 'Prof. Dr. João Paulo Papa',
+    curso: 'BCC',
+    descricao: `Este trabalho investigou o uso de agentes inteligentes baseados em modelos de linguagem de grande escala (LLMs) para a resolução de questões objetivas de vestibulares brasileiros. Foi proposta uma arquitetura em múltiplos passos que integra o modelo a ferramentas externas de cálculo e enciclopédia, e sua performance foi comparada ao uso direto dos LLMs nas mesmas provas (ENEM, USP e Unicamp). Os resultados mostraram que, com modelos de menor capacidade (como Llama 3.1 e Mistral), o agente apresentou desempenho inferior ao uso direto, devido especialmente a falhas na recuperação de informações e à interpretação de saídas intermediárias. No entanto, ao empregar um modelo mais robusto (GPT-4.1 Mini), o agente obteve ganhos expressivos nas questões que exigem raciocínio matemático, evidenciando que a abordagem é promissora em cenários com ferramentas e modelos mais adequados ao domínio. O estudo contribui ao demonstrar experimentalmente os limites e potencial dessa estratégia em contextos educacionais reais.`,
+    palavrasChave: ['Agentes inteligentes', 'Modelos de linguagem', 'Provas de vestibular'],
+    dataDefesa: '2025-11-11',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
+  {
+    id: 202525,
+    titulo: 'APLICAÇÃO DE MACHINE LEARNING NA RESOLUÇÃO DO PROBLEMA DE CORTE UNIDIMENSIONAL COM SOBRAS APROVEITÁVEIS E PREDIÇÃO DE DEMANDA',
+    autor: 'Thiago Bigotte Gullo',
+    orientador: 'Dra. Adriana Cristina Cherri Nicola',
+    curso: 'BCC',
+    descricao: `Este trabalho propõe uma abordagem que visa a otimização da produção industrial, combinando técnicas avançadas de inteligência artificial para previsão de demanda em problemas de corte com sobras aproveitáveis. A proposta visa aprimorar o planejamento produtivo e minimizar perdas ao longo do processo, tornando-o mais sustentável e reduzindo custos operacionais. Dentre as abordagens adotadas, destaca-se o uso de redes neurais recorrentes do tipo LSTM (Long Short-Term Memory), capazes de identificar padrões temporais complexos em séries históricas de vendas, sazonalidades e variáveis externas, como o preço da matéria-prima. Esse modelo preditivo fornece estimativas mais precisas de demanda futura, auxiliando a tomada de decisões estratégicas voltadas à minimização de perdas. Essas técnicas computacionais foram implementadas para a obtenção de soluções para o Problema de Corte de Estoque com Sobras Aproveitáveis (PCESA), que é uma extensão do problema clássico de corte cujo foco está no aproveitamento das sobras geradas durante o processo produtivo. Para a condução dos experimentos, foi desenvolvida uma base de dados artificial com o objetivo de simular condições realistas de mercado. Essa base considera múltiplas regras para refletir o comportamento de clientes, suas demandas específicas e as oscilações diárias no preço de commodities, representando com maior fidelidade os desafios enfrentados na indústria. A avaliação dos resultados concentrou-se na minimização das perdas totais ao longo de um horizonte de planejamento, permitindo uma análise aplicada ao contexto empresarial, com foco na tomada de decisão por equipes de planejamento e negócios. Adicionalmente, foram conduzidas análises quantitativas com base nos resultados de treinamento e generalização, demonstrando a efetividade da integração entre a previsão de demanda e a otimização de processos de corte, na redução de desperdícios e no aprimoramento da produção industrial.`,
+    palavrasChave: ['Previsão de Demanda', 'Redes Neurais LSTM', 'Problema de Corte com Sobras Aproveitáveis', 'Minimização de Perdas'],
+    dataDefesa: '2025-11-12',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
+  {
+    id: 202526,
+    titulo: 'QUESTION-ANSWERING COM MODELOS DE LINGUAGEM BASEADA NA ABORDAGEM DE ESTUDO COM FLASHCARDS',
+    autor: 'Vinícius Casimiro da Silveira',
+    orientador: 'Prof. Mestre Pedro Henrique Paiola, Mestre Gabriel Lino Garcia',
+    curso: 'BCC',
+    descricao: `Grandes Modelos de Linguagem (LLMs) sofrem com conhecimento estático e alucinações. Embora a Geração Aumentada por Recuperação (RAG) atenue isso ao injetar contexto externo, sua abordagem tradicional de segmentação linear (chunking) frequentemente introduz ruído contextual. Como alternativa, este trabalho investiga uma arquitetura RAG baseada em flashcards, unidades atômicas de Pergunta-Resposta inspiradas na prática de recuperação, utilizando uma indexação assimétrica que vetoriza apenas a pergunta. Para validar esta abordagem, foi realizado um experimento comparando três grupos (LLM Puro, RAG Tradicional e RAG Flashcards) com o modelo Phi-4, em uma tarefa de Múltipla Escolha (MCQA) sobre 293 itens do dataset BLUEX (Biologia, Geografia, História). O RAG Tradicional (88,74%) superou marginalmente o RAG Flashcards (84,30%), ambos com ganho mínimo sobre o LLM Puro (82,94%), sugerindo alto conhecimento paramétrico do modelo na tarefa. Contudo, a principal contribuição foi validada na análise de eficiência: o RAG Flashcards alcançou desempenho quase idêntico ao tradicional consumindo apenas 39,69% do custo computacional (média de 1.173 vs 2.957 tokens por consulta). Conclui-se que, apesar de não superior em acurácia neste cenário, a abordagem em flashcards oferece um balanço de custo-benefício superior à segmentação linear.`,
+    palavrasChave: ['Geração Aumentada por Recuperação (RAG)', 'Modelos de Linguagem', 'Flashcards', 'Prática de Recuperação'],
+    dataDefesa: '2025-11-10',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
+
+  {
+    id: 202527,
+    titulo: 'Explorando abordagens sem normalização para inferência em grandes modelos de linguagem',
+    autor: 'Daniel Gomes Candido',
+    orientador: 'Prof Dr Leandro Aparecido Passo Junior',
+    curso: 'BCC',
+    descricao: `Resumo indisponível no momento.`,
+    palavrasChave: [''],
+    dataDefesa: '2025-11-11',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
+
+  {
+    id: 202528,
+    titulo: 'Sistema de visualização de indicadores acadêmicos da Faculdade de Ciências: uma ferramenta de apoio à gestão',
+    autor: 'Leonardo Ferreira Roccato',
+    orientador: 'Prof Dr Leandro Aparecido Passo Junior',
+    curso: 'BCC',
+    descricao: `Resumo indisponível no momento.`,
+    palavrasChave: [''],
+    dataDefesa: '2025-11-13',
+    links: [
+      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+    ]
+  },
 
   {
     id: 202301,
