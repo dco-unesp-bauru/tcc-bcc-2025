@@ -45,7 +45,7 @@
             />
           </div>
           <div v-if="hasIndisponivel" class="info-message">
-            <span>Os arquivos serão disponibilizados após a apresentação do TCC</span>
+            <span>Os arquivos ainda não estão disponíveis!</span>
           </div>
         </div>
       </div>

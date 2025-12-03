@@ -9,7 +9,7 @@ export const allTccs = [
 
   {
     id: 202501,
-  titulo: 'Análise de acidente de trânsito em Bauru-SP utilizando ciência de dados',
+    titulo: 'Análise de acidente de trânsito em Bauru-SP utilizando ciência de dados',
     autor: 'Bruno Shinji Ito',
     orientador: 'Dr Higor Amario de Souza',
     curso: 'BCC',
@@ -19,11 +19,11 @@ export const allTccs = [
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'bruno_ito_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'bruno_ito_apresentacao_2025.pdf')
       }
     ]
   },
@@ -58,18 +58,18 @@ dados.
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'christian_barry_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'christian_barry_apresentacao_2025.pdf')
       }
     ]
   },
 
    {
     id: 202503,
-  titulo: 'Construção e tradução de datasets multimodais na saúde: um estudo para casos de covid-19',
+    titulo: 'Construção e tradução de datasets multimodais na saúde: um estudo para casos de covid-19',
     autor: 'Daniel Hideki Rocha Kanashiro',
     orientador: ['Dr. João Paulo Papa', 'Dr. Gabriel Lino Garcia'],
     curso: 'BCC',
@@ -79,18 +79,18 @@ dados.
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'daniel_kanashiro_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'daniel_kanashiro_apresentacao_2025.pdf')
       }
     ]
   },
 
      {
     id: 202504,
-  titulo: 'Aprendizado de máquina aplicado à quantificação do índice de proliferação em osteossarcomas caninos',
+    titulo: 'Aprendizado de máquina aplicado à quantificação do índice de proliferação em osteossarcomas caninos',
     autor: 'Eduardo Alvaro Monteiro',
     orientador: 'Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -111,7 +111,7 @@ dados.
 
        {
     id: 202505,
-  titulo: 'Avaliação da viabilidade de Spiking Neural Networks em dispositivos móveis para diagnóstico de câncer de pele',
+    titulo: 'Avaliação da viabilidade de Spiking Neural Networks em dispositivos móveis para diagnóstico de câncer de pele',
     autor: 'Fábio Halben Guerra Leal',
     orientador: 'Dr. Leandro Aparecido Passos Junior',
     curso: 'BCC',
@@ -140,18 +140,18 @@ desafios de engenharia.
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'fabio_leal_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'fabio_leal_apresentacao_2025.pdf')
       }
     ]
   },
 
     {
     id: 202506,
-  titulo: 'Investigação de estratégias de aprendizado contínuo para detecção de objetos de tráfego urbano',
+    titulo: 'Investigação de estratégias de aprendizado contínuo para detecção de objetos de tráfego urbano',
     autor: 'Gabriel Cardoso Franco',
     orientador: 'Dr. André Luis Debiasso Rossi',
     curso: 'BCC',
@@ -161,18 +161,18 @@ desafios de engenharia.
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'gabriel_franco_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'gabriel_franco_apresentacao_2025.pdf')
       }
     ]
   },
 
     {
     id: 202507,
-  titulo: 'Aplicação de aprendizado de máquina e equilíbrio de Nash no jogo de pôquer',
+    titulo: 'Aplicação de aprendizado de máquina e equilíbrio de Nash no jogo de pôquer',
     autor: 'Gabriel Jooji Yamashiro',
     orientador: 'Dr. Leandro Aparecido Passos Junior',
     curso: 'BCC',
@@ -182,18 +182,18 @@ desafios de engenharia.
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'gabriel_yamashiro_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'gabriel_yamashiro_apresentacao_2025.pdf')
       }
     ]
   },
 
   {
     id: 202508,
-  titulo: 'Utilização de algoritmos biologicamente plausíveis no auxílio de diagnóstico de infecções fúngicas e neoplasias pulmonares em exames de raio-X',
+    titulo: 'Utilização de algoritmos biologicamente plausíveis no auxílio de diagnóstico de infecções fúngicas e neoplasias pulmonares em exames de raio-X',
     autor: 'Giuliano Gonzales',
     orientador: 'Dr. Leandro Aparecido Passos Junior',
     curso: 'BCC',
@@ -203,18 +203,18 @@ desafios de engenharia.
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'giuliano_gonzales_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'giuliano_gonzales_apresentacao_2025.pdf')
       }
     ]
   },
 
     {
     id: 202509,
-  titulo: 'Colhendo insights: análise de dados na produção de cana-de-açúcar',
+    titulo: 'Colhendo insights: análise de dados na produção de cana-de-açúcar',
     autor: 'Guilherme Lima Zanin',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -227,18 +227,18 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'guilherme_zanin_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'guilherme_zanin_apresentacao_2025.pdf')
       }
     ]
   },
 
   {
     id: 202510,
-  titulo: 'Utilizando ciência de dados para identificar melhorias na infraestrutura urbana para pedestres',
+    titulo: 'Utilizando ciência de dados para identificar melhorias na infraestrutura urbana para pedestres',
     autor: 'Gustavo Ribeiro Montes',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
@@ -248,18 +248,18 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'gustavo_montes_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'gustavo_montes_apresentacao_2025.pdf')
       }
     ]
   },
 
   {
     id: 202511,
-  titulo: 'Explorando algoritmos de compressão de dados: teoria, implementação e desempenho',
+    titulo: 'Explorando algoritmos de compressão de dados: teoria, implementação e desempenho',
     autor: 'GUSTAVO YUJII SILVA KADOOKA',
     orientador: 'Profa. Dra. Andréa Carla Gonçalves Vianna',
     curso: 'BCC',
@@ -269,18 +269,18 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'gustavo_kadooka_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'gustavo_kadooka_apresentacao_2025.pdf')
       }
     ]
   },
 
   {
     id: 202512,
-  titulo: 'Adaptação do envenenamento Nightshade para arquivos de áudio',
+    titulo: 'Adaptação do envenenamento Nightshade para arquivos de áudio',
     autor: 'Henrique Trivelato de Angelo',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -290,18 +290,18 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'henrique_angelo_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'henrique_angelo_apresentacao_2025.pdf')
       }
     ]
   },
 
   {
     id: 202513,
-  titulo: 'Aplicação de dados geoespaciais na análise de risco e suporte à contratação de seguro agrícola',
+    titulo: 'Aplicação de dados geoespaciais na análise de risco e suporte à contratação de seguro agrícola',
     autor: 'João Lucas Cardoso Criveli',
     orientador: 'Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -311,18 +311,18 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'joao_criveli_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'joao_criveli_apresentacao_2025.pdf')
       }
     ]
   },
 
   {
     id: 202514,
-  titulo: 'Redução de ruído em imagens via geometria fractal',
+    titulo: 'Redução de ruído em imagens via geometria fractal',
     autor: 'Leonardo Koosuke Azuma',
     orientador: 'Dra. Tatiana Miguel Rodrigues',
     curso: 'BCC',
@@ -332,18 +332,18 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'leonardo_azuma_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'leonardo_azuma_apresentacao_2025.pdf')
       }
     ]
   },
 
     {
     id: 202515,
-  titulo: 'Aplicação de ferramentas de inteligência artificial na animação de componentes em um jogo 2D voltado à saúde mental',
+    titulo: 'Aplicação de ferramentas de inteligência artificial na animação de componentes em um jogo 2D voltado à saúde mental',
     autor: 'Luana Rodrigues da Silva e Lima',
     orientador: 'Dra. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -353,18 +353,18 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: getTccFileURL('monografia', 'null')
+        url: getTccFileURL('monografia', 'luana_lima_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: getTccFileURL('apresentacao', 'null')
+        url: getTccFileURL('apresentacao', 'luana_lima_apresentacao_2025.pdf')
       }
     ]
   },
 
     {
     id: 202516,
-    titulo: 'TUTOR DE IA CONVERSACIONAL PARA O APRENDIZADO DE INGLÊS',
+    titulo: 'Tutor de IA conversacional para o aprendizado de inglês',
     autor: 'Luis Felipe Muniz de Angelo',
     orientador: 'Dr. João Paulo Papa',
     curso: 'BCC',
@@ -374,11 +374,11 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'luis_angelo_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'luis_angelo_apresentacao_2025.pdf')
       }
     ]
   },
@@ -395,11 +395,11 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     links: [
       {
         label: 'Monografia',
-        url: null
+        url: getTccFileURL('monografia', 'manuele_christofalo_2025.pdf')
       },
       {
         label: 'Apresentação',
-        url: null
+        url: getTccFileURL('apresentacao', 'manuele_christofalo_apresentacao_2025.pdf')
       }
     ]
   },
@@ -424,18 +424,18 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   links: [
     {
       label: 'Monografia',
-      url: null
+      url: getTccFileURL('monografia', 'alberto_martinez_2025.pdf')
     },
     {
       label: 'Apresentação',
-      url: null
+      url: getTccFileURL('apresentacao', 'alberto_martinez_apresentacao_2025.pdf')
     }
   ]
 },
 
   {
     id: 202519,
-    titulo: 'ANÁLISE COMPARATIVA DE DIFERENTES ALGORITMOS DE APRENDIZADO POR REFORÇO APLICADAS AO MAHJONG',
+    titulo: 'Análise comparativa de diferentes algoritmos de aprendizado por reforço aplicados ao Mahjong',
     autor: 'Luciano Henrique Arendt Rodrigues',
     orientador: 'Dr(a) André Luis Debiasso Rossi',
     curso: 'BCC',
@@ -443,13 +443,13 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: ['Aprendizado por Reforço', 'Inteligência Artificial', 'Mahjong', 'PPO', 'A2C', 'DQL'],
     dataDefesa: '2025-11-14',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: 'Monografia', url: getTccFileURL('monografia', 'luciano_rodrigues_2025.pdf') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'luciano_rodrigues_apresentacao_2025.pdf') }
     ]
   },
   {
     id: 202520,
-    titulo: 'DESENVOLVIMENTO DE UM JOGO SÉRIO COM CAPTURA DE MOVIMENTOS PARA REABILITAÇÃO FISIOTERAPÊUTICA DE PESSOAS COM FIBROMIALGIA',
+    titulo: 'Desenvolvimento de um jogo sério com captura de movimentos para reabilitação fisioterapêutica de pessoas com fibromialgia',
     autor: 'Maria Victória Brito Valentim',
     orientador: 'Dr(a) Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -457,13 +457,13 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: ['Jogos digitais', 'Jogos sérios', 'Captura de movimento', 'Fibromialgia'],
     dataDefesa: '2025-11-13',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: 'Monografia', url: getTccFileURL('monografia', 'maria_valentim_2025.pdf') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'maria_valentim_apresentacao_2025.pdf') }
     ]
   },
   {
     id: 202521,
-    titulo: 'APLICATIVO MOBILE PARA IDENTIFICAÇÃO DE DOENÇA FOLIAR',
+    titulo: 'Aplicativo mobile para identificação de doença foliar',
     autor: 'Paulo Henrique de Camargo Dionysio Martins',
     orientador: 'Dr(a) André Luis Debiasso Rossi',
     curso: 'BCC',
@@ -471,13 +471,13 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: ['Visão computacional', 'CNN', 'Diagnóstico de doenças de plantas', 'Flutter', 'Flask', 'Agricultura de precisão'],
     dataDefesa: '2025-11-12',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: 'Monografia', url: getTccFileURL('monografia', 'paulo_martins_2025.pdf') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'paulo_martins_apresentacao_2025.pdf') }
     ]
   },
   {
     id: 202522,
-    titulo: 'USO DE INTELIGÊNCIA ARTIFICIAL EM JOGOS DIGITAIS TRIDIMENSIONAIS: APLICAÇÃO DE ALGORITMOS DE MACHINE LEARNING PARA MOVIMENTAÇÃO DE AGENTES',
+    titulo: 'Uso de inteligência artificial em jogos digitais tridimensionais: aplicação de algoritmos de machine learning para movimentação de agentes',
     autor: 'Rafael Piccolomini de Lima',
     orientador: 'Dr(a) Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -485,13 +485,13 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: ['Machine Learning', 'Inteligência Artificial', 'Desenvolvimento de jogos', 'Jogos digitais'],
     dataDefesa: '2025-11-12',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: 'Monografia', url: getTccFileURL('monografia', 'rafael_lima_2025.pdf') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'rafael_lima_apresentacao_2025.pdf') }
     ]
   },
   {
     id: 202523,
-    titulo: 'IMPLEMENTAÇÃO DE UMA EXTENSÃO DE NAVEGADOR PARA MODERAÇÃO E FILTRAÇÃO HEURÍSTICA DE MAUS ELEMENTOS EM REDES SOCIAIS',
+    titulo: 'Implementação de uma extensão de navegador para moderação e filtração heurística de maus elementos em redes sociais',
     autor: 'Rafael Yoshihiro Costa Kussuda',
     orientador: 'Prof. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -499,13 +499,13 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: ['Bots', 'Redes Sociais', 'Twitter', 'ManifestV3', 'JavaScript'],
     dataDefesa: '2025-11-14',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: null },
+      { label: null }
     ]
   },
   {
     id: 202524,
-    titulo: 'CONSTRUÇÃO DE AGENTE INTELIGENTE PARA RESOLUÇÃO DE QUESTÕES DE VESTIBULAR COM LLM',
+    titulo: 'Construção de agentes inteligentes para resoluçaõ de questões de vestibular LLM',
     autor: 'Sofia Azevedo Rosa',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
@@ -513,13 +513,13 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: ['Agentes inteligentes', 'Modelos de linguagem', 'Provas de vestibular'],
     dataDefesa: '2025-11-11',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: 'Monografia', url: getTccFileURL('monografia', 'sofia_rosa_2025.pdf') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'sofia_rosa_apresentacao_2025.pdf') }
     ]
   },
   {
     id: 202525,
-    titulo: 'APLICAÇÃO DE MACHINE LEARNING NA RESOLUÇÃO DO PROBLEMA DE CORTE UNIDIMENSIONAL COM SOBRAS APROVEITÁVEIS E PREDIÇÃO DE DEMANDA',
+    titulo: 'Aplicação de machine learning na resolução do problema de corte unidimensional com sobras aproveitáveis e predição de demanda',
     autor: 'Thiago Bigotte Gullo',
     orientador: 'Dra. Adriana Cristina Cherri Nicola',
     curso: 'BCC',
@@ -527,13 +527,13 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: ['Previsão de Demanda', 'Redes Neurais LSTM', 'Problema de Corte com Sobras Aproveitáveis', 'Minimização de Perdas'],
     dataDefesa: '2025-11-12',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: 'Monografia', url: getTccFileURL('monografia', 'thiago_gullo_2025.pdf') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'thiago_gullo_apresentacao_2025.pdf') }
     ]
   },
   {
     id: 202526,
-    titulo: 'QUESTION-ANSWERING COM MODELOS DE LINGUAGEM BASEADA NA ABORDAGEM DE ESTUDO COM FLASHCARDS',
+    titulo: 'Question-answering com modelos de linguagem baseada na abordagem de estudo com flashcards',
     autor: 'Vinícius Casimiro da Silveira',
     orientador: 'Prof. Mestre Pedro Henrique Paiola, Mestre Gabriel Lino Garcia',
     curso: 'BCC',
@@ -541,8 +541,8 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: ['Geração Aumentada por Recuperação (RAG)', 'Modelos de Linguagem', 'Flashcards', 'Prática de Recuperação'],
     dataDefesa: '2025-11-10',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: 'Monografia', url: getTccFileURL('monografia', 'vinicius_silveira_2025.pdf') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'vinicius_silveira_apresentacao_2025.pdf') }
     ]
   },
 
@@ -556,8 +556,8 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: [''],
     dataDefesa: '2025-11-11',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: 'Monografia', url: getTccFileURL('monografia', 'daniel_candido_2025.pdf') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'daniel_candido_apresentacao_2025.pdf') }
     ]
   },
 
@@ -571,14 +571,14 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
     palavrasChave: [''],
     dataDefesa: '2025-11-13',
     links: [
-      { label: 'Monografia', url: getTccFileURL('monografia', 'null') },
-      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'null') }
+      { label: 'Monografia', url: getTccFileURL('monografia', 'leonardo_rocatto_2025.pdf') },
+      { label: 'Apresentação', url: getTccFileURL('apresentacao', 'leonardo_rocatto_apresentacao_2025.pdf') }
     ]
   },
 
   {
     id: 202301,
-  titulo: 'Identificação biométrica de pessoas por meio do reconhecimento facial utilizando Vision Transformers',
+    titulo: 'Identificação biométrica de pessoas por meio do reconhecimento facial utilizando Vision Transformers',
     autor: 'Arthur Francisco Ramos',
     orientador: 'Dr Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -598,7 +598,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202302,
-  titulo: 'Abordagem de aprendizado profundo para classificação de Parkinson por meio de sinais de voz',
+    titulo: 'Abordagem de aprendizado profundo para classificação de Parkinson por meio de sinais de voz',
     autor: 'Andre Luiz da Silva Junior',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -618,7 +618,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202303,
-  titulo: 'Auxílio ao diagnóstico de doença neurodegenerativa utilizando expressões faciais',
+    titulo: 'Auxílio ao diagnóstico de doença neurodegenerativa utilizando expressões faciais',
     autor: 'Arissa Yoshida',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
@@ -638,7 +638,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202304,
-    titulo: 'IMPLEMENTAÇÃO DO DEVOPS PARA GERENCIAMENTO DE RISCOS DE SEGURANÇA NA NUVEM',
+    titulo: 'Implementação do DevOps para gerenciamento de riscos de segurança na nuvem',
     autor: 'Artur Kyung Min Lee',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -658,7 +658,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202305,
-    titulo: 'CRIAÇÃO DE UM MAPEADOR OBJETO-GRAFO PARA OTIMIZAÇÃO E SIMPLIFICAÇÃO NO GERENCIAMENTO DE BANCOS DE DADOS BASEADOS EM GRAFOS EM AMBIENTES DE BIG DATA: UMA ANÁLISE COMPARATIVA COM MAPEADORES OBJETO-RELACIONAL E OUTROS BANCOS DE DADOS',
+    titulo: 'Criação de um mapeador objeto-grafo para otimização e simplificação no gerenciamento de bancos de dados baseados em grafos em ambientes de big data: uma análise comparativa com mapeadores objeto-relacional e outros bancos de dados',
     autor: 'Cassiano Henrique A Rodrigues',
     orientador: 'Prof. Assoc. Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -678,7 +678,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202306,
-    titulo: 'ANÁLISE DO IMPACTO DA SEGURANÇA VIÁRIA NA MOBILIDADE ATIVA',
+    titulo: 'Análise do impacto da segurança viária na mobilidade ativa',
     autor: 'Danilo Alves Siqueira',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
@@ -698,7 +698,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202307,
-    titulo: 'ESTUDO SOBRE FRAUDES DIGITAIS E O DESENVOLVIMENTO DE APLICATIVO PARA SMARTPHONES ANDROID E IOS PARA USO EM PALESTRAS DE SENSIBILIZAÇÃO E ESCLARECIMENTO',
+    titulo: 'Estudo sobre fraudes digitais e o desenvolvimento de aplicativo para smartphones Android e iOS para uso em palestras de sensibilização e esclarecimento',
     autor: 'Gabriel Carvalho Polido',
     orientador: 'Prof. Assoc. Eduardo Martins Morgado',
     curso: 'BCC',
@@ -718,7 +718,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202308,
-    titulo: 'APLICATIVO GAMIFICADO PARA ORGANIZAÇÃO DE TAREFAS E ROTINAS ACADÊMICAS',
+    titulo: 'Aplicativo gamificado para organização de tarefas e rotinas acadêmicas',
     autor: 'Gabriel Henrique Garcia Ticianeli',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -738,7 +738,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202309,
-    titulo: 'QUALIDADE DE SOFTWARE: ANÁLISE DE DESEMPENHO DE FERRAMENTAS DE AUTOMAÇÃO EM TESTES E2E',
+    titulo: 'Qualidade de software: análise de desempenho de ferramentas de automação em testes E2E',
     autor: 'Geovanna Carolina F V T Brandao',
     orientador: 'Prof. Dr Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -759,7 +759,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202310,
-    titulo: 'USO DE APRENDIZADO DE MÁQUINA PARA DETECÇÃO DE ATAQUES DDOS',
+    titulo: 'Uso de aprendizado de máquina para detecção de ataques DDoS',
     autor: 'Gustavo Amaral Duarte Rego',
     orientador: 'Prof. Dr. Kelton Augusto P da Costa',
     curso: 'BCC',
@@ -779,7 +779,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202311,
-    titulo: 'USO DE APRENDIZADO DE MÁQUINA PARA DETECÇÃO DE FACES FALSAS GERADAS POR INTELIGÊNCIA ARTIFICIAL',
+    titulo: 'Uso de aprendizado de máquina para detecção de faces falsas geradas por inteligência artificial',
     autor: 'João Pedro Vieira Rodrigues',
     orientador: 'Prof. Dr. Kelton Augusto P da Costa',
     curso: 'BCC',
@@ -799,7 +799,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202312,
-    titulo: 'APLICAÇÃO DE SOLID EM UM SISTEMA WEB PARA INTERMEDIAÇÃO DE COMPRA E VENDA DE COMIDA NA UNESP',
+    titulo: 'Aplicação de SOLID em um sistema web para intermediação de compra e venda de comida na Unesp',
     autor: 'Julio Cesar Benelli Varella',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
@@ -819,7 +819,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202313,
-    titulo: 'DETECÇÃO DE FAKE NEWS EM PORTUGUÊS UTILIZANDO INFERÊNCIA DE LINGUAGEM NATURAL',
+    titulo: 'Detecção de fake news em português utilizando inferência de linguagem natural',
     autor: 'Larissa Mayumi Barela Hondo',
     orientador: 'Prof. Assoc. Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -839,7 +839,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202314,
-    titulo: 'CONSTRUÇÃO DE UM MÓDULO QUÂNTICO PARA O CLASSIFICADOR BASEADO EM FLORESTA DE CAMINHOS ÓTIMOS',
+    titulo: 'Construção de um módulo quântico para o classificador baseado em floresta de caminhos ótimos',
     autor: 'Maria Angélica Krüger Miranda',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
@@ -859,7 +859,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202315,
-    titulo: 'DESENVOLVIMENTO DE UMA APLICAÇÃO INTEGRADA PARA GERENCIAMENTO DE PROJETOS E RECURSOS PARA PROGRAMADORES',
+    titulo: 'Desenvolvimento de uma aplicação integrada para gerenciamento de projetos e recursos para programadores',
     autor: 'Matheus dos Santos Ribeiro Silva',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -879,7 +879,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202316,
-    titulo: 'DETECÇÃO DE IMAGENS DEEPFAKE: UM ESTUDO COMPARATIVO',
+    titulo: 'Detecção de imagens deepfake: um estudo comparativo',
     autor: 'Miguel Cesar Correa',
     orientador: 'Prof. Dr. Leandro A Passos Junior',
     curso: 'BCC',
@@ -899,7 +899,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202317,
-    titulo: 'ANÁLISE DE DADOS DA SAÚDE PARA MELHORIAS EM POLÍTICAS PÚBLICAS',
+    titulo: 'Análise de dados da saúde para melhorias em políticas públicas',
     autor: 'Nathan Del Grande Souza',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
@@ -919,7 +919,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202318,
-    titulo: 'DIAGNÓSTICO AUTOMÁTICO DE AVC PÓS-TRAUMA COM BASE NA FACE DE PACIENTES UTILIZANDO REDES NEURAIS EM GRAFOS',
+    titulo: 'Diagnóstico automático de AVC pós-trauma com base na face de pacientes utilizando redes neurais em grafos',
     autor: 'Nícolas Barbosa Gomes',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
@@ -939,7 +939,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202319,
-    titulo: 'DESENVOLVIMENTO DE UMA APLICAÇÃO PARA ANÁLISE DE DESEMPENHO DE GRANDES MODELOS DE LINGUAGEM',
+    titulo: 'Desenvolvimento de uma aplicação para análise de desempenho de grandes modelos de linguagem',
     autor: 'Nicole Barbosa Gomes',
     orientador: 'Prof. Assoc. João Paulo Papa',
     curso: 'BCC',
@@ -959,7 +959,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202320,
-    titulo: 'RECONHECIMENTO DE MARCHA HUMANA UTILIZANDO POSES 3D ESTIMADAS DE MÚLTIPLAS POSES 2D',
+    titulo: 'Reconhecimento de marcha humana utilizando poses 3D estimadas de múltiplas poses 2D',
     autor: 'Pedro Luiz Cason Caldato',
     orientador: 'Prof. Assoc. Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -999,7 +999,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202322,
-    titulo: 'MINERAÇÃO DE REPOSITÓRIOS PARA ANÁLISE DE CICLOS DE SOFTWARE',
+    titulo: 'Mineração de repositórios para análise de ciclos de software',
     autor: 'Ronaldo Rubens Gesse Junior',
     orientador: 'Prof. Dr. Higor Amario de Souza',
     curso: 'BCC',
@@ -1019,7 +1019,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
   },
   {
     id: 202323,
-    titulo: 'ESTUDO DA EFICÁCIA DE MODELOS DE ESTIMATIVA DE IRRADIAÇÃO SOLAR NA REGIÃO DO CENTRO DE SÃO PAULO',
+    titulo: 'Estudo da eficácia de modelos de estimativa de irradiação solar na região do centro de São Paulo',
     autor: 'Virgilio Santinho Tagliavini',
     orientador: 'Prof. Assoc. João Eduardo Machado Perea Martins',
     curso: 'BCC',
@@ -1040,7 +1040,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202201,
-    titulo: 'INVESTIGAÇÃO DE TÉCNICAS DE OTIMIZAÇÃO PARA ALGORITMOS DE APRENDIZAGEM DE MÁQUINA',
+    titulo: 'Investigação de técnicas de otimização para algoritmos de aprendizagem de máquina',
     autor: 'André Libório de Barros Ferraz',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
@@ -1061,7 +1061,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202202,
-    titulo: 'SISTEMA PARA GERENCIAMENTO DE DESPENSA COM UTILIZAÇÃO DE DATA VISUALIZATION',
+    titulo: 'Sistema para gerenciamento de despensa com utilização de data visualization',
     autor: 'Karen Aya Murakawa',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1082,7 +1082,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202203,
-    titulo: 'AUXÍLIO AO DIAGNÓSTICO DE ELA E AVC ATRAVÉS DE EXPRESSÃO FACIAL',
+    titulo: 'Auxílio ao diagnóstico de ELA e AVC através de expressão facial',
     autor: 'Leonardo Silva de Oliveira',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1103,7 +1103,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202204,
-    titulo: 'RESOLUÇÃO DO PROBLEMA DE ESCALONAMENTO DE ENFERMEIROS EM HOSPITAL UTILIZANDO SIMULATED ANNEALING',
+    titulo: 'Resolução do problema de escalonamento de enfermeiros em hospital utilizando simulated annealing',
     autor: 'Lucas Henrique Russo do Nascimento',
     orientador: 'Profª. Drª. Andréa Carla Gonçalves Vianna',
     curso: 'BCC',
@@ -1124,7 +1124,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202205,
-    titulo: 'DETECÇÃO DE ESTEGANOGRAFIA EM IMAGENS UTILIZANDO APRENDIZADO DE MÁQUINA',
+    titulo: 'Detecção de esteganografia em imagens utilizando aprendizado de máquina',
     autor: 'Matheus Esquinelato Polachini',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -1145,7 +1145,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202206,
-    titulo: 'FERRAMENTA DE COLETA E ANÁLISE DE DADOS DE LICITAÇÕES PÚBLICAS',
+    titulo: 'Ferramenta de coleta e análise de dados de licitações públicas',
     autor: 'Matheus Yuichi Yamashiro',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -1166,7 +1166,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202207,
-    titulo: 'CRIPTOWATCHER: ROBÔ DE INVESTIMENTO EM CRIPTOMOEDAS UTLIZANDO ALGORITMO DE ARBITRAGEM TRIANGULAR',
+    titulo: 'CriptoWatcher: robô de investimento em criptomoedas utilizando algoritmo de arbitragem triangular',
     autor: 'Maurício Sugimoto Polloni',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -1187,7 +1187,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202208,
-    titulo: 'SEGURANÇA EM WEB3 : VULNERABILIDADES EM CARTEIRAS DIGITAIS BASEADAS EM NAVEGADORES',
+    titulo: 'Segurança em Web3: vulnerabilidades em carteiras digitais baseadas em navegadores',
     autor: 'Caio Castilho Donato Regal',
     orientador: 'Prof. Me. Luiz Felipe de Camargo',
     curso: 'BCC',
@@ -1208,7 +1208,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202209,
-    titulo: 'MÓDULO DE RECONHECIMENTO DE GESTOS PARA AMBIENTES DE REALIDADE AUMENTADA',
+    titulo: 'Módulo de reconhecimento de gestos para ambientes de realidade aumentada',
     autor: 'Davi Augusto Neves Leite',
     orientador: 'Prof. Dr. Antonio Carlos Sementille',
     curso: 'BCC',
@@ -1229,7 +1229,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202210,
-    titulo: 'APLICAÇÃO DE TÉCNICAS DE ENSEMBLE LEARNING NA DETECÇÃO ESTÁTICA E DINÂMICA DE MALWARES',
+    titulo: 'Aplicação de técnicas de ensemble learning na detecção estática e dinâmica de malwares',
     autor: 'Denis Henrique dos Santos',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -1250,7 +1250,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202211,
-    titulo: 'JOGO SÉRIO PARA SIMULAÇÃO E CONSCIENTIZAÇÃO DE PROBLEMAS RELACIONADOS À MOBILIDADE URBANA',
+    titulo: 'Jogo sério para simulação e conscientização de problemas relacionados à mobilidade urbana',
     autor: 'Eduardo Antonio Comerão Stecca Almeida',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -1271,7 +1271,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202212,
-    titulo: 'INTELIGÊNCIA ARTIFICIAL EXPLICÁVEL COM LIME E SHAP APLICADA À REDE NEURAL CONVOLUCIONAL',
+    titulo: 'Inteligência Artificial Explicável com LIME e SHAP aplicada à Rede Neural Convolucional',
     autor: 'Fabricio Steinle Amoroso',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -1292,7 +1292,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202213,
-    titulo: 'TRABALHANTE : REDE SOCIAL PARA FACILITAR TURNOVER EM TRABALHOS ROTATIVOS',
+    titulo: 'Trabalhante: rede social para facilitar turnover em trabalhos rotativos',
     autor: 'Felipe Kroitor Cara Modena',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -1313,7 +1313,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202214,
-    titulo: 'SOFTWARE PARA GESTÃO DE INVENTÁRIO DE CRÉDITO DE CARBONO VISANDO A COMPENSAÇÃO DA EMISSÃO DE GASES DE EFEITO ESTUFA',
+    titulo: 'Software para gestão de inventário de crédito de carbono visando a compensação da emissão de gases de efeito estufa',
     autor: 'Gabriel Dadamos Rossetto',
     orientador: 'Prof. Dr. Kleber Rocha de Oliveira',
     curso: 'BCC',
@@ -1334,7 +1334,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202215,
-    titulo: 'USO DA COMPUTAÇÃO GRÁFICA PARA ENSINO DE ASTRONOMIA: DESENVOLVIMENTO DE UM SOFTWARE EDUCACIONAL UTILIZANDO UNITY',
+    titulo: 'Uso da computação gráfica para ensino de astronomia: desenvolvimento de um software educacional utilizando Unity',
     autor: 'Gabriel Francisco Sahm Gallo',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -1355,7 +1355,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202216,
-    titulo: 'UMA APLICAÇÃO WEB PARA ANÁLISE COMPARATIVA DE META-HEURISTICAS DE OTIMIZAÇÃO',
+    titulo: 'Uma aplicação web para análise comparativa de meta-heurísticas de otimização',
     autor: 'Giovani Candido',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
@@ -1376,7 +1376,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202217,
-    titulo: 'APLICAÇÃO DE ALGORITMO GENÉTICO PARA ROTEIRIZAÇÃO E CARREGAMENTO DE VEÍCULO',
+    titulo: 'Aplicação de algoritmo genético para roteirização e carregamento de veículo',
     autor: 'Giulia Rossatto Rocha',
     orientador: 'Profª. Drª. Márcia A Zanoli Meira e Silva',
     curso: 'BCC',
@@ -1397,7 +1397,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202218,
-    titulo: 'SISTEMA DE GERENCIAMENTO DE UMA FAZENDA',
+    titulo: 'Sistema de gerenciamento de uma fazenda',
     autor: 'Guilherme Vieira Siena Martins',
     orientador: 'Profª. Drª. Andréa Carla Gonçalves Vianna',
     curso: 'BCC',
@@ -1418,7 +1418,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202219,
-    titulo: 'PARALELIZAÇÃO DA TÉCNICA DE EXTRAÇÃO DE PONTOS DE INTERESSE FOAGDD UTILIZANDO A ARQUITETURA CUDA',
+    titulo: 'Paralelização da técnica de extração de pontos de interesse FOAGDD utilizando a arquitetura CUDA',
     autor: 'Gustavo Henrique Stahl',
     orientador: 'Prof. Dr. Antonio Carlos Sementille',
     curso: 'BCC',
@@ -1439,7 +1439,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202220,
-    titulo: 'SOBRE DETECÇÃO DE INTRUSÃO COM APRENDIZADO DE MÁQUINA: ESTUDO DA APLICAÇÃO DE ENSEMBLE LEARNING E CLUSTERIZAÇÃO NA MELHORIA DE DESEMPENHO',
+    titulo: 'Sobre detecção de intrusão com aprendizado de máquina: estudo da aplicação de ensemble learning e clusterização na melhoria de desempenho',
     autor: 'Inaê Soares de Figueiredo',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -1460,7 +1460,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202221,
-    titulo: 'DESENVOLVIMENTO DE UM SISTEMA DE SIMULAÇÃO COMPUTACIONAL DE OCORRÊNCIA DE CHUVAS',
+    titulo: 'Desenvolvimento de um sistema de simulação computacional de ocorrência de chuvas',
     autor: 'João Pedro Olimpio',
     orientador: 'Prof. Dr. João Eduardo Machado Perea Martins',
     curso: 'BCC',
@@ -1481,7 +1481,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202222,
-    titulo: 'PROGRAMAÇÃO DAS BOMBAS HIDRÁULICAS PARA OTIMIZAÇÃO ENERGÉTICA EM SISTEMAS DE ABASTECIMENTO DE ÁGUA UTILIZANDO PYTHON E O SOFTWARE EPANET',
+    titulo: 'Programação das bombas hidráulicas para otimização energética em sistemas de abastecimento de água utilizando Python e o software EPANET',
     autor: 'Larissa de Castro Bonadio',
     orientador: 'Profª. Drª. Edilane Martins Soler',
     curso: 'BCC',
@@ -1502,7 +1502,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202223,
-    titulo: 'VISUALIZAÇÃO DE DADOS E ANÁLISE DO MERCADO DE AÇÕES BRASILEIRO',
+    titulo: 'Visualização de dados e análise do mercado de ações brasileiro',
     autor: 'Luciano Eiji Tanaka',
     orientador: 'Prof. Dr. João Pedro Albino',
     curso: 'BCC',
@@ -1523,7 +1523,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202224,
-    titulo: 'SISTEMA DE RECONHECIMENTO BIOMÉTRICO DE MÚLTIPLAS PESSOAS BASEADO EM MÉTODOS DE ESTIMAÇÃO DE POSE E RASTREAMENTO DE OBJETOS',
+    titulo: 'Sistema de reconhecimento biométrico de múltiplas pessoas baseado em métodos de estimação de pose e rastreamento de objetos',
     autor: 'Luís Henrique Morélli',
     orientador: 'Prof. Dr. Aparecido Nilceu Marana',
     curso: 'BCC',
@@ -1544,7 +1544,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202225,
-    titulo: 'UMA APLICAÇÃO WEB PARA ANÁLISE COMPARATIVA DE SELEÇÃO DE CARACTERÍSTICAS BASEADAS EM META-HEURISTICAS',
+    titulo: 'Uma aplicação web para análise comparativa de seleção de características baseadas em meta-heurísticas',
     autor: 'Luiz Fernando Merli de Oliveira Sementille',
     orientador: 'Prof. Dr. João Paulo Papa',
     curso: 'BCC',
@@ -1565,7 +1565,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202226,
-    titulo: 'ANÁLISE DO CRESCIMENTO DA INDÚSTRIA DOS JOGOS DIGITAIS',
+    titulo: 'Análise do crescimento da indústria dos jogos digitais',
     autor: 'Michel Marques Mbakirtzis',
     orientador: 'Prof. Dr. João Pedro Albino',
     curso: 'BCC',
@@ -1586,7 +1586,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202227,
-    titulo: 'ORGANIZADOR DE ROTINAS DINÂMICO',
+    titulo: 'Organizador de rotinas dinâmico',
     autor: 'Rafael Kawagoe Gomes Muller',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1607,7 +1607,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202228,
-    titulo: 'DASHBOARD PARA ANÁLISE DE DADOS CLIMÁTICOS DE BAURU',
+    titulo: 'Dashboard para análise de dados climáticos de Bauru',
     autor: 'Rafael Mendes Costa',
     orientador: 'Prof. Dr. João Pedro Albino',
     curso: 'BCC',
@@ -1628,7 +1628,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202229,
-    titulo: 'CAMINHO ÓTIMO EM MALHA DINÂMICA BIDIMENSIONAL',
+    titulo: 'Caminho ótimo em malha dinâmica bidimensional',
     autor: 'Rafael Nunes Caseiro',
     orientador: 'Profª.Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1649,7 +1649,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202230,
-    titulo: 'GAMIFICAÇÃO DE EXERCÍCIOS FÍSICOS COM LOUSA INTELIGENTE',
+    titulo: 'Gamificação de exercícios físicos com lousa inteligente',
     autor: 'Rafael Ragozoni Conrado',
     orientador: 'Profª. Me. Juliana da Costa Feitosa',
     curso: 'BCC',
@@ -1670,7 +1670,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202231,
-    titulo: 'UMA ESTRATÉGIA DE FUTEBOL DE ROBÔS BASEADA EM APRENDIZADO POR REFORÇO',
+    titulo: 'Uma estratégia de futebol de robôs baseada em aprendizado por reforço',
     autor: 'Rodrigo Cesar Barboza Rossetti',
     orientador: 'Prof. Dr. Renê Pegoraro',
     curso: 'BCC',
@@ -1691,7 +1691,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202232,
-    titulo: 'UM SISTEMA DE TELEMETRIA COM TECNOLOGIAS GSM/GPRS PARA A ÁREA AMBIENTAL',
+    titulo: 'Um sistema de telemetria com tecnologias GSM/GPRS para a área ambiental',
     autor: 'Samuel Cabral',
     orientador: 'Prof. Dr. João Eduardo Machado Perea Martins',
     curso: 'BCC',
@@ -1712,7 +1712,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202233,
-    titulo: 'ACESSIBILIDADE WEB: METODOLOGIA DE DIAGNÓSTICO E IMPLEMENTAÇÃO DE SITES ACESSÍVEIS',
+    titulo: 'Acessibilidade web: metodologia de diagnóstico e implementação de sites acessíveis',
     autor: 'Sarah Rodrigues Campos',
     orientador: 'Profª. Drª. Simone das Graças Domingues Prado',
     curso: 'BCC',
@@ -1733,7 +1733,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202234,
-    titulo: 'SMART CAMPUS: UM ESTUDO SOBRE VISÃO COMPUTACIONAL PARA DETECÇÃO DE PESSOAS EM FILAS',
+    titulo: 'Smart campus: um estudo sobre visão computacional para detecção de pessoas em filas',
     autor: 'Thiago Esteves La Scala',
     orientador: 'Prof. Me. Luiz Felipe de Camargo',
     curso: 'BCC',
@@ -1754,7 +1754,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202235,
-    titulo: 'DETECÇÃO DE PÁGINAS DE PHISHING UTILIZANDO APRENDIZADO DE MÁQUINA',
+    titulo: 'Detecção de páginas de phishing utilizando aprendizado de máquina',
     autor: 'Vinicius Machado Coutinho',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
@@ -1775,7 +1775,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202236,
-    titulo: 'TÉCNICAS DE INTELIGÊNCIA ARTIFICIAL PARA DIAGNÓSTICO DE ACIDENTE VASCULAR CEREBRAL ATRAVÉS DE IMAGENS E DADOS TEXTUAIS SOBRE POSSÍVEIS VÍTIMAS',
+    titulo: 'Técnicas de inteligência artificial para diagnóstico de acidente vascular cerebral através de imagens e dados textuais sobre possíveis vítimas',
     autor: 'Vinicius de Paula Pilan',
     orientador: 'Prof. Dr. Clayton Reginaldo Pereira',
     curso: 'BCC',
@@ -1796,7 +1796,7 @@ mais eficientes. Os resultados esperados incluem a definição mais precisa das 
 
   {
     id: 202401,
-    titulo: 'EM BUSCA DA APLICAÇÃO DE PROTOCOLOS DE ROTEAMENTO PARA EVITAR ATAQUES DO TIPO BURACO NEGRO',
+    titulo: 'Em busca da aplicação de protocolos de roteamento para evitar ataques do tipo buraco negro',
     autor: 'Alex Luiz Domingues Cassinelli',
     orientador: 'Prof. Dr. Kelton Augusto Pontara da Costa',
     curso: 'BCC',
